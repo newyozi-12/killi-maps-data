@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "expeditions": [
   {
    "code": "BCP 2018",
@@ -340,6 +340,171 @@
      "fond": "Vase",
      "turbidite": "Forte",
      "couleurEau": "Noire",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "EP 85",
+   "annee": 1985,
+   "pays": "Bénin",
+   "collecteurs": "Etzel, Pütz & Etzel",
+   "points": [
+    {
+     "numero": "EP 85-01",
+     "localite": "Dévé",
+     "date": "1985-01-07",
+     "biotope": "500 m de Dévé",
+     "tAir": 40.0,
+     "tEau": 28.0,
+     "ph": 6.5,
+     "latitude": 6.760496,
+     "longitude": 1.648525,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "bitaeniatum"
+      }
+     ]
+    },
+    {
+     "numero": "EP 85-02",
+     "localite": "Lakossa",
+     "date": "1985-01-07",
+     "latitude": 6.601386,
+     "longitude": 1.697577,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "bitaeniatum"
+      }
+     ]
+    },
+    {
+     "numero": "EP 85-03",
+     "localite": "Ahozon",
+     "date": "1985-01-07",
+     "biotope": "500 m d'Ahozon. Petite mare en prairie fréquentée par le bétail",
+     "tEau": 26.0,
+     "ph": 5.8,
+     "latitude": 6.379777,
+     "longitude": 2.164688,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus"
+      }
+     ]
+    },
+    {
+     "numero": "EP 85-04",
+     "localite": "4 km à l'est d'Ikpenlé",
+     "date": "1985-01-09",
+     "biotope": "Petite mare envahie de végétation terrestre",
+     "tAir": 35.0,
+     "tEau": 27.0,
+     "ph": 6.5,
+     "latitude": 6.881619,
+     "longitude": 2.655186,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "bitaeniatum"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "calliurum"
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "luxophthalmus"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "grahami"
+      }
+     ]
+    },
+    {
+     "numero": "EP 85-05",
+     "localite": "Sakoté",
+     "date": "1985-01-09",
+     "biotope": "500 m de Sakoté",
+     "tAir": 40.0,
+     "tEau": 26.0,
+     "ph": 6.5,
+     "latitude": 6.716828,
+     "longitude": 2.666225,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "bitaeniatum"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "calliurum"
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "luxophthalmus"
+      }
+     ]
+    },
+    {
+     "numero": "EP 85-06",
+     "localite": "Près de Takon",
+     "killies": []
+    },
+    {
+     "numero": "EP 85-07",
+     "localite": "Près de Porto-Novo",
+     "date": "1985-01-10",
+     "biotope": "Grande zone saumâtre",
+     "latitude": 6.520526,
+     "longitude": 2.602802,
+     "killies": [
+      {
+       "genre": "Aplocheilichthys",
+       "espece": "spilauchen"
+      }
+     ]
+    },
+    {
+     "numero": "EP 85-08",
+     "localite": "3 km au sud d'Allada",
+     "date": "1985-01-10",
+     "biotope": "Ruisseau de forêt tropicale",
+     "tAir": 32.0,
+     "tEau": 24.0,
+     "ph": 6.2,
+     "latitude": 6.641851,
+     "longitude": 2.138711,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "togolensis"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "grahami"
+      }
+     ]
+    },
+    {
+     "numero": "EP 85-09",
+     "localite": "Près de Tannougou",
+     "date": "1985-01-16",
+     "biotope": "Petite mare avec troncs d'arbres en décomposition",
+     "tAir": 32.0,
+     "tEau": 24.0,
+     "ph": 6.2,
+     "latitude": 10.811709,
+     "longitude": 1.432084,
      "killies": [
       {
        "genre": "Epiplatys",

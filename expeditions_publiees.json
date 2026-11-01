@@ -1,0 +1,353 @@
+{
+ "version": 1,
+ "expeditions": [
+  {
+   "code": "BCP 2018",
+   "annee": 2018,
+   "pays": "Bénin",
+   "collecteurs": "COLONNIER Yoann, PENMOUDE M'Bomma",
+   "points": [
+    {
+     "numero": "BCP 18-01",
+     "localite": "Pahou",
+     "date": "2018-01-23",
+     "heure": "10:03:00",
+     "latitude": 6.3831054,
+     "longitude": 2.1823304,
+     "altitude": 35.0,
+     "biotope": "Marécages avec de hautes herbes",
+     "remarques": "Très peu d'eau et très vaseux, pas de collecte",
+     "tAir": 32.0,
+     "killies": []
+    },
+    {
+     "numero": "BCP 18-02",
+     "localite": "Tori bossito",
+     "date": "2018-01-23",
+     "heure": "10:40:00",
+     "latitude": 6.4366111,
+     "longitude": 2.103286,
+     "altitude": 42.0,
+     "biotope": "Marigot en bord de route",
+     "remarques": "Peu d'eau mais beaucoup de hautes herbes, impossible de pêcher",
+     "tAir": 32.0,
+     "tEau": 28.0,
+     "conductivite": 260.0,
+     "ph": 7.1,
+     "courant": "Nul",
+     "fond": "Vase",
+     "turbidite": "Faible",
+     "killies": []
+    },
+    {
+     "numero": "BCP 18-03",
+     "localite": "Tori bossito 2",
+     "date": "2018-01-23",
+     "heure": "10:53:00",
+     "latitude": 6.4959056,
+     "longitude": 2.1382804,
+     "altitude": 43.0,
+     "biotope": "Mare résiduelle en bordure de route",
+     "remarques": "En plein soleil, quelques nénuphars, aucun poisson",
+     "tAir": 32.0,
+     "tEau": 28.0,
+     "conductivite": 242.0,
+     "ph": 6.85,
+     "courant": "Nul",
+     "fond": "Sable",
+     "turbidite": "Moyenne",
+     "killies": []
+    },
+    {
+     "numero": "BCP 18-04",
+     "localite": "Domè",
+     "date": "2018-01-23",
+     "heure": "13:01:00",
+     "latitude": 6.4986588,
+     "longitude": 2.0000196,
+     "altitude": 20.0,
+     "biotope": "Forêt en bordure du lac Ahémé",
+     "remarques": "Saison sèche précoce, plus d'eau",
+     "tAir": 36.0,
+     "killies": []
+    },
+    {
+     "numero": "BCP 18-05",
+     "localite": "Grand popo",
+     "date": "2018-01-23",
+     "heure": "14:27:00",
+     "latitude": 6.2800283,
+     "longitude": 1.830631,
+     "altitude": 28.0,
+     "biotope": "Mangrove",
+     "remarques": "Eau salée, impossible d'accéder",
+     "tAir": 37.0,
+     "killies": []
+    },
+    {
+     "numero": "BCP 18-06",
+     "localite": "Kpovidji",
+     "date": "2018-01-24",
+     "heure": "09:59:00",
+     "latitude": 6.3397892,
+     "longitude": 1.8367861,
+     "altitude": 29.0,
+     "biotope": "Mare résiduelle en bordure de route",
+     "remarques": "Nénuphars et herbes en bordure, 8m sur 15m, 40cm de profondeur",
+     "tAir": 31.0,
+     "tEau": 27.2,
+     "conductivite": 380.0,
+     "ph": 7.35,
+     "courant": "Nul",
+     "fond": "Vase",
+     "turbidite": "Moyenne",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus"
+      }
+     ]
+    },
+    {
+     "numero": "BCP 18-07",
+     "localite": "Gbehouedji",
+     "date": "2018-01-24",
+     "heure": "10:42:00",
+     "latitude": 6.3547973,
+     "longitude": 1.8283518,
+     "altitude": 29.0,
+     "biotope": "Trou d'eau en bordure de route en plein soleil",
+     "remarques": "Quelques nénuphars, 40cm de profondeur",
+     "tAir": 32.0,
+     "tEau": 28.0,
+     "conductivite": 266.0,
+     "ph": 7.3,
+     "courant": "Nul",
+     "fond": "Vase",
+     "turbidite": "Moyenne",
+     "couleurEau": "Noire",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus"
+      }
+     ],
+     "autresEspeces": "Hemichromis"
+    },
+    {
+     "numero": "BCP 18-08",
+     "localite": "Athiémé",
+     "date": "2018-01-24",
+     "heure": "13:17:00",
+     "latitude": 6.6014713,
+     "longitude": 1.6932118,
+     "altitude": 56.0,
+     "biotope": "Abord d'un fleuve",
+     "remarques": "Herbes en bordure",
+     "tAir": 36.0,
+     "tEau": 30.0,
+     "conductivite": 225.0,
+     "ph": 7.5,
+     "courant": "Très faible",
+     "fond": "Sable",
+     "turbidite": "Moyenne",
+     "couleurEau": "Noire",
+     "killies": [],
+     "autresEspeces": "poisson chat"
+    },
+    {
+     "numero": "BCP 18-09",
+     "localite": "Goho",
+     "date": "2018-01-25",
+     "heure": "13:49:00",
+     "latitude": 6.4401183,
+     "longitude": 2.5675754,
+     "altitude": 27.0,
+     "biotope": "Plusieurs petites mares sous le soleil",
+     "remarques": "Profondeur 10cm, forêt à proximité sans eau",
+     "tAir": 35.0,
+     "tEau": 31.0,
+     "conductivite": 1460.0,
+     "ph": 4.66,
+     "courant": "Nul",
+     "fond": "Sable",
+     "turbidite": "Très forte",
+     "couleurEau": "Jaune",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus"
+      },
+      {
+       "genre": "Foerschichthys",
+       "espece": "flavipinnis"
+      }
+     ],
+     "autresEspeces": "Hemichromis"
+    },
+    {
+     "numero": "BCP 18-10",
+     "localite": "Lokoli",
+     "date": "2018-01-26",
+     "heure": "11:03:00",
+     "latitude": 7.06175202,
+     "longitude": 2.2591349,
+     "altitude": 45.0,
+     "biotope": "Rivière sous couvert forestier",
+     "remarques": "Vase, pêche en pirogue",
+     "tAir": 35.0,
+     "tEau": 24.0,
+     "conductivite": 75.0,
+     "ph": 6.9,
+     "courant": "Moyen",
+     "fond": "Vase et feuilles",
+     "turbidite": "Moyenne",
+     "couleurEau": "Ambrée dans le courant",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "bitaeniatum"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "togolensis"
+      },
+      {
+       "genre": "Foerschichthys",
+       "espece": "flavipinnis"
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "luxophthalmus"
+      }
+     ],
+     "autresEspeces": "pantodon buchholzi, desmocaris trispinosa"
+    },
+    {
+     "numero": "BCP 18-11",
+     "localite": "Ikpenlé",
+     "date": "2018-01-27",
+     "heure": "11:01:00",
+     "latitude": 6.881614,
+     "longitude": 2.654882,
+     "altitude": 112.0,
+     "biotope": "Ruisseau traversant la route",
+     "remarques": "Couvert forestier, très vaseux, quelques nénuphars au soleil, herbes en bordure",
+     "tAir": 35.0,
+     "tEau": 28.5,
+     "conductivite": 68.0,
+     "ph": 6.48,
+     "courant": "Moyen",
+     "fond": "Sable au pont",
+     "turbidite": "Faible",
+     "couleurEau": "Transparente",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "bitaeniatum"
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "luxophthalmus"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "togolensis"
+      }
+     ],
+     "autresEspeces": "Gnathonemus petersii, barboides gracilis, desmocaris trispinosa"
+    },
+    {
+     "numero": "BCP 18-12",
+     "localite": "Igboassan",
+     "date": "2018-01-27",
+     "heure": "12:33:00",
+     "latitude": 6.81934,
+     "longitude": 2.577611,
+     "altitude": 65.0,
+     "biotope": "Petit ruisseau traversant la piste",
+     "remarques": "4m de large, couvert forestier, très poissonneux",
+     "tAir": 37.0,
+     "tEau": 27.2,
+     "conductivite": 59.0,
+     "ph": 6.0,
+     "courant": "Moyen",
+     "fond": "Sable",
+     "turbidite": "Très faible",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "bitaeniatum"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "togolensis"
+      }
+     ],
+     "autresEspeces": "desmocaris trispinosa"
+    },
+    {
+     "numero": "BCP 18-13",
+     "localite": "Afanji",
+     "date": "2018-01-27",
+     "heure": "14:16:00",
+     "latitude": 6.710045,
+     "longitude": 2.676588,
+     "altitude": 45.0,
+     "biotope": "Ruisseau traversant la route",
+     "remarques": "Herbes en bordure, profondeur de 20cm à 80cm",
+     "tAir": 39.0,
+     "tEau": 28.3,
+     "conductivite": 115.0,
+     "ph": 6.9,
+     "courant": "Fort",
+     "fond": "Sable et feuilles",
+     "turbidite": "Faible",
+     "couleurEau": "Transparente",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "bitaeniatum"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "togolensis"
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "luxophthalmus"
+      }
+     ],
+     "autresEspeces": "Gobies, Tetras, hemichromis, desmocaris trispinosa, pareutropius buffei"
+    },
+    {
+     "numero": "BCP 18-14",
+     "localite": "Ganvié",
+     "date": "2018-01-29",
+     "heure": "11:06:00",
+     "latitude": 6.467385,
+     "longitude": 2.408229,
+     "altitude": 10.0,
+     "biotope": "Lac Nokoué",
+     "remarques": "De 60 à 100cm de profondeur, jacinthe d'eau, beaucoup d'epiplatys",
+     "tAir": 35.0,
+     "tEau": 28.2,
+     "conductivite": 1260.0,
+     "ph": 7.8,
+     "courant": "Très faible",
+     "fond": "Vase",
+     "turbidite": "Forte",
+     "couleurEau": "Noire",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

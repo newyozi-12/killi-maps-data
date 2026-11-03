@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 3,
  "expeditions": [
   {
    "code": "BCP 2018",
@@ -509,6 +509,737 @@
       {
        "genre": "Epiplatys",
        "espece": "bifasciatus"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "LIBCOF 21",
+   "annee": 2021,
+   "pays": "Liberia",
+   "collecteurs": "Fermon, Colonnier, Bruy",
+   "points": [
+    {
+     "numero": "LIBCOF 21-01",
+     "date": "2021-12-02",
+     "heure": "12:57:00",
+     "latitude": 7.01141338,
+     "longitude": -10.12651124,
+     "altitude": 204,
+     "biotope": "Peu avant le bac sur la rivière Saint Paul",
+     "notesEnvironnement": "Zone inondée",
+     "killies": []
+    },
+    {
+     "numero": "LIBCOF 21-02",
+     "localite": "Gweyah",
+     "date": "2021-12-02",
+     "heure": "13:23:00",
+     "latitude": 7.00851396,
+     "longitude": -10.11513468,
+     "altitude": 214,
+     "biotope": "Ruisseau calme de 1m de large de chaque côté du pont, peu profond, algues filamenteuses, sous couvert forestier d'un côté et défriché de l'autre.",
+     "courant": "Très faible",
+     "fond": "Gravier",
+     "turbidite": "Faible",
+     "notesEnvironnement": "Ruisseau traversant la route et servant aux habitants pour la lessive",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis",
+       "conserve": true
+      }
+     ],
+     "autresEspeces": "Enteromius, kribia"
+    },
+    {
+     "numero": "LIBCOF 21-03",
+     "date": "2021-12-02",
+     "heure": "13:51:00",
+     "latitude": 7.01337458,
+     "longitude": -10.10129638,
+     "altitude": 197,
+     "biotope": "Ruisseau dégradé sans couvert forestier. Peu profond et 1m de large. Beaucoup de mulm",
+     "tEau": 26,
+     "conductivite": 20,
+     "ph": 6.7,
+     "courant": "Faible",
+     "fond": "Gravier",
+     "turbidite": "Faible",
+     "notesEnvironnement": "Ruisseau traversant la route",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-04",
+     "localite": "Saint Paul Ferry",
+     "date": "2021-12-02",
+     "heure": "22:25:00",
+     "latitude": 7.02814898,
+     "longitude": -10.13144193,
+     "altitude": 185,
+     "biotope": "Petit ruisseau de 50cm de large et 30cm de profondeur sous léger couvert forestier.",
+     "tEau": 26,
+     "conductivite": 8,
+     "ph": 4.3,
+     "courant": "Faible",
+     "fond": "Vase",
+     "turbidite": "Faible",
+     "notesEnvironnement": "Point à 100m à l'est du bac. Proche de l'embouchure avec la rivière Saint Paul. Pêche de nuit.",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "monroviae"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-05",
+     "localite": "Gelekpelleya",
+     "date": "2021-12-03",
+     "heure": "13:28:00",
+     "latitude": 7.0201556,
+     "longitude": -10.12878313,
+     "altitude": 189,
+     "biotope": "Petit cours d'eau. 30cm de profondeur et 40cm de largeur. Pas de couverture forestière en bordure de piste.",
+     "tEau": 28,
+     "conductivite": 32,
+     "ph": 4.85,
+     "courant": "Très faible",
+     "fond": "Gravier",
+     "turbidite": "Faible",
+     "notesEnvironnement": "Cours d'eau traversant la piste",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "monroviae"
+      }
+     ],
+     "autresEspeces": "Kribia"
+    },
+    {
+     "numero": "LIBCOF 21-06",
+     "localite": "Leleya creek",
+     "date": "2021-12-04",
+     "heure": "09:21:00",
+     "latitude": 7.01033916,
+     "longitude": -10.14110059,
+     "altitude": 178,
+     "biotope": "Palmiers inondés. Praticable seulement près du pont. Très vaseux. Sens courant SO vers NE.",
+     "tEau": 27.5,
+     "conductivite": 10,
+     "ph": 5,
+     "courant": "Faible",
+     "fond": "Vase",
+     "turbidite": "Faible",
+     "notesEnvironnement": "En bordure de piste. En amont du village Fouamah. ( Leleya=belle)",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "monroviae"
+      }
+     ],
+     "autresEspeces": "Enteromius macrops"
+    },
+    {
+     "numero": "LIBCOF 21-07",
+     "localite": "Karmoh town",
+     "date": "2021-12-04",
+     "heure": "13:48:00",
+     "latitude": 7.01017029,
+     "longitude": -10.12906413,
+     "altitude": 166,
+     "biotope": "Ruisseau de 3m de large et 40cm de profondeur. Sous couvert forestier. Scriptaphyosemion dans les flaques attenantes.",
+     "tEau": 28,
+     "conductivite": 13,
+     "ph": 5.65,
+     "courant": "Faible",
+     "fond": "Cailloux",
+     "turbidite": "Très faible",
+     "notesEnvironnement": "En bordure de piste (nom du ruisseau Watson)",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "monroviae"
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "liberiense"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-08",
+     "localite": "Kelebi",
+     "date": "2021-12-05",
+     "heure": "16:49:00",
+     "latitude": 7.018383,
+     "longitude": -10.090912,
+     "biotope": "Ruisseau de 3m de large et d'environ 50cm de profondeur. Sous couvert forestier. Milieu pollué par la production d'alcool de palme.",
+     "tEau": 27.5,
+     "conductivite": 11,
+     "ph": 5,
+     "courant": "Faible",
+     "fond": "Gravier",
+     "turbidite": "Moyenne",
+     "notesEnvironnement": "Ruisseau Faloryah",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      }
+     ],
+     "autresEspeces": "Hemichromis fasciatus"
+    },
+    {
+     "numero": "LIBCOF 21-09",
+     "localite": "Dampaya",
+     "date": "2021-12-06",
+     "heure": "10:02:00",
+     "latitude": 7.01227302,
+     "longitude": -10.16290315,
+     "altitude": 190,
+     "biotope": "Petit ruisseau dégradé sans courant. Vaseux et profond. Epiplatys en grand nombre. Abatti tout autour.",
+     "tEau": 26.5,
+     "conductivite": 30,
+     "ph": 6.15,
+     "courant": "Nul",
+     "fond": "Vase",
+     "turbidite": "Moyenne",
+     "notesEnvironnement": "Piste impraticable en voiture. Stop 200m avant.",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "monroviae"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-10",
+     "date": "2021-12-06",
+     "heure": "10:38:00",
+     "latitude": 7.01665431,
+     "longitude": -10.16467358,
+     "altitude": 169,
+     "biotope": "Ruisseau peu profond et légèrement courant sous palmiers.",
+     "courant": "Faible",
+     "fond": "Roche",
+     "turbidite": "Très faible",
+     "notesEnvironnement": "Sûrement point en aval du point 09",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "monroviae"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-11",
+     "localite": "Walter Wilson",
+     "date": "2021-12-06",
+     "heure": "11:05:00",
+     "latitude": 7.01621435,
+     "longitude": -10.16601443,
+     "altitude": 165,
+     "biotope": "Source du village. Trou profond",
+     "courant": "Nul",
+     "fond": "Vase",
+     "turbidite": "Forte",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "monroviae"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-12",
+     "localite": "Wayla",
+     "date": "2021-12-06",
+     "heure": "12:16:00",
+     "latitude": 7.01421233,
+     "longitude": -10.15488628,
+     "altitude": 186,
+     "biotope": "Ruisseau large et profond sous couvert forestier . Scriptaphyosemion dans les flaques attenantes.\nEpiplatys sur les bords au soleil.",
+     "tEau": 25,
+     "conductivite": 17,
+     "ph": 6.86,
+     "courant": "Très faible",
+     "fond": "Gravier",
+     "turbidite": "Moyenne",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "monroviae"
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "liberiense"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-13",
+     "localite": "Kountema",
+     "date": "2021-12-06",
+     "heure": "12:26:00",
+     "latitude": 7.01354061,
+     "longitude": -10.14766321,
+     "altitude": 182,
+     "biotope": "Petit cours d'eau traversant la piste",
+     "tEau": 28,
+     "conductivite": 20,
+     "ph": 5,
+     "courant": "Très faible",
+     "fond": "Gravier",
+     "turbidite": "Moyenne",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "monroviae"
+      }
+     ],
+     "autresEspeces": "Enteromius"
+    },
+    {
+     "numero": "LIBCOF 21-14",
+     "localite": "Totota",
+     "date": "2021-12-07",
+     "heure": "13:12:00",
+     "latitude": 6.84991066,
+     "longitude": -9.95364269,
+     "altitude": 283,
+     "biotope": "Petit ruisseau sous léger couvert, peu profond. Epiplatys en grand nombre. Sens courant de l'est vers l'ouest.",
+     "tEau": 29,
+     "conductivite": 31,
+     "courant": "Moyen",
+     "fond": "Gravier",
+     "turbidite": "Moyenne",
+     "notesEnvironnement": "En bordure de piste (nom du ruisseau Gbemena)",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      }
+     ],
+     "autresEspeces": "Hemichromis paynei"
+    },
+    {
+     "numero": "LIBCOF 21-15",
+     "localite": "Yaneh",
+     "date": "2021-12-07",
+     "heure": "13:22:00",
+     "latitude": 6.85635083,
+     "longitude": -9.95902176,
+     "altitude": 273,
+     "biotope": "Ruisseau de 4m de large et courant. Bon couvert de bambous. Scriptaphyosemion dans les flaques attenantes. Epiplatys dans le ruisseau. Sens courant de l'est vers l'ouest.",
+     "tEau": 26,
+     "conductivite": 33,
+     "ph": 4.3,
+     "courant": "Très faible",
+     "fond": "Vase",
+     "turbidite": "Faible",
+     "notesEnvironnement": "Même ruisseau à 500m au nord mais traversant la route de l'ouest vers l'est.",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "liberiense"
+      }
+     ],
+     "autresEspeces": "Hemichromis paynei"
+    },
+    {
+     "numero": "LIBCOF 21-16",
+     "localite": "Goneyala",
+     "date": "2021-12-07",
+     "heure": "13:50:00",
+     "latitude": 6.89000048,
+     "longitude": -9.99338668,
+     "altitude": 256,
+     "biotope": "Petit ruisseau peu profond en plein soleil. Sens courant de l'ouest vers l'est.",
+     "tEau": 27,
+     "courant": "Très faible",
+     "fond": "Gravier",
+     "turbidite": "Très faible",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "liberiense"
+      }
+     ],
+     "autresEspeces": "Hemichromis ebumeensis, enteromius"
+    },
+    {
+     "numero": "LIBCOF 21-17",
+     "date": "2021-12-07",
+     "heure": "14:24:00",
+     "latitude": 6.93546807,
+     "longitude": -10.01245363,
+     "altitude": 249,
+     "biotope": "Milieu pollué et défriché pour les abattis. Peu d'ombre. Sens courant de l'ouest vers l'est",
+     "courant": "Faible",
+     "fond": "Sable",
+     "turbidite": "Moyenne",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-18",
+     "localite": "Molonkpagai",
+     "date": "2021-12-07",
+     "heure": "14:54:00",
+     "latitude": 6.94819658,
+     "longitude": -10.03255169,
+     "altitude": 227,
+     "biotope": "Ruisseau de 2m de large et 50cm de profondeur. Peu de couverture forestière. Sens du courant NE vers SO.",
+     "courant": "Faible",
+     "fond": "Vase",
+     "turbidite": "Moyenne",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-19",
+     "date": "2021-12-07",
+     "heure": "15:15:00",
+     "latitude": 6.97467967,
+     "longitude": -10.05742635,
+     "altitude": 237,
+     "biotope": "Ruisseau large et profond. Scriptaphyosemion dans les flaques attenantes et Epiplatys dans le ruisseau. Sens du courant NE vers SO",
+     "tEau": 27.5,
+     "conductivite": 20,
+     "ph": 5.15,
+     "courant": "Faible",
+     "fond": "Vase",
+     "turbidite": "Forte",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "liberiense"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-20",
+     "localite": "Q1",
+     "date": "2021-12-08",
+     "heure": "12:07:00",
+     "latitude": 7.04243974,
+     "longitude": -10.21777106,
+     "altitude": 193,
+     "biotope": "Petit ruisseau de 1mde large et peu profond. Beaucoup de latérite charié par le courant. Bon couvert forestier. Sens courant du Sud vers le Nord",
+     "tEau": 26.8,
+     "conductivite": 23,
+     "ph": 5.1,
+     "courant": "Moyen",
+     "fond": "Gravier",
+     "turbidite": "Faible",
+     "notesEnvironnement": "Même point que Q1",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-21",
+     "localite": "Gbanbiyah",
+     "date": "2021-12-08",
+     "heure": "12:59:00",
+     "latitude": 7.06379312,
+     "longitude": -10.20102577,
+     "altitude": 221,
+     "biotope": "Petit ruisseau de 1m de large et de 20cm de profondeur. Très bon couvert forestier. Sens courant du Sud vers le Nord",
+     "tEau": 26,
+     "conductivite": 22,
+     "ph": 4.5,
+     "courant": "Faible",
+     "fond": "Gravier",
+     "turbidite": "Faible",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "liberiense"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-22",
+     "date": "2021-12-08",
+     "heure": "13:11:00",
+     "latitude": 7.06978799,
+     "longitude": -10.18896083,
+     "altitude": 221,
+     "biotope": "Petite source traversant la piste. Inondé d'un côté et mince filet de l'autre. Sens courant du nord vers le sud",
+     "courant": "Très faible",
+     "fond": "Gravier",
+     "turbidite": "Forte",
+     "killies": []
+    },
+    {
+     "numero": "LIBCOF 21-23",
+     "localite": "Ngwee",
+     "date": "2021-12-08",
+     "heure": "13:22:00",
+     "latitude": 7.07566575,
+     "longitude": -10.17880575,
+     "altitude": 229,
+     "biotope": "Petite source traversant la route de 5cm de profondeur. 20cm de large. Sens courant du Sud vers le Nord",
+     "tEau": 26,
+     "conductivite": 17,
+     "ph": 5.2,
+     "courant": "Très faible",
+     "fond": "Gravier",
+     "turbidite": "Faible",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "liberiense"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-24",
+     "date": "2021-12-08",
+     "heure": "13:36:00",
+     "latitude": 7.08952289,
+     "longitude": -10.17137099,
+     "altitude": 209,
+     "biotope": "Trous creusés pour la recherche de diamant à côté d'un ruisseau. Sens du courant du Sud vers le Nord",
+     "tEau": 26.5,
+     "conductivite": 33,
+     "ph": 5,
+     "courant": "Nul",
+     "fond": "Sable",
+     "turbidite": "Forte",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-25",
+     "localite": "Degei",
+     "date": "2021-12-08",
+     "heure": "13:44:00",
+     "latitude": 7.08820071,
+     "longitude": -10.16498137,
+     "altitude": 220,
+     "biotope": "Petit ruisseau traversant la piste. Peu d'ombre. Sens du courant de l'est vers l'ouest",
+     "tEau": 28.5,
+     "conductivite": 14,
+     "ph": 5.04,
+     "courant": "Très faible",
+     "fond": "Gravier",
+     "turbidite": "Faible",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "liberiense"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-26",
+     "date": "2021-12-08",
+     "heure": "14:17:00",
+     "latitude": 7.03541748,
+     "longitude": -10.13264574,
+     "altitude": 202,
+     "biotope": "Petit ruisseau sous léger couvert forestier. Sens courant de l'est vers l'ouest",
+     "tEau": 26.5,
+     "conductivite": 15,
+     "ph": 5.05,
+     "courant": "Faible",
+     "fond": "Gravier",
+     "turbidite": "Faible",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-27",
+     "date": "2021-12-08",
+     "heure": "15:20:00",
+     "latitude": 7.04178963,
+     "longitude": -10.10746107,
+     "altitude": 215,
+     "biotope": "Petit ruisseau peu profond sous couvert forestier",
+     "tEau": 27.2,
+     "conductivite": 39,
+     "ph": 4.72,
+     "courant": "Très faible",
+     "fond": "Gravier",
+     "turbidite": "Faible",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "tototaensis"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "monroviae"
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "liberiense"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-28",
+     "localite": "P01",
+     "date": "2021-12-08",
+     "heure": "20:06:00",
+     "latitude": 7.04270572,
+     "longitude": -10.1021235,
+     "altitude": 188,
+     "biotope": "Mince filet d'eau complètement à l'ombre dans la forêt. 30cm de large et 3cm de profondeur.",
+     "courant": "Nul",
+     "fond": "Vase",
+     "turbidite": "Moyenne",
+     "notesEnvironnement": "A proximité de la station P1",
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "liberiense"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-29",
+     "localite": "Fortibli",
+     "date": "2021-12-11",
+     "heure": "13:53:00",
+     "latitude": 6.2345222,
+     "longitude": -10.4525996,
+     "altitude": 34,
+     "biotope": "Milieu eutrophisé. Ruisseau très dégradé passant à plusieurs endroits sous la piste.",
+     "tEau": 27.6,
+     "conductivite": 9,
+     "ph": 4.3,
+     "courant": "Très faible",
+     "fond": "Vase",
+     "turbidite": "Moyenne",
+     "killies": [
+      {
+       "genre": "Poropanchax",
+       "espece": "normani"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "barmoiensis"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-30",
+     "localite": "Junk river",
+     "date": "2021-12-11",
+     "heure": "16:33:00",
+     "latitude": 6.2300231,
+     "longitude": -10.5245383,
+     "altitude": 35,
+     "biotope": "Rivière de 50m de large. Poissons péchés sur le bord",
+     "tEau": 29,
+     "conductivite": 40,
+     "ph": 4.7,
+     "courant": "Faible",
+     "fond": "Sable",
+     "turbidite": "Forte",
+     "killies": [
+      {
+       "genre": "Aplocheilichthys",
+       "espece": "spilauchen"
+      }
+     ]
+    },
+    {
+     "numero": "LIBCOF 21-31",
+     "localite": "Military hospital",
+     "date": "2021-12-11",
+     "heure": "16:56:00",
+     "latitude": 6.21273234,
+     "longitude": -10.57133339,
+     "altitude": 44,
+     "biotope": "Petit trou presque asséché de 30cm de profondeur.",
+     "tEau": 32.1,
+     "conductivite": 81,
+     "ph": 5.6,
+     "courant": "Nul",
+     "fond": "Argile",
+     "turbidite": "Moyenne",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "monroviae"
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "normani"
       }
      ]
     }

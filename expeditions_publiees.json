@@ -1,5 +1,5 @@
 {
- "version": 6,
+ "version": 7,
  "expeditions": [
   {
    "code": "BCP 2018",
@@ -3357,6 +3357,1574 @@
       {
        "genre": "Epiplatys",
        "espece": "sexfasciatus"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "ABC 05",
+   "annee": 2005,
+   "pays": "Cameroun",
+   "collecteurs": "Jean-François Agnèse, Randall Brummett et Pierre Caminade",
+   "points": [
+    {
+     "numero": "ABC 05-01",
+     "date": "2005-01-19",
+     "heure": "12:30:00",
+     "latitude": 3.894917,
+     "longitude": 10.556833,
+     "altitude": 230.0,
+     "biotope": "Sur la route au nord de Pouma en direction de Ngambe, 7 Km après l’intersection avec la route Yaoundé Edéa. Marécage dans une forêt de Bambous sur la droite. Eau trouble, absence de courant, sol vaseux, profondeur maximum 80cm",
+     "remarques": "68 mV, NO2=0, NO3=0.",
+     "tEau": 24.9,
+     "conductivite": 43.0,
+     "ph": 6.4,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-02",
+     "date": "2005-01-19",
+     "heure": "14:00:00",
+     "latitude": 3.822944,
+     "longitude": 10.38025,
+     "biotope": "17 Km après Pouma en direction d’Edéa, après le village Mapubi et avant Logbi. Ruisseau forestier de 30cm à 1,5m de large, 5 à 25 cm de profondeur, courant moyen.",
+     "remarques": "148 mV, NO2=0, NO3=0.",
+     "tEau": 25.4,
+     "conductivite": 1.0,
+     "ph": 6.6,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "edeanum"
+      }
+     ],
+     "autresEspeces": "Barbus sp."
+    },
+    {
+     "numero": "ABC 05-03",
+     "date": "2005-01-19",
+     "heure": "15:00:00",
+     "latitude": 3.673333,
+     "longitude": 10.257694,
+     "biotope": "Village Song Ndong, en direction d’Edéa, après le pépiniériste sur la droite Ruisseau forestier de 1m de large. Poissons (Chromaphyosemion) au comportement sauteur (fuite).",
+     "remarques": "141 mV, NO2=0, NO3=0.",
+     "tEau": 26.9,
+     "conductivite": 2.0,
+     "ph": 6.8,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Fundulopanchax",
+       "espece": "amieti",
+       "note": "2 jeunes"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ],
+     "autresEspeces": "Barbus sp., Cichlidae"
+    },
+    {
+     "numero": "ABC 05-04",
+     "date": "2005-01-19",
+     "heure": "16:00:00",
+     "latitude": 3.840667,
+     "longitude": 10.087056,
+     "biotope": "A Edéa prendre la route de Yabassi, prendre à gauche à environ 17Km pour rejoindre l’axe lourd. Le point se situe alors à 23Km de cet embranchement.",
+     "remarques": "144 mV, NO2.",
+     "tEau": 26.3,
+     "conductivite": 17.0,
+     "ph": 6.4,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ],
+     "autresEspeces": "APLO"
+    },
+    {
+     "numero": "ABC 05-05",
+     "date": "2005-01-20",
+     "heure": "10:00:00",
+     "latitude": 4.124139,
+     "longitude": 9.401306,
+     "biotope": "7,5 Km avant Tiko en venant de Douala. Ruisseau traversant la route dans une bananeraie. Entre 1m et 3m de large, profondeur maxi 1m, courant moyen, fond de sable, les poissons sont sur les bords.",
+     "remarques": "261 mV, NO2, NO3 entre 50-100mg.",
+     "tEau": 26.9,
+     "conductivite": 224.0,
+     "ph": 4.7,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "volcanum"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ],
+     "autresEspeces": "Crevettes"
+    },
+    {
+     "numero": "ABC 05-06",
+     "date": "2005-01-20",
+     "latitude": 4.061,
+     "longitude": 9.245278,
+     "altitude": 188.0,
+     "biotope": "Pont à la sortie de Moliwe (en direction de Muyuka). Petit ruisseau courant de 1 à 4 mètres de large et de 80 centimètres de profondeur maxi. Poissons uniquement dans les endroits calmes.",
+     "remarques": "141 mV, NO2=0, NO3=0.",
+     "tEau": 28.5,
+     "conductivite": 77.0,
+     "ph": 7.2,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "volcanum"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ],
+     "autresEspeces": "Cichlidae"
+    },
+    {
+     "numero": "ABC 05-07",
+     "date": "2005-01-20",
+     "latitude": 4.181611,
+     "longitude": 9.308639,
+     "altitude": 507.0,
+     "biotope": "3 Km après la bifurcation Buea Muyuka (en allant à Muyuka) Sources à gauche de la route, passant dessous. Petit ruisseau de 50cm à 3mètres de large d’une profondeur maxi de 80cm. Courant moyen. Les poissons sont sur les bords dans très peu d’eau (2cm).",
+     "remarques": "12 mV, NO2=0, NO3=0.",
+     "tEau": 22.3,
+     "conductivite": 212.0,
+     "ph": 7.5,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "poliaki"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-08",
+     "date": "2005-01-20",
+     "latitude": 4.253889,
+     "longitude": 9.373639,
+     "altitude": 130.0,
+     "biotope": "Juste à la sortie du village de Mile 29, petit ruisseau traversant la route. Peu de courant, profondeur inférieure à 1m.",
+     "remarques": "116 mV.",
+     "tEau": 28.0,
+     "conductivite": 144.0,
+     "ph": 7.0,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "volcanum"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-09",
+     "date": "2005-01-20",
+     "heure": "17:30:00",
+     "latitude": 4.145556,
+     "longitude": 9.5335,
+     "altitude": 11.0,
+     "biotope": "Sur la route Douala Tiko, 2Km après le pont cassé (sur le Mungo) prendre une piste sur la gauche pendant 500 mètres environ. Ruisseau en cours d’assèchement.",
+     "remarques": "8 mV.",
+     "tEau": 28.6,
+     "conductivite": 77.0,
+     "ph": 6.4,
+     "killies": [
+      {
+       "genre": "Fundulopanchax",
+       "espece": "rubrolabialis"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-10",
+     "date": "2005-01-21",
+     "heure": "12:00:00",
+     "latitude": 4.278028,
+     "longitude": 9.403972,
+     "biotope": "100 mètres après le barrage de police de Muyuka",
+     "remarques": "131 mV, NO2=0, NO3=0.",
+     "tEau": 23.8,
+     "conductivite": 46.0,
+     "ph": 7.2,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "volcanum"
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "sp."
+      },
+      {
+       "genre": "Procatopus",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-11",
+     "date": "2005-01-21",
+     "heure": "15:00:00",
+     "latitude": 4.763611,
+     "longitude": 8.909528,
+     "altitude": 69.0,
+     "biotope": "Source en contrebas de la route (à droite) à Funge, trou d’eau claire 80cm de diamètre 1m de profondeur.",
+     "remarques": "181 mV.",
+     "tEau": 27.5,
+     "conductivite": 29.0,
+     "ph": 5.3,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "calliurum"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-12",
+     "date": "2005-01-21",
+     "heure": "15:30:00",
+     "latitude": 4.764111,
+     "longitude": 8.907389,
+     "biotope": "Après le village de Fungé, petite rivière sur la gauche à 200 dans la forêt. Pas de courant, sol de Cailloux.",
+     "remarques": "130 mV, NO2=0, NO3=0.",
+     "tEau": 26.5,
+     "conductivite": 20.0,
+     "ph": 6.3,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "calliurum"
+      },
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "bivittatum"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Procatopus",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-13",
+     "date": "2005-01-21",
+     "heure": "17:00:00",
+     "latitude": 4.689917,
+     "longitude": 8.965889,
+     "biotope": "Rivière sans courant en bas de Ekondo nene, dans la forêt.",
+     "remarques": "133 mV, NO2=0, NO3=0.",
+     "tEau": 26.4,
+     "conductivite": 1.0,
+     "ph": 6.6,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "volcanum"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Procatopus",
+       "espece": "sp."
+      }
+     ],
+     "autresEspeces": "Ctenopoma sp., Cichlidae"
+    },
+    {
+     "numero": "ABC 05-14",
+     "date": "2005-01-22",
+     "heure": "08:30:00",
+     "latitude": 4.6545,
+     "longitude": 9.50675,
+     "altitude": 36.0,
+     "biotope": "Rivière dans une plantation d’hévéas à la sortie de Kumba (direction Yabassi). Largeur 2 à 7mètres, profondeur maximum 90 cm, Criniums, courant moyen.",
+     "remarques": "145 mV, NO2=0, NO3=0.",
+     "tEau": 23.9,
+     "conductivite": 50.0,
+     "ph": 6.8,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "volcanum"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-15",
+     "date": "2005-01-22",
+     "latitude": 4.694611,
+     "longitude": 9.792111,
+     "altitude": 157.0,
+     "biotope": "Au niveau du village Two Wata, petit ruisseau traversant la route, pas de courant, beaucoup de végétation.",
+     "remarques": "61 mV.",
+     "tEau": 24.3,
+     "conductivite": 25.0,
+     "ph": 6.2,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      },
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "volcanum"
+      }
+     ],
+     "autresEspeces": "Mormyridae, Ctenopoma sp., Cichlidae"
+    },
+    {
+     "numero": "ABC 05-16",
+     "date": "2005-01-22",
+     "latitude": 4.602833,
+     "longitude": 9.814778,
+     "altitude": 127.0,
+     "biotope": "Village de Solé. Dans la forêt, petite rivière à courant lent, 3m de largeur et 1m de profondeur maximum. Fond sableux, eau claire.",
+     "remarques": "98 mV.",
+     "tEau": 24.8,
+     "conductivite": 16.0,
+     "ph": 5.9,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      },
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "volcanum"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-17",
+     "date": "2005-01-22",
+     "heure": "12:30:00",
+     "latitude": 4.516833,
+     "longitude": 9.938722,
+     "altitude": 107.0,
+     "biotope": "Petit ruisseau avant Yabassi",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-18",
+     "date": "2005-01-22",
+     "heure": "17:00:00",
+     "latitude": 4.373222,
+     "longitude": 10.018306,
+     "biotope": "13 Km après l’intersection Yingui-Edéa. Ruisseau en forêt, de 30cm à 1m de large, profondeur inférieure à 30cm",
+     "remarques": "110 mV.",
+     "tEau": 27.5,
+     "conductivite": 67.0,
+     "ph": 6.1,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Procatopus",
+       "espece": "sp."
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      },
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "riggenbachi"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-19",
+     "date": "2005-01-22",
+     "heure": "18:00:00",
+     "latitude": 4.183083,
+     "longitude": 10.050917,
+     "altitude": 95.0,
+     "biotope": "Village Nkouli-Ngnock, 41 Km après l’intersection Yingui-Edéa. Petite source en contrebas du village, peu de courant, lit de feuille, peu de lumière.",
+     "remarques": "236 mV, NO2=0, NO3=0.",
+     "tEau": 26.3,
+     "conductivite": 1.0,
+     "ph": 4.5,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "franzwerneri"
+      },
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "riggenbachi"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-20",
+     "date": "2005-01-23",
+     "heure": "09:20:00",
+     "latitude": 3.786167,
+     "longitude": 9.908333,
+     "altitude": 10.0,
+     "biotope": "Rivière Ndorbe, avant le village Tchanse. Rivière en forêt, 1 à 5m de large, profondeur maxi 1,5 à 2m, fond vaseux, nénuphars.",
+     "remarques": "pH 3,8 : valeur douteuse (« erreur ? » dans le compte rendu). 260 mV.",
+     "tEau": 25.7,
+     "conductivite": 3.0,
+     "ph": 3.8,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "splendopleure"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "sp."
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      }
+     ],
+     "autresEspeces": "Barbus sp., Polycentropsis abbreviata (poisson-feuille), Cichlidae"
+    },
+    {
+     "numero": "ABC 05-21",
+     "date": "2005-01-23",
+     "heure": "11:10:00",
+     "latitude": 3.789528,
+     "longitude": 10.071833,
+     "altitude": 24.0,
+     "biotope": "Village Songueland, 6Km avant la jonction de l’axe lourd, petit ruisseau forestier à 300 m à droite de la route.",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "splendopleure"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "sp."
+      }
+     ],
+     "autresEspeces": "Barbus sp."
+    },
+    {
+     "numero": "ABC 05-22",
+     "date": "2005-01-24",
+     "heure": "07:45:00",
+     "latitude": 2.900278,
+     "longitude": 9.951472,
+     "altitude": 34.0,
+     "biotope": "Petit ruisseau traversant la piste entre Nadonteur et Nagadjo, 6Km après la fin du goudron.",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "melanogaster"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      },
+      {
+       "genre": "Procatopus",
+       "espece": "sp."
+      }
+     ],
+     "autresEspeces": "Cichlidae, Siluriformes"
+    },
+    {
+     "numero": "ABC 05-23",
+     "date": "2005-01-24",
+     "heure": "08:30:00",
+     "latitude": 2.885889,
+     "longitude": 9.971028,
+     "altitude": 40.0,
+     "biotope": "Avant Nalia, petit cours d’eau traversant la piste.",
+     "remarques": "182 mV, NO2=0, NO3=0.",
+     "conductivite": 40.0,
+     "ph": 5.9,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "melanogaster"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Procatopus",
+       "espece": "sp."
+      }
+     ],
+     "autresEspeces": "Ctenopoma sp."
+    },
+    {
+     "numero": "ABC 05-24",
+     "date": "2005-01-24",
+     "heure": "09:30:00",
+     "latitude": 2.853444,
+     "longitude": 10.033472,
+     "altitude": 26.0,
+     "biotope": "Après le village de Nko olong, rivière Mbalbeu.",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "melanogaster"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Procatopus",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-25",
+     "date": "2005-01-24",
+     "heure": "10:15:00",
+     "latitude": 2.833167,
+     "longitude": 10.095528,
+     "altitude": 21.0,
+     "biotope": "Ruisseau traversant la route au niveau du village d’Afanovan. Sol de gravier, vase et nénuphars.",
+     "remarques": "196 mV.",
+     "tEau": 26.0,
+     "conductivite": 41.0,
+     "ph": 5.4,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-26",
+     "date": "2005-01-24",
+     "latitude": 2.816444,
+     "longitude": 10.163611,
+     "altitude": 11.0,
+     "biotope": "1 km avant Adjap1 (en venant de Kribi)",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-27",
+     "date": "2005-01-24",
+     "heure": "11:30:00",
+     "latitude": 2.807333,
+     "longitude": 10.234139,
+     "biotope": "Un peu avant le village de Elon",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-28",
+     "date": "2005-01-24",
+     "heure": "13:10:00",
+     "latitude": 2.818972,
+     "longitude": 10.381222,
+     "altitude": 193.0,
+     "biotope": "3Km avant Penda dans la montée. Petit ruisseau, 30 cm de largeur, 10cm de profondeur.",
+     "remarques": "Les femelles (et certains mâles) avaient une bande jaune très prononcée à la base de la caudale.",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "cf. lugens",
+       "note": "SP6"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-29",
+     "date": "2005-01-24",
+     "heure": "14:30:00",
+     "latitude": 2.789139,
+     "longitude": 10.4535,
+     "altitude": 200.0,
+     "biotope": "A l’entrée de Abo I, environ 12Km avant Akom II. Ruisseau sous forêt de bambous. Largeur 3m, prof maxi 80 cm.",
+     "remarques": "143 mV.",
+     "tEau": 26.0,
+     "conductivite": 60.0,
+     "ph": 5.8,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-30",
+     "date": "2005-01-24",
+     "heure": "15:00:00",
+     "latitude": 2.7875,
+     "longitude": 10.4585,
+     "altitude": 248.0,
+     "biotope": "Dans le village d’Akom I, petite rivière à fort courant à gauche de la route.",
+     "remarques": "225 mV.",
+     "tEau": 26.0,
+     "conductivite": 9.0,
+     "ph": 6.1,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-31",
+     "date": "2005-01-24",
+     "heure": "16:30:00",
+     "latitude": 2.813778,
+     "longitude": 10.568028,
+     "altitude": 415.0,
+     "biotope": "A la sortie d’Akom II, petit ruisseau sous forêt de Bambous sur la gauche.",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-32",
+     "date": "2005-01-25",
+     "latitude": 2.988333,
+     "longitude": 10.000278,
+     "altitude": 61.0,
+     "biotope": "Village de Bissiang, petit cours d’eau 500m à gauche après le « centre de repos »",
+     "remarques": "43 mV, NO2=0, NO3=0.",
+     "tEau": 26.3,
+     "conductivite": 5.0,
+     "ph": 5.6,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "splendopleure"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      }
+     ],
+     "autresEspeces": "Mormyridae, Siluriformes"
+    },
+    {
+     "numero": "ABC 05-33",
+     "date": "2005-01-25",
+     "latitude": 2.986528,
+     "longitude": 9.995806,
+     "altitude": 40.0,
+     "biotope": "Toujours au village Bissiang, on revient 600 mètres en arrière, à l’endroit où deux maisons en dur se font face. Petite rivière à 500 m derrière la maison de droite (en venant de Kribi).",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-34",
+     "date": "2005-01-25",
+     "heure": "10:30:00",
+     "latitude": 2.994056,
+     "longitude": 10.012694,
+     "altitude": 39.0,
+     "biotope": "Après Bissiang, dans un tournant, ruisseau traversant la route",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-35",
+     "date": "2005-01-25",
+     "latitude": 3.044861,
+     "longitude": 10.113028,
+     "biotope": "Village Bidou I, ruisseau traversant la route au niveau du quartier de Mabandé.",
+     "remarques": "91 mV.",
+     "tEau": 26.0,
+     "conductivite": 13.0,
+     "ph": 5.7,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-36",
+     "date": "2005-01-25",
+     "heure": "13:30:00",
+     "latitude": 3.073889,
+     "longitude": 10.389528,
+     "altitude": 47.0,
+     "biotope": "A l’entrée de Bifoun, quartier de Bipindi (de l’autre coté du pont par rapport au reste de la ville). Petit ruisseau traversant la route dans une bambouseraie.",
+     "remarques": "44 mV, NO2=0, NO3=0.",
+     "tEau": 27.8,
+     "conductivite": 58.0,
+     "ph": 6.5,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-37",
+     "date": "2005-01-25",
+     "heure": "15:30:00",
+     "latitude": 3.044167,
+     "longitude": 10.226167,
+     "altitude": 64.0,
+     "biotope": "Petit ruisseau traversant la route sur le chemin du retour après Ndtoua (donc avant en venant de Kribi)",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-38",
+     "date": "2005-01-25",
+     "heure": "16:30:00",
+     "latitude": 3.049056,
+     "longitude": 10.164806,
+     "altitude": 49.0,
+     "biotope": "300 m après la barrière de pluie de Makouré II (dans le sens Kribi vers Bipindi). Petit ruisseau traversant la route au niveau d’une forêt de bambous. Courant faible, largeur max 5m profondeur max 90 cm.",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "sp. aff. ahli"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-39",
+     "date": "2005-01-26",
+     "heure": "08:30:00",
+     "latitude": 2.899333,
+     "longitude": 9.907278,
+     "altitude": 13.0,
+     "biotope": "Ruisseau traversant la route à Ebomé",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "melanogaster"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-40",
+     "date": "2005-01-26",
+     "latitude": 2.814639,
+     "longitude": 9.89425,
+     "altitude": 8.0,
+     "biotope": "Petit ruisseau traversant la route à Ebunja II.",
+     "remarques": "100 mV.",
+     "tEau": 28.5,
+     "conductivite": 0.0,
+     "ph": 5.3,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ],
+     "autresEspeces": "Mastacembelus sp., Cichlidae"
+    },
+    {
+     "numero": "ABC 05-41",
+     "date": "2005-01-26",
+     "heure": "10:00:00",
+     "latitude": 2.784,
+     "longitude": 9.887583,
+     "biotope": "Avant d’arriver à Nlende dike, source à droite de la route dans la forêt",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-42",
+     "date": "2005-01-26",
+     "latitude": 2.749389,
+     "longitude": 9.877972,
+     "altitude": 10.0,
+     "biotope": "Petit ruisseau traversant la route à Mbode. Fond de vase et feuilles mortes.",
+     "remarques": "143 mV.",
+     "tEau": 26.8,
+     "conductivite": 6.0,
+     "ph": 5.5,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "splendopleure"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-43",
+     "date": "2005-01-26",
+     "heure": "11:10:00",
+     "latitude": 2.733889,
+     "longitude": 9.878667,
+     "altitude": 16.0,
+     "biotope": "Ruisseau traversant la route 100 m avant la rivière Bouchibilita",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "splendopleure"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-44",
+     "date": "2005-01-26",
+     "heure": "11:30:00",
+     "latitude": 2.719889,
+     "longitude": 9.870194,
+     "biotope": "Ruisseau traversant la route dans la montée avant Mboro",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-45",
+     "date": "2005-01-26",
+     "heure": "13:30:00",
+     "latitude": 2.592278,
+     "longitude": 9.848917,
+     "altitude": 30.0,
+     "biotope": "Ruisseau traversant la route, puis 100 mètres après dans le même ruisseau",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "splendopleure"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-46",
+     "date": "2005-01-26",
+     "heure": "15:00:00",
+     "latitude": 2.582833,
+     "longitude": 9.848444,
+     "altitude": 50.0,
+     "biotope": "Un peu plus loin en direction de Ebodjé, marais sur la gauche (beaucoup de fougères) qui se déverse sur le coté de la route dans un petit ruisseau de 30 cm de large et 10 de profondeur. Captures des deux côtés de la route.",
+     "remarques": "213 mV.",
+     "tEau": 29.5,
+     "conductivite": 158.0,
+     "ph": 4.7,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "splendopleure"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-47",
+     "date": "2005-01-27",
+     "heure": "10:10:00",
+     "latitude": 2.497528,
+     "longitude": 9.835889,
+     "altitude": 8.0,
+     "biotope": "200 m avant Malaba. Petit ruisseau traversant la route, marécage en voie d’assèchement.",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "splendopleure"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-48",
+     "date": "2005-01-27",
+     "heure": "11:00:00",
+     "latitude": 2.464528,
+     "longitude": 9.841333,
+     "biotope": "1,5 Km avant Afan Esokié II, petite rivière traversant la route. Nénuphars, pas de courant, les Chromaphyosemion sont sous les feuilles.",
+     "remarques": "156 mV, NO2=0, NO3=0.",
+     "tEau": 27.3,
+     "conductivite": 3.0,
+     "ph": 6.1,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "splendopleure"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-49",
+     "date": "2005-01-27",
+     "heure": "11:30:00",
+     "latitude": 2.427694,
+     "longitude": 9.8495,
+     "altitude": 30.0,
+     "biotope": "Village Etonde Fang, ruisseau traversant la route, un peu après l’école.",
+     "remarques": "151 mV.",
+     "tEau": 26.8,
+     "conductivite": 6.0,
+     "ph": 6.1,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "punctulatum"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-50",
+     "date": "2005-01-27",
+     "heure": "13:30:00",
+     "latitude": 2.371528,
+     "longitude": 9.855583,
+     "altitude": 23.0,
+     "biotope": "Campo",
+     "remarques": "172 mV.",
+     "tEau": 28.0,
+     "conductivite": 78.0,
+     "ph": 5.9,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "punctulatum"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-51",
+     "date": "2005-01-27",
+     "heure": "14:30:00",
+     "latitude": 2.362889,
+     "longitude": 9.912417,
+     "biotope": "Ruisseau traversant la route à Bibabimvoto (à la sortie du village)",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "punctulatum"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-52",
+     "date": "2005-01-27",
+     "heure": "16:00:00",
+     "latitude": 2.381333,
+     "longitude": 9.979694,
+     "altitude": 50.0,
+     "biotope": "Afan Esokié, ruisseau en forêt, 600 à droite.",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "lugens"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-53",
+     "date": "2005-01-27",
+     "heure": "16:30:00",
+     "latitude": 2.382889,
+     "longitude": 9.992167,
+     "altitude": 40.0,
+     "biotope": "Ruisseau traversant la route après Afan Esokié",
+     "remarques": "151 mV.",
+     "tEau": 28.1,
+     "conductivite": 45.0,
+     "ph": 6.0,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "lugens"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-54",
+     "date": "2005-01-28",
+     "heure": "09:00:00",
+     "latitude": 2.396667,
+     "longitude": 10.043528,
+     "altitude": 112.0,
+     "biotope": "Ruisseau derrière le village de Nkoleon (500m) communiquant avec les ruisseaux à l’entrée et à la sortie du village (le village est sur une colline et le ruisseau en fait le tour). Eau claire, feuilles mortes.",
+     "remarques": "170 mV.",
+     "tEau": 28.5,
+     "conductivite": 86.0,
+     "ph": 5.9,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "lugens"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "campomaanense"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Procatopus",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-55",
+     "date": "2005-01-28",
+     "heure": "10:30:00",
+     "latitude": 2.372917,
+     "longitude": 10.104306,
+     "altitude": 86.0,
+     "biotope": "Ruisseau derrière le village qui est à l’entrée du parc. Criniums, fond de feuilles, eau claire.",
+     "remarques": "140 mV.",
+     "tEau": 27.0,
+     "conductivite": 10.0,
+     "ph": 6.5,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "lugens"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "campomaanense"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-56",
+     "date": "2005-01-28",
+     "heure": "12:30:00",
+     "latitude": 2.375944,
+     "longitude": 9.964167,
+     "altitude": 70.0,
+     "biotope": "Rivière traversant le village d’Akak. Crinium, Anubias, courant assez rapide. Largeur de 1 à 8mètres, profondeur maxi 1m.",
+     "remarques": "132 mV.",
+     "tEau": 28.0,
+     "conductivite": 35.0,
+     "ph": 6.8,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "punctulatum"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ],
+     "autresEspeces": "Cichlidae, Mormyridae"
+    },
+    {
+     "numero": "ABC 05-57",
+     "date": "2005-01-28",
+     "heure": "14:30:00",
+     "latitude": 2.492972,
+     "longitude": 9.907194,
+     "altitude": 35.0,
+     "biotope": "Rivière traversant la piste intérieure (celle qui ne suit pas la côte) dans la région des mammelles. Largeur 5à 8m, profondeur maxi 1,2m, courant moyen.",
+     "remarques": "112 mV.",
+     "tEau": 27.0,
+     "conductivite": 26.0,
+     "ph": 6.0,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "splendopleure"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Procatopus",
+       "espece": "sp."
+      }
+     ],
+     "autresEspeces": "Ctenopoma sp."
+    },
+    {
+     "numero": "ABC 05-58",
+     "date": "2005-01-28",
+     "heure": "16:30:00",
+     "latitude": 2.68725,
+     "longitude": 9.857278,
+     "biotope": "A 700 mètres après le pont cassé sur la Lolabé (en allant à Kribi), ruisseau forestier.",
+     "remarques": "120 mV.",
+     "tEau": 28.0,
+     "conductivite": 53.0,
+     "ph": 5.7,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "melanogaster"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-59",
+     "date": "2005-01-29",
+     "heure": "10:00:00",
+     "latitude": 3.108222,
+     "longitude": 9.991778,
+     "altitude": 26.0,
+     "biotope": "Ruisseau Mangala, à droite de la route au niveau de Bipaga I",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "melanogaster"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      }
+     ],
+     "autresEspeces": "Barbus sp."
+    },
+    {
+     "numero": "ABC 05-60",
+     "date": "2005-01-29",
+     "heure": "10:30:00",
+     "latitude": 3.182556,
+     "longitude": 10.028833,
+     "biotope": "Village d’Ebea. Ruisseau sous forêt de bambous, 500 m environ après le pont de la Lokoundje, sur la droite.",
+     "remarques": "100 mV.",
+     "tEau": 27.0,
+     "conductivite": 78.0,
+     "ph": 6.2,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-61",
+     "date": "2005-01-29",
+     "heure": "12:00:00",
+     "latitude": 3.349861,
+     "longitude": 10.09825,
+     "altitude": 29.0,
+     "biotope": "Village Bivouba, petit ruisseau sur la droite 500 après l’intersection de petit Batanga",
+     "tEau": 26.4,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-62",
+     "date": "2005-01-29",
+     "heure": "13:00:00",
+     "latitude": 3.525806,
+     "longitude": 10.110306,
+     "altitude": 56.0,
+     "biotope": "Petite rivière au nord de Bongen",
+     "remarques": "150 mV.",
+     "tEau": 26.4,
+     "conductivite": 18.0,
+     "ph": 5.7,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "splendopleure"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-63",
+     "date": "2005-01-29",
+     "heure": "14:00:00",
+     "latitude": 3.6925,
+     "longitude": 10.104639,
+     "altitude": 54.0,
+     "biotope": "Rivière Ndongbelongo à Koukoué. Rivière traversant la route, courant faible, nénuphars, eau de couleur rouge.",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "splendopleure"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-64",
+     "date": "2005-01-30",
+     "heure": "08:30:00",
+     "latitude": 3.773056,
+     "longitude": 10.163278,
+     "altitude": 86.0,
+     "biotope": "A la sortie d’Edea (direction Yaoundé) marigot sur la gauche, profondeur maxi 80cm, nénuphars, pas de courant.",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-65",
+     "date": "2005-01-30",
+     "heure": "09:30:00",
+     "latitude": 3.826528,
+     "longitude": 10.168861,
+     "altitude": 71.0,
+     "biotope": "Batambe(en direction de la Sanaga), ruisseau traversant la piste, courant moyen, rochers, Anubias, fond sable-graviers.",
+     "remarques": "145 mV.",
+     "tEau": 25.8,
+     "conductivite": 32.0,
+     "ph": 5.5,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "cf. edeanum"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-66",
+     "date": "2005-01-30",
+     "heure": "10:30:00",
+     "latitude": 3.809333,
+     "longitude": 10.201694,
+     "altitude": 61.0,
+     "biotope": "Ruisseau traversant la route sous une forêt de bambous (à droite), un peu après Batombe et avant Betonga.",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli",
+       "note": "bleu"
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-67",
+     "date": "2005-01-30",
+     "heure": "11:00:00",
+     "latitude": 3.8,
+     "longitude": 10.216667,
+     "biotope": "Ruisseau traversant la route, situé à environ 1/3 du chemin entre le point précédent et le suivant.",
+     "remarques": "Point GPS approximatif.",
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-68",
+     "date": "2005-01-30",
+     "heure": "12:30:00",
+     "latitude": 3.823722,
+     "longitude": 10.244667,
+     "altitude": 84.0,
+     "biotope": "Ruisseau traversant la route à l’entrée de Song Ndong.",
+     "remarques": "115 mV.",
+     "tEau": 26.0,
+     "conductivite": 22.0,
+     "ph": 5.9,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-69",
+     "date": "2005-01-30",
+     "heure": "13:30:00",
+     "latitude": 3.86075,
+     "longitude": 10.286139,
+     "altitude": 99.0,
+     "biotope": "Petit ruisseau traversant la piste en direction de la Sanaga. Après la plantation de palmiers à huile et sans doute avant le village de Song dong II. Largeur maximale 1,5m, prof maxi 60cm, faible courant, lit de cailloux.",
+     "remarques": "118 mV.",
+     "tEau": 26.8,
+     "conductivite": 55.0,
+     "ph": 6.2,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "riggenbachi"
+      },
+      {
+       "genre": "Fundulopanchax",
+       "espece": "amieti"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "ABC 05-70",
+     "date": "2005-01-29",
+     "latitude": 3.024733,
+     "longitude": 9.9703,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "loennbergii"
       }
      ]
     }

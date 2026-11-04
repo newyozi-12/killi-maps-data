@@ -1,5 +1,5 @@
 {
- "version": 5,
+ "version": 6,
  "expeditions": [
   {
    "code": "BCP 2018",
@@ -2716,6 +2716,647 @@
        "genre": "Aphyosemion",
        "espece": "australe",
        "relache": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "GEMLH 16",
+   "annee": 2016,
+   "pays": "Guinée équatoriale",
+   "collecteurs": "Francisco Malumbres Viscarret, Francisco García Lora et Joaquín Hernández Corral",
+   "points": [
+    {
+     "numero": "GEMLH 16-01",
+     "localite": "Niezan",
+     "date": "2015-12-29",
+     "heure": "15:34:00",
+     "latitude": 2.063806,
+     "longitude": 10.919556,
+     "altitude": 578.0,
+     "biotope": "Déviation à Nkomo vers le sud. Trous d'extraction de terre.",
+     "remarques": "Codes antérieurs : GEMHS00/23, GEMLCG07/08.",
+     "tEau": 24.7,
+     "conductivite": 30.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "batesii"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-02",
+     "localite": "Bidhavidjan",
+     "date": "2015-12-29",
+     "heure": "17:20:00",
+     "latitude": 2.176889,
+     "longitude": 11.172056,
+     "biotope": "Route Mikomeseng-Eveviying. Très dégradé par la route.",
+     "remarques": "Codes antérieurs : GEMLCG07/15.",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "batesii",
+       "note": "1 seule femelle"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-03",
+     "localite": "Bife-Econg",
+     "date": "2015-12-30",
+     "heure": "09:35:00",
+     "latitude": 2.07225,
+     "longitude": 11.298944,
+     "biotope": "À 2 km au sud du village.",
+     "remarques": "A. batesii cherché sans succès. Codes antérieurs : GEMLB02/21.",
+     "tEau": 22.4,
+     "conductivite": 44.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "cameronense"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-04",
+     "localite": "Alen Raíz Ceiba",
+     "date": "2015-12-30",
+     "heure": "13:10:00",
+     "latitude": 2.0735,
+     "longitude": 11.026222,
+     "biotope": "Piste de déforestation, la rivière traverse la piste au pied du fromager (ceiba).",
+     "remarques": "Nouvelle localité.",
+     "tEau": 23.3,
+     "conductivite": 14.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "cameronense"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-05",
+     "localite": "Alen Hoyos extracción",
+     "date": "2015-12-30",
+     "heure": "13:50:00",
+     "latitude": 2.085278,
+     "longitude": 11.009806,
+     "biotope": "Trous d'extraction de terre assez récents.",
+     "remarques": "Nouvelle localité.",
+     "tEau": 25.3,
+     "conductivite": 10.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "batesii"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-06",
+     "localite": "Mobue",
+     "date": "2015-12-31",
+     "heure": "10:08:00",
+     "latitude": 2.171056,
+     "longitude": 11.240056,
+     "altitude": 568.0,
+     "biotope": "Ruisseau avec Pistia et un autre plus petit un peu plus loin.",
+     "remarques": "Codes antérieurs : GEMHS00/22, GEMLB02/33, GEMLBJ03/11.",
+     "tEau": 22.4,
+     "conductivite": 36.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "herzogi"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-07",
+     "localite": "Oya Eseng",
+     "date": "2016-01-01",
+     "heure": "12:30:00",
+     "latitude": 2.122472,
+     "longitude": 11.246972,
+     "altitude": 555.0,
+     "remarques": "Nouvelle localité.",
+     "tEau": 22.8,
+     "conductivite": 18.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "halleri"
+      },
+      {
+       "genre": "Micropanchax",
+       "espece": "camerunensis"
+      }
+     ],
+     "autresEspeces": "Nombreux barbus, crabes et crevettes"
+    },
+    {
+     "numero": "GEMLH 16-08",
+     "localite": "Bife Efa",
+     "date": "2016-01-01",
+     "heure": "13:27:00",
+     "latitude": 2.094639,
+     "longitude": 11.254194,
+     "altitude": 618.0,
+     "biotope": "Trous sur les bords de la rivière. Entrée avec un énorme bambou. Retenue d'eau pour la baignade.",
+     "remarques": "Nouvelle localité.",
+     "tEau": 23.7,
+     "conductivite": 26.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "halleri"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-09",
+     "localite": "Abebañ",
+     "date": "2016-01-02",
+     "heure": "10:30:00",
+     "latitude": 1.997083,
+     "longitude": 11.328944,
+     "altitude": 542.0,
+     "biotope": "Ruisseau de 25 cm de large et 4 doigts de profondeur.",
+     "remarques": "Nous nous sommes perdus dans la forêt. Codes antérieurs : GEMLB02/19, GEMLB02/20, GEMLCG07/17.",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "herzogi"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "cameronense"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-10",
+     "localite": "Modjom",
+     "date": "2016-01-02",
+     "heure": "14:30:00",
+     "latitude": 1.266083,
+     "longitude": 11.26625,
+     "altitude": 683.0,
+     "biotope": "Route Mongomo-Nsork, km 47.",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "cameronense"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-11",
+     "localite": "Nsork",
+     "date": "2016-01-03",
+     "heure": "08:31:00",
+     "latitude": 1.127778,
+     "longitude": 11.259944,
+     "altitude": 513.0,
+     "biotope": "À 2 km de Nsork en direction d'Acurenam.",
+     "remarques": "Codes antérieurs : GEMHS00/16, GEMLBJ03/17, GEMLCG07/22, GEMLCG07/54.",
+     "tEau": 22.4,
+     "conductivite": 28.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "cameronense"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-12",
+     "localite": "Akohasakira",
+     "date": "2016-01-03",
+     "heure": "09:57:00",
+     "latitude": 1.109028,
+     "longitude": 11.259056,
+     "biotope": "Chemin de 1,5 km depuis le village jusqu'au ruisseau.",
+     "remarques": "Deuxième passage le 05/01 à 8:30. Codes antérieurs : GEMLCG07/23.",
+     "tEau": 22.5,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "herzogi"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "cameronense"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-13",
+     "localite": "Nnomnam",
+     "date": "2016-01-03",
+     "heure": "12:15:00",
+     "latitude": 1.090056,
+     "longitude": 11.232833,
+     "biotope": "Chemin de 1 km depuis le village, très marécageux.",
+     "remarques": "Codes antérieurs : GEMLBJ03/18, GEMLCG07/24.",
+     "tEau": 22.8,
+     "conductivite": 10.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "cameronense"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-14",
+     "localite": "Nvom",
+     "date": "2016-01-03",
+     "heure": "14:50:00",
+     "latitude": 1.378556,
+     "longitude": 11.220444,
+     "altitude": 688.0,
+     "biotope": "Très haute tour de télévision, chemin de 1,5 km depuis le village, deux ruisseaux, Episemion dans le plus éloigné.",
+     "remarques": "C'est dimanche et le conseil est à la messe… Codes antérieurs : GEMLBJ03/15, GEMLCG07/35, GEMLCG07/36.",
+     "tEau": 22.9,
+     "conductivite": 22.0,
+     "killies": [
+      {
+       "genre": "Episemion",
+       "espece": "krystallinoron"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "herzogi"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "cameronense"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-15",
+     "localite": "Eboafam",
+     "date": "2016-01-04",
+     "heure": "10:30:00",
+     "latitude": 1.354083,
+     "longitude": 10.575667,
+     "altitude": 598.0,
+     "biotope": "Ruisseau traversant la route. Très boueux.",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "cameronense"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-16",
+     "localite": "Mbam",
+     "date": "2016-01-04",
+     "heure": "11:30:00",
+     "latitude": 1.202278,
+     "longitude": 10.588917,
+     "biotope": "Source, zone protégée, fontaine avec tuyau.",
+     "remarques": "A. herzogi capturé à l'épuisette dans de petits trous d'où sort l'eau. Codes antérieurs : GEMLCG07/33.",
+     "tEau": 23.2,
+     "conductivite": 20.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "herzogi"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "cameronense"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-17",
+     "localite": "Ngong",
+     "date": "2016-01-05",
+     "heure": "08:30:00",
+     "latitude": 1.110167,
+     "longitude": 10.592944,
+     "altitude": 632.0,
+     "biotope": "Lavoir.",
+     "remarques": "Proportion 100/1 mimbon/herzogi. Des jeunes nous aident à pêcher. Codes antérieurs : GEML00/05, GEMHS00/10.",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "herzogi"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "mimbon"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-18",
+     "localite": "Obeng",
+     "date": "2016-01-05",
+     "heure": "10:00:00",
+     "latitude": 1.108972,
+     "longitude": 10.763222,
+     "altitude": 615.0,
+     "biotope": "Courants rapides et rivière profonde.",
+     "remarques": "Codes antérieurs : GEMLBJ03/21, GEMLCG07/29.",
+     "killies": [
+      {
+       "genre": "Episemion",
+       "espece": "callipteron"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "mimbon"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-19",
+     "localite": "Soha",
+     "date": "2016-01-05",
+     "heure": "13:00:00",
+     "latitude": 1.101417,
+     "longitude": 10.763639,
+     "altitude": 633.0,
+     "biotope": "La rivière traverse la route au km 95 Obeng-Akombe.",
+     "remarques": "Codes antérieurs : GEMLBJ03/19, GEMLBJ03/20, GEMLCG07/28, GEMLCG07/29.",
+     "killies": [
+      {
+       "genre": "Episemion",
+       "espece": "callipteron"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "mimbon"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-20",
+     "localite": "Akurenam casas sociales",
+     "date": "2016-01-05",
+     "heure": "14:30:00",
+     "latitude": 1.035111,
+     "longitude": 10.679083,
+     "altitude": 672.0,
+     "biotope": "Ruisseau derrière les logements sociaux d'Akurenam.",
+     "remarques": "Codes antérieurs : GEMHS00/09, GEML00/10, GEMLBJ03/24, GEMLCG07/31.",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "herzogi"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "mimbon"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-21",
+     "localite": "Alensai",
+     "date": "2016-01-06",
+     "heure": "09:00:00",
+     "latitude": 1.025167,
+     "longitude": 10.149556,
+     "altitude": 525.0,
+     "biotope": "Route en construction.",
+     "remarques": "Détour en cherchant le Mitemele. Nouvelle localité.",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "mimbon"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-22",
+     "localite": "Nviayong",
+     "date": "2016-01-06",
+     "heure": "10:15:00",
+     "latitude": 1.079056,
+     "longitude": 10.202278,
+     "altitude": 558.0,
+     "biotope": "Ruisseau sableux, marche difficile.",
+     "remarques": "Peu de herzogi. Nouvelle localité.",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "herzogi"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "mimbon"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-23",
+     "localite": "Torrente",
+     "date": "2016-01-06",
+     "heure": "12:00:00",
+     "latitude": 1.101222,
+     "longitude": 10.220889,
+     "altitude": 539.0,
+     "biotope": "Mare à gauche, la rivière traverse et un torrent tombe à droite, accès difficile.",
+     "remarques": "Codes antérieurs : GEMLCG07/40, GEMLBJ03/27.",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "herzogi"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "mimbon"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-24",
+     "date": "2016-01-06",
+     "heure": "14:49:00",
+     "latitude": 1.114972,
+     "longitude": 10.183306,
+     "altitude": 427.0,
+     "biotope": "Grand ruisseau traversant la route.",
+     "remarques": "Nouvelle localité.",
+     "killies": [
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp."
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "mimbon"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-25",
+     "date": "2016-01-06",
+     "heure": "13:30:00",
+     "latitude": 1.122806,
+     "longitude": 10.133333,
+     "biotope": "De l'autre côté du Mitemele.",
+     "remarques": "Nouvelle localité.",
+     "tEau": 26.8,
+     "conductivite": 46.0,
+     "killies": [
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-26",
+     "date": "2016-01-06",
+     "heure": "14:01:00",
+     "latitude": 1.124528,
+     "longitude": 10.15925,
+     "altitude": 383.0,
+     "biotope": "Ruisseau de 1 m de large traversant la piste.",
+     "remarques": "Bord des nageoires du mimbon noir. Codes antérieurs : GEMLBJ03/28, GEMLCG07/41.",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "mimbon"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-27",
+     "localite": "Akurenam río avispas",
+     "date": "2016-01-07",
+     "heure": "07:00:00",
+     "latitude": 1.035083,
+     "longitude": 10.668167,
+     "altitude": 650.0,
+     "biotope": "Ruisseau de source.",
+     "remarques": "Heure du bain des enfants. Codes antérieurs : GEMHS00/09.",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "herzogi"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "mimbon"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-28",
+     "localite": "Bisum-Ayeguenin",
+     "date": "2016-01-07",
+     "heure": "11:15:00",
+     "latitude": 1.734889,
+     "longitude": 10.289778,
+     "altitude": 581.0,
+     "biotope": "Route Niefang-Evinayong km 14, chemin entre les maisons à la sortie du village.",
+     "remarques": "Codes antérieurs : GEMHS00/05, GEML00/03, GEMLB02/02, GEMLBJ03/34, GEMLCG07/45.",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "maculatum"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-29",
+     "localite": "Nguba",
+     "date": "2016-01-08",
+     "heure": "13:07:00",
+     "latitude": 1.762806,
+     "longitude": 9.820444,
+     "altitude": 40.0,
+     "biotope": "Tout est très sec, à peine deux mares.",
+     "remarques": "Les populations TUBO et Nguba sont du même ruisseau. Codes antérieurs : GEML00/16, GEMHS00/36, GEMLB02/30, GEMLBJ03/38, GEMLCG07/55.",
+     "tEau": 27.2,
+     "conductivite": 34.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "avichang"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ahli"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "grahami"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-30",
+     "localite": "Movó",
+     "date": "2016-01-09",
+     "heure": "09:00:00",
+     "latitude": 1.162722,
+     "longitude": 9.617778,
+     "altitude": 1.0,
+     "remarques": "Très peu de striatum. Chromaphyosemion non trouvé.",
+     "tEau": 27.2,
+     "conductivite": 38.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "striatum"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sexfasciatus"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-31",
+     "localite": "Nzagnam",
+     "date": "2016-01-09",
+     "heure": "11:00:00",
+     "latitude": 1.269333,
+     "longitude": 9.600667,
+     "altitude": 31.0,
+     "biotope": "Nombreux nénuphars.",
+     "remarques": "Très peu de striatum.",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "striatum"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sexfasciatus"
+      }
+     ]
+    },
+    {
+     "numero": "GEMLH 16-32",
+     "localite": "Mboete",
+     "date": "2016-01-09",
+     "heure": "13:00:00",
+     "latitude": 1.325056,
+     "longitude": 9.606222,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "striatum"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sexfasciatus"
       }
      ]
     }

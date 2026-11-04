@@ -1,5 +1,5 @@
 {
- "version": 3,
+ "version": 4,
  "expeditions": [
   {
    "code": "BCP 2018",
@@ -1240,6 +1240,1482 @@
       {
        "genre": "Poropanchax",
        "espece": "normani"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "GACOCC 2019",
+   "annee": 2019,
+   "pays": "Gabon",
+   "collecteurs": "Colonnier Yoann, Chirio Laurent, Chirio Allan",
+   "points": [
+    {
+     "numero": "GACOCC 19-01",
+     "localite": "Menguegne",
+     "date": "2019-07-07",
+     "heure": "13:39:00",
+     "latitude": -0.18521151,
+     "longitude": 10.58798903,
+     "altitude": 67.0,
+     "biotope": "Large ruisseau avec courant",
+     "remarques": "Trop d'eau et pas d'eau stagnante pour striatum",
+     "tAir": 27.0,
+     "tEau": 24.5,
+     "conductivite": 44.0,
+     "ph": 7.5,
+     "courant": "Moyen",
+     "fond": "Laterite et sable",
+     "turbidite": "Moyenne",
+     "couleurEau": "Verte",
+     "killies": [
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "alcool": true,
+       "note": "Groupe 5"
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-02",
+     "date": "2019-07-07",
+     "heure": "16:36:00",
+     "latitude": -0.07485642,
+     "longitude": 11.12179688,
+     "altitude": 83.0,
+     "biotope": "Ruisseau encaissé avec mares peu profondes",
+     "remarques": "Tetra, phractura",
+     "courant": "Faible",
+     "fond": "Sable",
+     "turbidite": "Faible",
+     "couleurEau": "Verte",
+     "killies": [],
+     "autresEspeces": "Tétras, phractura"
+    },
+    {
+     "numero": "GACOCC 19-03",
+     "localite": "Junkville",
+     "date": "2019-07-07",
+     "heure": "17:08:00",
+     "latitude": -0.06692346,
+     "longitude": 11.12569262,
+     "altitude": 81.0,
+     "biotope": "Petit ruisseau peu profond",
+     "remarques": "Chauve souris sous le pont et traces d'éléphants",
+     "tEau": 24.0,
+     "conductivite": 51.0,
+     "ph": 6.6,
+     "courant": "Faible",
+     "fond": "Cailloux",
+     "turbidite": "Très faible",
+     "killies": [
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "alcool": true,
+       "note": "Groupe 2 terveri"
+      }
+     ],
+     "autresEspeces": "Barbus jaune avec tâches noires sur caudale et flanc"
+    },
+    {
+     "numero": "GACOCC 19-04",
+     "localite": "Lopé",
+     "date": "2019-07-07",
+     "heure": "23:16:00",
+     "latitude": -0.09870866,
+     "longitude": 11.56124217,
+     "altitude": 118.0,
+     "biotope": "Ruisseau peu profond sous couvert végétal",
+     "remarques": "Pêche de nuit",
+     "courant": "Faible",
+     "fond": "Cailloux",
+     "turbidite": "Nulle",
+     "killies": [
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "alcool": true,
+       "note": "Groupe 2 terveri"
+      }
+     ],
+     "autresEspeces": "Barbus, grenouilles"
+    },
+    {
+     "numero": "GACOCC 19-05",
+     "localite": "Kandjama",
+     "date": "2019-07-08",
+     "heure": "12:04:00",
+     "latitude": -0.15562214,
+     "longitude": 11.74537417,
+     "altitude": 198.0,
+     "biotope": "Petit ruisseau calme",
+     "remarques": "Peu profond",
+     "courant": "Faible",
+     "fond": "Cailloux",
+     "turbidite": "Faible",
+     "killies": [],
+     "autresEspeces": "Barbus"
+    },
+    {
+     "numero": "GACOCC 19-06",
+     "localite": "Wouboue",
+     "date": "2019-07-08",
+     "heure": "16:54:00",
+     "latitude": -0.51065812,
+     "longitude": 12.13575727,
+     "altitude": 228.0,
+     "biotope": "Ruisseau profondeur 20 - 60cm",
+     "tEau": 24.8,
+     "conductivite": 50.0,
+     "ph": 6.6,
+     "courant": "Faible",
+     "fond": "Cailloux boue",
+     "turbidite": "Faible",
+     "killies": [
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "alcool": true,
+       "note": "Groupe 2"
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-07",
+     "localite": "Pointe claire",
+     "date": "2019-07-08",
+     "heure": "18:49:00",
+     "latitude": -0.6352133,
+     "longitude": 12.43073455,
+     "altitude": 246.0,
+     "biotope": "Ruisseau en galerie forestière très encaissé peu de poissons",
+     "courant": "Faible",
+     "fond": "Cailloux",
+     "turbidite": "Très faible",
+     "killies": [],
+     "autresEspeces": "Barbus, tetras"
+    },
+    {
+     "numero": "GACOCC 19-08",
+     "localite": "Tsati",
+     "date": "2019-07-09",
+     "heure": "11:24:00",
+     "latitude": -1.0288721,
+     "longitude": 12.8534714,
+     "altitude": 355.0,
+     "biotope": "Petit ruisseau 50cm de profondeur",
+     "remarques": "Aphyo en amont du pont",
+     "tEau": 24.0,
+     "conductivite": 20.0,
+     "ph": 6.3,
+     "courant": "Faible",
+     "fond": "Cailloux",
+     "turbidite": "Faible",
+     "couleurEau": "Ambre",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "lamberti",
+       "conserve": true
+      }
+     ],
+     "autresEspeces": "Mormyre, phractura, barbus"
+    },
+    {
+     "numero": "GACOCC 19-09",
+     "localite": "Moukombi",
+     "date": "2019-07-09",
+     "heure": "12:14:00",
+     "latitude": -1.11555223,
+     "longitude": 12.89466478,
+     "altitude": 483.0,
+     "biotope": "Ruisseau de 4m de large Peu profond",
+     "remarques": "Pas de plataplocheilus",
+     "tEau": 25.0,
+     "conductivite": 13.0,
+     "ph": 5.5,
+     "courant": "Moyen",
+     "fond": "Cailloux",
+     "turbidite": "Faible",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "lamberti",
+       "conserve": true,
+       "note": "Plus bleu"
+      }
+     ],
+     "autresEspeces": "Mormyre, barbus, crevettes, phractura"
+    },
+    {
+     "numero": "GACOCC 19-10",
+     "date": "2019-07-09",
+     "heure": "13:12:00",
+     "latitude": -1.13061653,
+     "longitude": 12.92170893,
+     "altitude": 498.0,
+     "biotope": "Exutoire de grande mare, petit ruisseau peu profond à découvert",
+     "remarques": "Boue",
+     "courant": "Très faible",
+     "fond": "Boue",
+     "turbidite": "Faible",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "lamberti",
+       "relache": true
+      }
+     ],
+     "autresEspeces": "Barbus, phractura"
+    },
+    {
+     "numero": "GACOCC 19-11",
+     "localite": "Miloba",
+     "date": "2019-07-09",
+     "heure": "13:30:00",
+     "latitude": -1.18769979,
+     "longitude": 12.96768538,
+     "altitude": 512.0,
+     "biotope": "Ruisseau calme en amont du pont et courant après.",
+     "remarques": "Rivière Mbidi",
+     "tEau": 24.5,
+     "conductivite": 6.0,
+     "ph": 6.0,
+     "courant": "Faible",
+     "fond": "Sable",
+     "turbidite": "Moyenne",
+     "couleurEau": "Verte",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "lamberti",
+       "relache": true
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "tirbaki",
+       "conserve": true
+      }
+     ],
+     "autresEspeces": "Paraucheno glanis, petits barbus"
+    },
+    {
+     "numero": "GACOCC 19-12",
+     "localite": "Konda",
+     "date": "2019-07-10",
+     "heure": "11:34:00",
+     "latitude": -1.6302835,
+     "longitude": 13.1355607,
+     "altitude": 462.0,
+     "biotope": "Petit ruisseau d'un mètre de large",
+     "courant": "Faible",
+     "fond": "Argilo vaseux",
+     "turbidite": "Faible",
+     "couleurEau": "Laiteuse",
+     "killies": [
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "conserve": true,
+       "note": "Terveri groupe 2"
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-13",
+     "date": "2019-07-10",
+     "heure": "12:23:00",
+     "latitude": -1.72887705,
+     "longitude": 13.06912133,
+     "altitude": 492.0,
+     "killies": [],
+     "autresEspeces": "Mormyre"
+    },
+    {
+     "numero": "GACOCC 19-14",
+     "localite": "Nord bakoumba",
+     "date": "2019-07-10",
+     "heure": "12:56:00",
+     "latitude": -1.81108832,
+     "longitude": 13.02670591,
+     "altitude": 532.0,
+     "courant": "Fort",
+     "fond": "Sedimentaire",
+     "turbidite": "Très faible",
+     "killies": [],
+     "autresEspeces": "Mormyre"
+    },
+    {
+     "numero": "GACOCC 19-15",
+     "localite": "Sud Bakoumba",
+     "date": "2019-07-10",
+     "heure": "13:41:00",
+     "latitude": -1.85892367,
+     "longitude": 13.0153814,
+     "altitude": 544.0,
+     "biotope": "Ruisseau difficilement accessible 4m de large",
+     "courant": "Fort",
+     "fond": "Sable",
+     "turbidite": "Très faible",
+     "killies": [],
+     "autresEspeces": "Mormyre, barbus"
+    },
+    {
+     "numero": "GACOCC 19-16",
+     "localite": "Parc de la lékédi",
+     "date": "2019-07-10",
+     "heure": "15:32:00",
+     "latitude": -1.79515393,
+     "longitude": 13.0250803,
+     "altitude": 592.0,
+     "biotope": "Ruisseau peu profond 1m de large",
+     "courant": "Faible",
+     "fond": "Argileux",
+     "turbidite": "Faible",
+     "killies": [],
+     "autresEspeces": "Barbus"
+    },
+    {
+     "numero": "GACOCC 19-17",
+     "localite": "Moyabi",
+     "date": "2019-07-10",
+     "heure": "17:41:00",
+     "latitude": -1.67795823,
+     "longitude": 13.31758439,
+     "altitude": 450.0,
+     "biotope": "Ruisseau de 4m de large",
+     "courant": "Moyen",
+     "fond": "Cailloux",
+     "turbidite": "Faible",
+     "couleurEau": "Ambrée",
+     "killies": [],
+     "autresEspeces": "Hemichromis elongatus, phractura"
+    },
+    {
+     "numero": "GACOCC 19-18",
+     "localite": "Monguango",
+     "date": "2019-07-11",
+     "heure": "13:01:00",
+     "latitude": -2.00743083,
+     "longitude": 13.60996585,
+     "altitude": 500.0,
+     "biotope": "Petit ruisseau très calme",
+     "remarques": "Amenagement pour le village, villageois prénom Ando",
+     "tEau": 24.0,
+     "conductivite": 10.0,
+     "ph": 6.5,
+     "courant": "Nul",
+     "fond": "Argile sableux",
+     "turbidite": "Faible",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "ogoense ogoense",
+       "conserve": true
+      },
+      {
+       "genre": "Hypsopanchax",
+       "espece": "catenatus",
+       "conserve": true,
+       "alcool": true
+      }
+     ],
+     "autresEspeces": "Microctenopoma nanum"
+    },
+    {
+     "numero": "GACOCC 19-19",
+     "localite": "Maloundou",
+     "date": "2019-07-11",
+     "heure": "14:17:00",
+     "latitude": -2.16917151,
+     "longitude": 13.63935044,
+     "altitude": 494.0,
+     "biotope": "Ruisseau eutrophisé",
+     "remarques": "Lessive, algues vertes",
+     "courant": "Moyen",
+     "fond": "Sable",
+     "turbidite": "Moyenne",
+     "couleurEau": "Ambrée",
+     "killies": [],
+     "autresEspeces": "Mormyre"
+    },
+    {
+     "numero": "GACOCC 19-20",
+     "localite": "Boumango",
+     "date": "2019-07-11",
+     "heure": "15:51:00",
+     "latitude": -2.21354323,
+     "longitude": 13.60664441,
+     "altitude": 498.0,
+     "biotope": "Petit ruisseau vaseux juste à côté d'un ruisseau plus grand",
+     "remarques": "Villageois Fabrice et jostin",
+     "tEau": 23.0,
+     "conductivite": 10.0,
+     "ph": 6.7,
+     "courant": "Très faible",
+     "fond": "Vase sable",
+     "turbidite": "Très faible",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Hypsopanchax",
+       "espece": "zebra",
+       "alcool": true
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ogoense ogoense",
+       "relache": true
+      }
+     ],
+     "autresEspeces": "Mormyre, trachyglanis, micro synodontis, microctenopoma"
+    },
+    {
+     "numero": "GACOCC 19-21",
+     "localite": "Zamaika",
+     "date": "2019-07-12",
+     "heure": "12:16:00",
+     "latitude": -1.72450593,
+     "longitude": 13.71384167,
+     "altitude": 370.0,
+     "biotope": "Ruisseau de 2m de large",
+     "tEau": 23.5,
+     "conductivite": 18.0,
+     "ph": 6.2,
+     "courant": "Faible",
+     "fond": "Sable",
+     "turbidite": "Moyenne",
+     "couleurEau": "Laiteuse",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "ogoense ogoense",
+       "relache": true
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-22",
+     "localite": "Youlou",
+     "date": "2019-07-12",
+     "heure": "12:56:00",
+     "latitude": -1.76978559,
+     "longitude": 13.77696518,
+     "altitude": 385.0,
+     "biotope": "Belle rivière assez large profondeur 50-60 cm",
+     "tEau": 24.0,
+     "conductivite": 13.0,
+     "ph": 6.0,
+     "courant": "Faible",
+     "fond": "Sable",
+     "turbidite": "Très faible",
+     "couleurEau": "Claire",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "ogoense ogoense",
+       "relache": true
+      }
+     ],
+     "autresEspeces": "Barbus, phractura"
+    },
+    {
+     "numero": "GACOCC 19-23",
+     "localite": "Nord Onkoua",
+     "date": "2019-07-12",
+     "heure": "13:44:00",
+     "latitude": -1.79239343,
+     "longitude": 13.8286452,
+     "altitude": 380.0,
+     "biotope": "Ruisseau profondeur 50cm",
+     "remarques": "Aucun poisson",
+     "killies": []
+    },
+    {
+     "numero": "GACOCC 19-24",
+     "localite": "Onkoua",
+     "date": "2019-07-12",
+     "heure": "14:43:00",
+     "latitude": -1.81373405,
+     "longitude": 13.84436272,
+     "altitude": 386.0,
+     "biotope": "Ruisseau très peu profond et d'un mètre de large",
+     "remarques": "Difficile d'accès, coupe branche à la machette, pont en bois infranchissable",
+     "tEau": 24.8,
+     "conductivite": 7.0,
+     "ph": 5.6,
+     "courant": "Faible",
+     "fond": "Sable",
+     "turbidite": "Faible",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "ogoense ogoense",
+       "conserve": true
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-25",
+     "localite": "Edjangoulou",
+     "date": "2019-07-13",
+     "heure": "11:46:00",
+     "latitude": -1.4816267,
+     "longitude": 14.4101074,
+     "altitude": 467.0,
+     "biotope": "Rivière très claire. 5m de large",
+     "remarques": "Villageois gitane aïs",
+     "tAir": 30.0,
+     "tEau": 27.0,
+     "conductivite": 6.0,
+     "ph": 6.3,
+     "courant": "Moyen",
+     "fond": "Sable très fin",
+     "turbidite": "Nulle",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "boulengeri",
+       "conserve": true
+      },
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "note": "Groupe 2"
+      }
+     ],
+     "autresEspeces": "Mormyre, xenomystus, cichlides, amphilius"
+    },
+    {
+     "numero": "GACOCC 19-26",
+     "localite": "Eau claire",
+     "date": "2019-07-13",
+     "heure": "15:33:00",
+     "latitude": -1.57230807,
+     "longitude": 14.1993092,
+     "altitude": 420.0,
+     "biotope": "Petit ruisseau en amont de la rivière \"eau claire\". Eau limpide en milieu avec beau sable blanc",
+     "tEau": 24.0,
+     "courant": "Très faible",
+     "fond": "Sable et vase",
+     "turbidite": "Très faible",
+     "couleurEau": "Claire",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "rectogoense",
+       "terraTypica": true,
+       "conserve": true
+      }
+     ],
+     "autresEspeces": "Cichlides"
+    },
+    {
+     "numero": "GACOCC 19-27",
+     "localite": "Ekalla",
+     "date": "2019-07-13",
+     "heure": "17:03:00",
+     "latitude": -1.63143109,
+     "longitude": 13.889261,
+     "altitude": 390.0,
+     "biotope": "Petit ruisseau peu profond",
+     "courant": "Très faible",
+     "fond": "Sable",
+     "turbidite": "Faible",
+     "couleurEau": "Ambree",
+     "killies": [],
+     "autresEspeces": "Amphilius, trachyglanis, Hemichromis elongatus, barbus"
+    },
+    {
+     "numero": "GACOCC 19-28",
+     "localite": "Kiri",
+     "date": "2019-07-13",
+     "heure": "17:41:00",
+     "latitude": -1.6329362,
+     "longitude": 13.79807769,
+     "altitude": 409.0,
+     "biotope": "Large ruisseau de 6m de large et 1m de profondeur",
+     "tEau": 25.0,
+     "conductivite": 6.0,
+     "ph": 6.4,
+     "courant": "Moyen",
+     "fond": "Sable",
+     "turbidite": "Faible",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "rectogoense",
+       "conserve": true
+      }
+     ],
+     "autresEspeces": "Chromidotilapia"
+    },
+    {
+     "numero": "GACOCC 19-29",
+     "localite": "Otou",
+     "date": "2019-07-14",
+     "heure": "12:35:00",
+     "latitude": -1.05956748,
+     "longitude": 13.99903345,
+     "altitude": 463.0,
+     "biotope": "Petit ruisseau de 30cm de large et 5 cm de fond",
+     "remarques": "15 min de marche",
+     "courant": "Nul",
+     "fond": "Sable",
+     "turbidite": "Faible",
+     "killies": []
+    },
+    {
+     "numero": "GACOCC 19-30",
+     "localite": "Akieni",
+     "date": "2019-07-14",
+     "heure": "13:56:00",
+     "latitude": -1.12755268,
+     "longitude": 13.93923769,
+     "altitude": 407.0,
+     "biotope": "Ruisseau de 60cm de profondeur",
+     "courant": "Moyen",
+     "fond": "Vase",
+     "turbidite": "Moyenne",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp.",
+       "alcool": true
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-31",
+     "localite": "Akieni airport",
+     "date": "2019-07-14",
+     "heure": "15:13:00",
+     "latitude": -1.13881459,
+     "longitude": 13.90092377,
+     "altitude": 427.0,
+     "biotope": "Ruisseau très dégradé",
+     "courant": "Faible",
+     "fond": "Vaseux",
+     "turbidite": "Moyenne",
+     "killies": []
+    },
+    {
+     "numero": "GACOCC 19-32",
+     "date": "2019-07-14",
+     "heure": "16:32:00",
+     "latitude": -0.91790493,
+     "longitude": 13.8227584,
+     "altitude": 388.0,
+     "killies": []
+    },
+    {
+     "numero": "GACOCC 19-33",
+     "localite": "Lebaladouba",
+     "date": "2019-07-14",
+     "heure": "17:15:00",
+     "latitude": -0.73197776,
+     "longitude": 13.74888741,
+     "altitude": 431.0,
+     "biotope": "Ruisseau au soleil",
+     "courant": "Très faible",
+     "fond": "Vaseux",
+     "turbidite": "Faible",
+     "killies": [],
+     "autresEspeces": "Hemichromis, barbus"
+    },
+    {
+     "numero": "GACOCC 19-34",
+     "localite": "Pont Bailey",
+     "date": "2019-07-15",
+     "heure": "13:31:00",
+     "latitude": -0.99483485,
+     "longitude": 13.56068799,
+     "altitude": 311.0,
+     "biotope": "Ruisseau large peu profond",
+     "remarques": "Rivière lelama",
+     "tEau": 24.8,
+     "conductivite": 65.0,
+     "ph": 6.35,
+     "courant": "Moyen",
+     "fond": "Cailloux",
+     "turbidite": "Moyenne",
+     "couleurEau": "Verte",
+     "killies": [
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "alcool": true
+      }
+     ],
+     "autresEspeces": "Synodontis, barbus, neolebias, tetras sp, amphilius"
+    },
+    {
+     "numero": "GACOCC 19-35",
+     "localite": "Okila",
+     "date": "2019-07-15",
+     "heure": "14:16:00",
+     "latitude": -1.05624982,
+     "longitude": 13.57035743,
+     "altitude": 341.0,
+     "biotope": "Petit ruisseau peu courant pollué",
+     "turbidite": "Faible",
+     "killies": [],
+     "autresEspeces": "Hemichromis"
+    },
+    {
+     "numero": "GACOCC 19-36",
+     "localite": "Lewogo",
+     "date": "2019-07-15",
+     "heure": "15:36:00",
+     "latitude": -1.10781704,
+     "longitude": 13.55106062,
+     "altitude": 328.0,
+     "biotope": "Ruisseau de 4m de large peu profond",
+     "tEau": 25.0,
+     "conductivite": 137.0,
+     "ph": 6.67,
+     "courant": "Moyen",
+     "fond": "Cailloux",
+     "turbidite": "Faible",
+     "couleurEau": "Verte",
+     "killies": [
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "alcool": true
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-37",
+     "localite": "Ayanobo",
+     "date": "2019-07-16",
+     "heure": "09:30:00",
+     "latitude": -0.773119,
+     "longitude": 13.8377493,
+     "altitude": 332.0,
+     "biotope": "Ruisseau de 5m de large et de 60cm de profondeur. Pas de végétation aquatique",
+     "courant": "Très faible",
+     "fond": "Argile",
+     "turbidite": "Forte",
+     "couleurEau": "Marron",
+     "killies": [],
+     "autresEspeces": "Synodontis, nanocharax, tetras sp"
+    },
+    {
+     "numero": "GACOCC 19-38",
+     "localite": "Bouma",
+     "date": "2019-07-16",
+     "heure": "10:39:00",
+     "latitude": -0.84392021,
+     "longitude": 13.91707695,
+     "altitude": 403.0,
+     "biotope": "Ruisseau canalisé très vaseux",
+     "remarques": "Lessive",
+     "tEau": 24.3,
+     "conductivite": 20.0,
+     "ph": 6.7,
+     "courant": "Faible",
+     "fond": "Vase et cailloux",
+     "turbidite": "Moyenne",
+     "couleurEau": "Marron",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "lamberti",
+       "relache": true
+      },
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "alcool": true
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-39",
+     "date": "2019-07-16",
+     "heure": "12:54:00",
+     "latitude": -0.73314323,
+     "longitude": 14.07426575,
+     "altitude": 415.0,
+     "biotope": "Rivière d'1m de profondeur",
+     "courant": "Fort",
+     "fond": "Vase et cailloux",
+     "turbidite": "Faible",
+     "killies": []
+    },
+    {
+     "numero": "GACOCC 19-40",
+     "date": "2019-07-16",
+     "heure": "13:19:00",
+     "latitude": -0.72216806,
+     "longitude": 14.08028833,
+     "altitude": 366.0,
+     "biotope": "Petit ruisseau de 30- 50cm de profondeur",
+     "courant": "Faible",
+     "fond": "Sable",
+     "turbidite": "Moyenne",
+     "killies": []
+    },
+    {
+     "numero": "GACOCC 19-41",
+     "localite": "Obori",
+     "date": "2019-07-16",
+     "heure": "13:41:00",
+     "latitude": -0.70868984,
+     "longitude": 14.08287121,
+     "altitude": 383.0,
+     "biotope": "Rivière profonde",
+     "courant": "Fort",
+     "fond": "Sable",
+     "turbidite": "Très faible",
+     "killies": []
+    },
+    {
+     "numero": "GACOCC 19-42",
+     "localite": "Aboumi",
+     "date": "2019-07-16",
+     "heure": "14:19:00",
+     "latitude": -0.67621016,
+     "longitude": 14.11261357,
+     "altitude": 391.0,
+     "biotope": "Ruisseau peu profond sous couvert végétal. Petites flaques à côté",
+     "remarques": "Petite lekima",
+     "tEau": 24.0,
+     "conductivite": 15.0,
+     "ph": 6.0,
+     "courant": "Faible",
+     "fond": "Sable fin",
+     "turbidite": "Très faible",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "lamberti",
+       "conserve": true
+      }
+     ],
+     "autresEspeces": "Hypsopanchax sp, Hemichromis, phractura,"
+    },
+    {
+     "numero": "GACOCC 19-43",
+     "localite": "Aboumi 2",
+     "date": "2019-07-16",
+     "heure": "16:02:00",
+     "latitude": -0.65909851,
+     "longitude": 14.13076138,
+     "altitude": 397.0,
+     "biotope": "Ruisseau peu profond et assez large",
+     "remarques": "Grande lekima",
+     "courant": "Faible",
+     "fond": "Sable",
+     "turbidite": "Très faible",
+     "killies": []
+    },
+    {
+     "numero": "GACOCC 19-44",
+     "date": "2019-07-17",
+     "heure": "11:22:00",
+     "latitude": -0.72721509,
+     "longitude": 13.40625459,
+     "altitude": 317.0,
+     "biotope": "Ruisseau très dégradé à cause de la piste",
+     "remarques": "Pêche impossible",
+     "courant": "Faible",
+     "fond": "Très vaseux",
+     "turbidite": "Forte",
+     "killies": []
+    },
+    {
+     "numero": "GACOCC 19-45",
+     "localite": "Miyanza",
+     "date": "2019-07-17",
+     "heure": "11:52:00",
+     "latitude": -0.72673932,
+     "longitude": 13.39488386,
+     "altitude": 317.0,
+     "biotope": "Ruisseau peu profond",
+     "remarques": "Abeilles melipone",
+     "tEau": 24.0,
+     "conductivite": 10.0,
+     "ph": 6.3,
+     "courant": "Très faible",
+     "fond": "Sable fin",
+     "turbidite": "Faible",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "lamberti",
+       "note": "Anale jaune"
+      },
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "alcool": true
+      }
+     ],
+     "autresEspeces": "Phractura, tetras, hepsetus, hemichromis"
+    },
+    {
+     "numero": "GACOCC 19-46",
+     "localite": "Baposso",
+     "date": "2019-07-17",
+     "heure": "12:57:00",
+     "latitude": -0.74496499,
+     "longitude": 13.13924962,
+     "altitude": 289.0,
+     "biotope": "Ruisseau de 4m de large profondeur 70cm",
+     "remarques": "Rivière laolo",
+     "courant": "Faible",
+     "fond": "Sable",
+     "turbidite": "Moyenne",
+     "couleurEau": "Ambrée",
+     "killies": [],
+     "autresEspeces": "Grasseichtys"
+    },
+    {
+     "numero": "GACOCC 19-47",
+     "localite": "Ndzondé",
+     "date": "2019-07-17",
+     "heure": "14:03:00",
+     "latitude": -0.74443126,
+     "longitude": 13.02547082,
+     "altitude": 264.0,
+     "biotope": "Ruisseau vaseux peu profond",
+     "courant": "Très faible",
+     "fond": "Vase",
+     "turbidite": "Forte",
+     "couleurEau": "Verte",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp.",
+       "conserve": true
+      }
+     ],
+     "autresEspeces": "Tetra prycinus longipinnis, barbus, Hemichromis"
+    },
+    {
+     "numero": "GACOCC 19-48",
+     "localite": "Ndangi",
+     "date": "2019-07-17",
+     "heure": "15:45:00",
+     "latitude": -0.77238039,
+     "longitude": 12.91177318,
+     "altitude": 285.0,
+     "biotope": "Petit ruisseau de 30cm de profondeur",
+     "courant": "Très faible",
+     "fond": "Sable",
+     "turbidite": "Moyenne",
+     "killies": [
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "alcool": true
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-49",
+     "localite": "Massambi",
+     "date": "2019-07-18",
+     "heure": "11:11:00",
+     "latitude": -1.29218355,
+     "longitude": 12.25578837,
+     "altitude": 397.0,
+     "biotope": "Ruisseau trop gros à cause de la pluie",
+     "remarques": "Eau brouillée",
+     "turbidite": "Très forte   Couleur eau : Marron",
+     "couleurEau": "Marron",
+     "killies": [],
+     "autresEspeces": "Barbus"
+    },
+    {
+     "numero": "GACOCC 19-50",
+     "date": "2019-07-18",
+     "heure": "11:49:00",
+     "latitude": -1.29697888,
+     "longitude": 12.25163992,
+     "altitude": 413.0,
+     "biotope": "Petit ruisseau peu profond sous la végétation",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "aureum",
+       "note": "1 mâle seulement"
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-51",
+     "localite": "Kouagna",
+     "date": "2019-07-18",
+     "heure": "12:31:00",
+     "latitude": -1.30318037,
+     "longitude": 12.24887463,
+     "altitude": 427.0,
+     "biotope": "Trou d'eau formé par un ruisseau en bordure de route",
+     "tEau": 23.5,
+     "conductivite": 70.0,
+     "ph": 5.5,
+     "courant": "Nul",
+     "fond": "Sable grossier",
+     "turbidite": "Forte",
+     "couleurEau": "Verte",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "aureum",
+       "conserve": true
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-52",
+     "localite": "Mouila Pouvi",
+     "date": "2019-07-18",
+     "heure": "12:58:00",
+     "latitude": -1.32882467,
+     "longitude": 12.18960907,
+     "altitude": 476.0,
+     "biotope": "Ruisseau profond pêche trop difficile",
+     "courant": "Moyen",
+     "fond": "Sable",
+     "turbidite": "Très forte",
+     "killies": []
+    },
+    {
+     "numero": "GACOCC 19-53",
+     "date": "2019-07-18",
+     "heure": "16:44:00",
+     "latitude": -1.4700775,
+     "longitude": 11.8361273,
+     "altitude": 598.0,
+     "killies": []
+    },
+    {
+     "numero": "GACOCC 19-54",
+     "localite": "Sika sika",
+     "date": "2019-07-19",
+     "heure": "10:47:00",
+     "latitude": -1.63751147,
+     "longitude": 11.57406203,
+     "altitude": 526.0,
+     "biotope": "Petit ruisseau peu profond sous bambous",
+     "tEau": 22.5,
+     "conductivite": 32.0,
+     "ph": 7.2,
+     "courant": "Faible",
+     "fond": "Cailloux et vase",
+     "turbidite": "Moyenne",
+     "couleurEau": "Verte",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "ocellatum",
+       "relache": true
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-55",
+     "date": "2019-07-19",
+     "heure": "11:17:00",
+     "latitude": -1.63973986,
+     "longitude": 11.53102439,
+     "altitude": 619.0,
+     "biotope": "Petit ruisseau peu profond",
+     "courant": "Faible",
+     "fond": "Cailloux",
+     "turbidite": "Faible",
+     "killies": [],
+     "autresEspeces": "Barbus"
+    },
+    {
+     "numero": "GACOCC 19-56",
+     "localite": "Nord Yeno",
+     "date": "2019-07-19",
+     "heure": "12:03:00",
+     "latitude": -1.66548426,
+     "longitude": 11.49205215,
+     "altitude": 488.0,
+     "biotope": "Ruisseau limpide",
+     "courant": "Moyen",
+     "fond": "Sable grossier",
+     "turbidite": "Très faible",
+     "killies": [],
+     "autresEspeces": "Barbus"
+    },
+    {
+     "numero": "GACOCC 19-57",
+     "localite": "Yeno",
+     "date": "2019-07-19",
+     "heure": "12:27:00",
+     "latitude": -1.68441723,
+     "longitude": 11.49014157,
+     "altitude": 458.0,
+     "biotope": "Ruisseau de 2m de large et 50 cm de profondeur",
+     "courant": "Moyen",
+     "fond": "Sable",
+     "turbidite": "Moyenne",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "ocellatum",
+       "relache": true
+      }
+     ],
+     "autresEspeces": "Barbus"
+    },
+    {
+     "numero": "GACOCC 19-58",
+     "localite": "Egoumbi",
+     "date": "2019-07-19",
+     "heure": "14:15:00",
+     "latitude": -1.84494547,
+     "longitude": 11.43799006,
+     "altitude": 322.0,
+     "biotope": "Ruisseau de 3m de large et 50cm de profondeur",
+     "tEau": 23.5,
+     "conductivite": 26.0,
+     "courant": "Fort",
+     "fond": "Sable",
+     "turbidite": "Nulle",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "joergenscheeli",
+       "conserve": true
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "ocellatum",
+       "conserve": true
+      }
+     ],
+     "autresEspeces": "Barbus"
+    },
+    {
+     "numero": "GACOCC 19-59",
+     "date": "2019-07-19",
+     "latitude": -2.02192279,
+     "longitude": 11.44558469,
+     "altitude": 202.0,
+     "biotope": "Petit ruisseau profondeur 40cm",
+     "courant": "Faible",
+     "fond": "Sable",
+     "turbidite": "Faible",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "primigenium",
+       "relache": true
+      },
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "alcool": true,
+       "note": "Groupe 3"
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-60",
+     "localite": "Iroungou",
+     "date": "2019-07-20",
+     "heure": "10:56:00",
+     "latitude": -2.14569555,
+     "longitude": 11.19464822,
+     "altitude": 111.0,
+     "killies": [
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "alcool": true,
+       "note": "Groupe 3"
+      }
+     ],
+     "autresEspeces": "Cichlides, barbus, nanocharax"
+    },
+    {
+     "numero": "GACOCC 19-61",
+     "localite": "Rembo 1",
+     "date": "2019-07-20",
+     "heure": "12:48:00",
+     "latitude": -1.6808118,
+     "longitude": 10.7474779,
+     "altitude": 94.0,
+     "killies": [
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "alcool": true,
+       "note": "Groupe 3"
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-62",
+     "date": "2019-07-20",
+     "heure": "14:52:00",
+     "latitude": -1.0791352,
+     "longitude": 10.5869773,
+     "altitude": 50.0,
+     "biotope": "Ruisseau large et profond",
+     "courant": "Très faible",
+     "fond": "Sable rocher",
+     "turbidite": "Moyenne",
+     "killies": []
+    },
+    {
+     "numero": "GACOCC 19-63",
+     "localite": "Grand odavo",
+     "date": "2019-07-20",
+     "heure": "15:18:00",
+     "latitude": -1.05103309,
+     "longitude": 10.53436279,
+     "altitude": 55.0,
+     "biotope": "Rivière large et peu profonde",
+     "courant": "Fort",
+     "fond": "Cailloux sable",
+     "turbidite": "Très faible",
+     "killies": []
+    },
+    {
+     "numero": "GACOCC 19-64",
+     "localite": "Mamienge",
+     "date": "2019-07-20",
+     "heure": "15:44:00",
+     "latitude": -1.0010284,
+     "longitude": 10.4970792,
+     "altitude": 63.0,
+     "biotope": "Ruisseau large de 60cm de profondeur",
+     "courant": "Fort",
+     "fond": "Cailloux",
+     "turbidite": "Très faible",
+     "killies": [
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "alcool": true,
+       "note": "Groupe 10"
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-65",
+     "localite": "Petit diala",
+     "date": "2019-07-20",
+     "heure": "16:16:00",
+     "latitude": -0.892085,
+     "longitude": 10.4384673,
+     "altitude": 29.0,
+     "killies": [],
+     "autresEspeces": "Clarias"
+    },
+    {
+     "numero": "GACOCC 19-66",
+     "localite": "Biweni",
+     "date": "2019-07-20",
+     "heure": "16:52:00",
+     "latitude": -0.8358223,
+     "longitude": 10.377134,
+     "altitude": 77.0,
+     "biotope": "Petit ruisseau de 60cm de profondeur",
+     "courant": "Moyen",
+     "fond": "Cailloux",
+     "turbidite": "Faible",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sexfasciatus",
+       "relache": true
+      },
+      {
+       "genre": "Plataplochilus",
+       "espece": "miltotaenia",
+       "relache": true
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-67",
+     "date": "2019-07-20",
+     "heure": "17:10:00",
+     "latitude": -0.782182,
+     "longitude": 10.3674217,
+     "altitude": 69.0,
+     "biotope": "Petit ruisseau de 60cm de profondeur",
+     "courant": "Faible",
+     "fond": "Cailloux vase",
+     "turbidite": "Faible",
+     "killies": [
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "note": "Chalcopyrus"
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-68",
+     "localite": "Mitoné",
+     "date": "2019-07-21",
+     "heure": "11:17:00",
+     "latitude": -0.63992808,
+     "longitude": 10.21799914,
+     "altitude": 30.0,
+     "biotope": "Ruisseau sous végétation legerement pollué",
+     "courant": "Très faible",
+     "fond": "Vase",
+     "turbidite": "Moyenne",
+     "killies": [
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "alcool": true,
+       "note": "Chalcopyrus"
+      }
+     ],
+     "autresEspeces": "Tetras, Cichlides"
+    },
+    {
+     "numero": "GACOCC 19-69",
+     "localite": "Nzogue Bang",
+     "date": "2019-07-21",
+     "heure": "11:37:00",
+     "latitude": -0.60657041,
+     "longitude": 10.2373272,
+     "altitude": 38.0,
+     "biotope": "Ruisseau profond sous couvert vegetal",
+     "courant": "Moyen",
+     "fond": "Cailloux",
+     "turbidite": "Moyenne",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "striatum",
+       "conserve": true
+      },
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "alcool": true,
+       "note": "Chalcopyrus"
+      }
+     ],
+     "autresEspeces": "Tetras"
+    },
+    {
+     "numero": "GACOCC 19-70",
+     "localite": "Bangando",
+     "date": "2019-07-21",
+     "heure": "14:43:00",
+     "latitude": -0.23620314,
+     "longitude": 10.27958941,
+     "altitude": 48.0,
+     "biotope": "Petit ruisseau peu profond sous couvert végétal",
+     "remarques": "Marginatum et plataplocheilus dans le ruisseau. Epiplatys et hera dans une petite source",
+     "tEau": 26.0,
+     "conductivite": 30.0,
+     "ph": 6.4,
+     "courant": "Faible",
+     "fond": "Cailloux",
+     "turbidite": "Faible",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "marginatum",
+       "relache": true
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "hera",
+       "conserve": true
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sexfasciatus",
+       "relache": true
+      },
+      {
+       "genre": "Plataplochilus",
+       "espece": "sp.",
+       "alcool": true,
+       "note": "Cuvervillei"
+      }
+     ],
+     "autresEspeces": "Microctenopoma nanum, phractura, tetras, Cichlides"
+    },
+    {
+     "numero": "GACOCC 19-71",
+     "localite": "Cap esterias",
+     "date": "2019-07-22",
+     "heure": "14:05:00",
+     "latitude": 0.5693266,
+     "longitude": 9.3386231,
+     "altitude": 47.0,
+     "biotope": "Petit ruisseau bien dégagé sous couvert végétal",
+     "tEau": 24.8,
+     "conductivite": 15.0,
+     "ph": 4.5,
+     "courant": "Très faible",
+     "fond": "Pierres",
+     "turbidite": "Très faible",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "australe",
+       "conserve": true
+      },
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "alpha",
+       "conserve": true
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sexfasciatus",
+       "relache": true
+      }
+     ]
+    },
+    {
+     "numero": "GACOCC 19-72",
+     "localite": "Cap esterias 2",
+     "date": "2019-07-22",
+     "heure": "14:42:00",
+     "latitude": 0.5725528,
+     "longitude": 9.3359811,
+     "altitude": 57.0,
+     "killies": []
+    },
+    {
+     "numero": "GACOCC 19-73",
+     "localite": "Cap esterias 3",
+     "date": "2019-07-22",
+     "heure": "14:52:00",
+     "latitude": 0.5754073,
+     "longitude": 9.3358031,
+     "altitude": 78.0,
+     "biotope": "Petit filet d'eau",
+     "courant": "Nul",
+     "fond": "Sable",
+     "turbidite": "Très faible",
+     "couleurEau": "Noir",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "australe",
+       "relache": true
       }
      ]
     }

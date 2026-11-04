@@ -1,5 +1,5 @@
 {
- "version": 4,
+ "version": 5,
  "expeditions": [
   {
    "code": "BCP 2018",
@@ -2716,6 +2716,63 @@
        "genre": "Aphyosemion",
        "espece": "australe",
        "relache": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "Données publiques · Gabon",
+   "type": "donnees_publiques",
+   "annee": 0,
+   "pays": "Gabon",
+   "collecteurs": "",
+   "points": [
+    {
+     "numero": "",
+     "localite": "Iret station gate",
+     "latitude": 0.53417,
+     "longitude": 12.83167,
+     "killies": [
+      {
+       "genre": "Hylopanchax",
+       "espece": "multisquamatus"
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "",
+     "latitude": 0.5063,
+     "longitude": 12.79538,
+     "killies": [
+      {
+       "genre": "Hylopanchax",
+       "espece": "multisquamatus"
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "",
+     "latitude": 0.56667,
+     "longitude": 12.6,
+     "killies": [
+      {
+       "genre": "Hylopanchax",
+       "espece": "multisquamatus"
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "",
+     "latitude": 0.55,
+     "longitude": 12.55,
+     "killies": [
+      {
+       "genre": "Hylopanchax",
+       "espece": "multisquamatus"
       }
      ]
     }

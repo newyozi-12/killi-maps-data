@@ -461,6 +461,12 @@ function champ(libelle, valeur) {
   return `<p>${esc(t("pdf_champ", libelle, valeur))}</p>`;
 }
 
+// Même format que l'application : 2018-01-23 devient 23/01/2018 (autre format : affiché tel quel)
+function dateAffichee(date) {
+  const parties = /^(\d{4})-(\d{2})-(\d{2})$/.exec(date || "");
+  return parties ? `${parties[3]}/${parties[2]}/${parties[1]}` : (date || "");
+}
+
 function traduire(categorie, valeur) {
   const cle = VALEURS[categorie][valeur];
   return cle ? t(cle) : valeur;
@@ -471,7 +477,8 @@ function fiche(x) {
   const publiques = estDonneesPubliques(e);
   // La base écrit l'heure avec les secondes (10:03:00) : on garde les heures et les minutes
   const heure = (p.heure || "").slice(0, 5);
-  const quand = p.date && heure ? t("date_heure", p.date, heure) : (p.date || heure);
+  const jour = dateAffichee(p.date);
+  const quand = jour && heure ? t("date_heure", jour, heure) : (jour || heure);
   const titre = [publiques ? t("donnees_publiques") : p.numero, p.localite].filter(Boolean).join(" · ") || e.code;
   const env = [
     p.tEau !== undefined ? t("env_eau", `${p.tEau} °C`) : "",

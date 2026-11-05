@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Killi Maps</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+  :root {
+    --vert: #86bdbb;
+    --vert-fonce: #3f7f7c;
+    --vert-clair: #e8f3f2;
+    --orange: #ed952b;
+    --texte: #2b3537;
+    --secondaire: #66757a;
+    --bordure: #d9e3e3;
+    --fond: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 15px;
+    color: var(--texte);
+    background: var(--fond);
+  }
+  .appli { display: flex; height: 100%; min-height: 560px; }
+  .panneau {
+    width: 340px;
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid var(--bordure);
+    min-height: 0;
+  }
+  .entete { padding: 14px 16px 10px; }
+  .entete-ligne { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .logo { margin: 0; line-height: 0; }
+  .logo svg { width: 180px; height: auto; }
+  .resume { color: var(--secondaire); font-size: 13px; margin-top: 8px; }
+  select {
+    font: inherit;
+    font-size: 13px;
+    color: var(--texte);
+    background: var(--fond);
+    border: 1px solid var(--bordure);
+    border-radius: 4px;
+    padding: 4px;
+  }
+  .onglets { display: flex; border-bottom: 1px solid var(--bordure); padding: 0 8px; }
+  .onglets button {
+    flex: 1;
+    font: inherit;
+    font-size: 14px;
+    color: var(--secondaire);
+    background: none;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    padding: 10px 4px;
+    cursor: pointer;
+  }
+  .onglets button[aria-selected="true"] {
+    color: var(--texte);
+    font-weight: 500;
+    border-bottom-color: var(--orange);
+  }
+  .outils { padding: 10px 16px 6px; }
+  .outils input[type="search"] {
+    width: 100%;
+    font: inherit;
+    padding: 8px 10px;
+    border: 1px solid var(--bordure);
+    border-radius: 4px;
+  }
+  .outils input[type="search"]:focus { outline: 2px solid var(--vert); outline-offset: -1px; }
+  .fil { display: flex; align-items: center; gap: 6px; font-weight: 500; }
+  .liens { display: flex; gap: 12px; margin-top: 6px; }
+  .lien {
+    font: inherit;
+    font-size: 13px;
+    color: var(--vert-fonce);
+    background: none;
+    border: 0;
+    padding: 2px 0;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .liste { flex: 1; overflow-y: auto; padding: 4px 8px 12px; min-height: 0; }
+  .ligne {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    text-align: left;
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: 0;
+    border-radius: 4px;
+    padding: 7px 8px;
+    cursor: pointer;
+  }
+  .ligne:hover { background: var(--vert-clair); }
+  .ligne input { flex: none; margin: 0; width: 16px; height: 16px; accent-color: var(--vert-fonce); }
+  .ligne .texte { flex: 1; min-width: 0; }
+  .ligne .sous { display: block; color: var(--secondaire); font-size: 13px; }
+  .ligne .nom-espece { font-style: italic; }
+  .ligne .fleche { color: var(--orange); font-weight: 700; }
+  .point-legende { flex: none; width: 12px; height: 12px; border-radius: 50%; border: 1px solid rgba(0, 0, 0, .35); }
+  .vide { color: var(--secondaire); padding: 8px; }
+  .carte-zone { position: relative; flex: 1; min-width: 0; }
+  #carte { position: absolute; inset: 0; background: var(--vert-clair); }
+  .fonds {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 500;
+    display: flex;
+    background: var(--fond);
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+    overflow: hidden;
+  }
+  .fonds button { font: inherit; font-size: 13px; color: var(--texte); background: none; border: 0; padding: 7px 10px; cursor: pointer; }
+  .fonds button[aria-pressed="true"] { background: var(--vert); color: #10302f; font-weight: 500; }
+  .message-carte {
+    position: absolute;
+    bottom: 26px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 500;
+    background: rgba(255, 255, 255, .95);
+    color: var(--texte);
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 13px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+    max-width: 90%;
+  }
+  .pastille {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .7);
+  }
+  .fiche { font-family: 'Roboto', Arial, sans-serif; font-size: 13px; line-height: 1.45; max-height: 280px; overflow-y: auto; }
+  .fiche h2 { font-size: 15px; margin: 0 0 2px; font-weight: 700; }
+  .fiche .exp { color: var(--secondaire); margin-bottom: 6px; }
+  .fiche p { margin: 0 0 3px; }
+  .especes { background: var(--vert-clair); border-radius: 6px; padding: 8px 10px; margin-bottom: 8px; }
+  .especes-titre { color: var(--vert-fonce); font-size: 12px; font-weight: 500; margin-bottom: 3px; }
+  .especes ul { list-style: none; margin: 0; padding: 0; }
+  .especes li { display: flex; align-items: center; gap: 6px; font-size: 15px; font-weight: 500; font-style: italic; line-height: 1.35; }
+  .especes .point-legende { width: 10px; height: 10px; }
+  .especes .autres { font-size: 13px; color: var(--secondaire); margin: 4px 0 0; }
+  .fiche .sans-killi { color: var(--secondaire); font-size: 13px; font-style: normal; font-weight: 400; }
+  .pied { padding: 6px 16px; border-top: 1px solid var(--bordure); color: var(--secondaire); font-size: 12px; }
+  @media (max-width: 760px) {
+    .appli { flex-direction: column-reverse; height: auto; }
+    .panneau { width: 100%; border-right: 0; max-height: none; }
+    .liste { max-height: 46vh; }
+    .carte-zone { flex: none; height: 52vh; min-height: 300px; }
+  }
+</style>
+</head>
+<body>
+<div class="appli">
+  <section class="panneau">
+    <div class="entete">
+      <div class="entete-ligne">
+        <h1 class="logo">
+          <svg viewBox="0 0 1210 226" role="img" aria-label="Killi Maps">
+            <defs>
+              <linearGradient id="degrade-k" gradientUnits="userSpaceOnUse" x1="10.9" y1="26.6" x2="10.9" y2="137.7">
+                <stop offset="0" stop-color="#4A5A60"/><stop offset="1" stop-color="#071A24"/>
+              </linearGradient>
+            </defs>
+            <g transform="translate(-4,-18)">
+              <g fill="#071A24">
+                <path d="M107.2,115.5l99.7,-88.3H141L61.5,97.5c0,0 -50.6,44.9 -50.6,93.5v44.4h46.6v-75.8l16,-14.3l78.2,90.3h59L107.2,115.5z"/>
+                <path d="M232.7,27.2H279.7V235.4H232.7Z"/>
+                <path d="M301.7,27.2H348.7V189H429.7V235.4H301.7Z"/>
+                <path d="M451.7,27.2H498.7V189H579.7V235.4H451.7Z"/>
+                <path d="M601.7,27.2H648.7V235.4H601.7Z"/>
+              </g>
+              <path fill="url(#degrade-k)" d="M57.6,86.6v-60H10.9v111.1C25.2,107.6 57.3,86.6 57.6,86.6z"/>
+              <g transform="translate(675,235.4) scale(0.65) translate(0,-235.4)" fill="#1F7F78">
+                <path d="M0,235.4V27.2H50L103,127.2L156,27.2H206V235.4H159V96.5L103,202.2L47,96.5V235.4Z"/>
+                <path transform="translate(232,0)" fill-rule="evenodd" d="M0,235.4L74,27.2H132L206,235.4H156L142,196H64L50,235.4Z M80.4,150H125.6L103,86.3Z"/>
+                <path transform="translate(464,0)" fill-rule="evenodd" d="M0,235.4V27.2H95C142,27.2 170,52 170,89C170,126 142,150 95,150H47V235.4Z M47,66V111H92C108,111 118,102 118,88.5C118,75 108,66 92,66Z"/>
+                <path fill="none" stroke="#1F7F78" stroke-width="42" d="M797,89.75A58,41.55 0 1 0 739,131.3A58,41.55 0 1 1 681,172.85"/>
+              </g>
+            </g>
+          </svg>
+        </h1>
+        <select id="langue"></select>
+      </div>
+      <div class="resume" id="resume"></div>
+    </div>
+    <div class="onglets" role="tablist" id="onglets"></div>
+    <div class="outils" id="outils"></div>
+    <div class="liste" id="liste"></div>
+    <div class="pied" id="pied"></div>
+  </section>
+  <section class="carte-zone">
+    <div id="carte"></div>
+    <div class="fonds" id="fonds"></div>
+    <div class="message-carte" id="message" hidden></div>
+  </section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+"use strict";
+
+// La page lit la même base que l'application : publier une nouvelle version sur GitHub met le site à jour
+const URL_BASE = "https://raw.githubusercontent.com/newyozi-12/killi-maps-data/refs/heads/main/expeditions_publiees.json";
+
+// Nombre de décimales des coordonnées GPS sur le site (null = coordonnées exactes).
+// 2 décimales ≈ 1 km : utile pour ne pas indiquer précisément les sites fragiles.
+const DECIMALES_GPS = null;
+
+// Textes générés depuis les traductions de l'application (voir construire.py)
+const TEXTES = {"fr":{"accueil_killies":"Les killies","aucun_point_selection":"Aucun point localisé pour cette sélection.","champ_altitude":"Altitude","champ_autres_especes":"Autres espèces","champ_biotope":"Biotope","champ_date":"Date","champ_environnement":"Environnement","champ_gps":"GPS","champ_notes":"Notes","courant_faible":"Faible","courant_fort":"Fort","courant_moyen":"Moyen","courant_nul":"Nul","courant_tres_faible":"Très faible","courant_tres_fort":"Très fort","donnees_publiques":"Données publiques","env_courant":"courant %1$s","env_eau":"eau %1$s","env_fond":"fond %1$s","env_turbidite":"turbidité %1$s","fond_argile":"Argile","fond_cailloux":"Cailloux","fond_feuilles_mortes":"Feuilles mortes","fond_gravier":"Gravier","fond_limon":"Limon","fond_mixte":"Mixte","fond_racines_branches":"Racines et branches","fond_roche":"Roche","fond_sable":"Sable","fond_satellite":"Satellite ArcGIS","fond_vase":"Vase","killies_observes":"Killies observés","nb_points_court":"%1$d point(s)","par_espece":"Par espèce","par_expedition":"Par expédition","par_pays":"Par pays","parametres_langue":"Langue","pas_de_killies":"Pas de killies observés","pdf_champ":"%1$s : %2$s","rechercher_espece":"Rechercher une espèce","resume_expedition_publiee":"%1$s · %2$d point(s) de pêche","resume_expeditions_publiees":"%1$d expédition(s), %2$d point(s)","resume_pays_expeditions":"%1$d expédition(s) · %2$d point(s)","retour":"Retour","tout_deselectionner":"Tout désélectionner","tout_selectionner":"Tout sélectionner","turbidite_faible":"Faible","turbidite_forte":"Forte","turbidite_moyenne":"Moyenne","turbidite_nulle":"Nulle","turbidite_tres_faible":"Très faible","turbidite_tres_forte":"Très forte","web_aucun_resultat":"Aucun résultat.","web_chargement":"Chargement de la base…","web_choisir":"Sélectionne des éléments dans la liste pour les voir sur la carte.","web_erreur_chargement":"Impossible de charger la base. Réessaie plus tard.","web_version_base":"Base Killi Maps · version %1$d"},"en":{"accueil_killies":"Killifish","aucun_point_selection":"No site with coordinates for this selection.","champ_altitude":"Altitude","champ_autres_especes":"Other species","champ_biotope":"Habitat","champ_date":"Date","champ_environnement":"Environment","champ_gps":"GPS","champ_notes":"Notes","courant_faible":"Weak","courant_fort":"Strong","courant_moyen":"Moderate","courant_nul":"None","courant_tres_faible":"Very weak","courant_tres_fort":"Very strong","donnees_publiques":"Public data","env_courant":"current %1$s","env_eau":"water %1$s","env_fond":"bottom %1$s","env_turbidite":"turbidity %1$s","fond_argile":"Clay","fond_cailloux":"Pebbles","fond_feuilles_mortes":"Dead leaves","fond_gravier":"Gravel","fond_limon":"Silt","fond_mixte":"Mixed","fond_racines_branches":"Roots and branches","fond_roche":"Rock","fond_sable":"Sand","fond_satellite":"ArcGIS satellite","fond_vase":"Mud","killies_observes":"Killifish observed","nb_points_court":"%1$d site(s)","par_espece":"By species","par_expedition":"By expedition","par_pays":"By country","parametres_langue":"Language","pas_de_killies":"No killifish observed","pdf_champ":"%1$s: %2$s","rechercher_espece":"Search for a species","resume_expedition_publiee":"%1$s · %2$d collecting site(s)","resume_expeditions_publiees":"%1$d expedition(s), %2$d site(s)","resume_pays_expeditions":"%1$d expedition(s) · %2$d site(s)","retour":"Back","tout_deselectionner":"Deselect all","tout_selectionner":"Select all","turbidite_faible":"Low","turbidite_forte":"High","turbidite_moyenne":"Moderate","turbidite_nulle":"None","turbidite_tres_faible":"Very low","turbidite_tres_forte":"Very high","web_aucun_resultat":"No results.","web_chargement":"Loading the database…","web_choisir":"Select items in the list to see them on the map.","web_erreur_chargement":"Couldn’t load the database. Try again later.","web_version_base":"Killi Maps database · version %1$d"},"es":{"accueil_killies":"Killis","aucun_point_selection":"Ningún punto con coordenadas para esta selección.","champ_altitude":"Altitud","champ_autres_especes":"Otras especies","champ_biotope":"Biotopo","champ_date":"Fecha","champ_environnement":"Entorno","champ_gps":"GPS","champ_notes":"Notas","courant_faible":"Débil","courant_fort":"Fuerte","courant_moyen":"Moderada","courant_nul":"Nula","courant_tres_faible":"Muy débil","courant_tres_fort":"Muy fuerte","donnees_publiques":"Datos públicos","env_courant":"corriente %1$s","env_eau":"agua %1$s","env_fond":"fondo %1$s","env_turbidite":"turbidez %1$s","fond_argile":"Arcilla","fond_cailloux":"Guijarros","fond_feuilles_mortes":"Hojarasca","fond_gravier":"Grava","fond_limon":"Limo","fond_mixte":"Mixto","fond_racines_branches":"Raíces y ramas","fond_roche":"Roca","fond_sable":"Arena","fond_satellite":"Satélite ArcGIS","fond_vase":"Fango","killies_observes":"Killis observados","nb_points_court":"%1$d punto(s)","par_espece":"Por especie","par_expedition":"Por expedición","par_pays":"Por país","parametres_langue":"Idioma","pas_de_killies":"No se observaron killis","pdf_champ":"%1$s: %2$s","rechercher_espece":"Buscar una especie","resume_expedition_publiee":"%1$s · %2$d punto(s) de colecta","resume_expeditions_publiees":"%1$d expedición(es), %2$d punto(s)","resume_pays_expeditions":"%1$d expedición(es) · %2$d punto(s)","retour":"Volver","tout_deselectionner":"Deseleccionar todo","tout_selectionner":"Seleccionar todo","turbidite_faible":"Baja","turbidite_forte":"Alta","turbidite_moyenne":"Moderada","turbidite_nulle":"Nula","turbidite_tres_faible":"Muy baja","turbidite_tres_forte":"Muy alta","web_aucun_resultat":"Sin resultados.","web_chargement":"Cargando la base…","web_choisir":"Selecciona elementos de la lista para verlos en el mapa.","web_erreur_chargement":"No se pudo cargar la base. Vuelve a intentarlo más tarde.","web_version_base":"Base Killi Maps · versión %1$d"},"pt":{"accueil_killies":"Killis","aucun_point_selection":"Nenhum ponto com coordenadas para esta seleção.","champ_altitude":"Altitude","champ_autres_especes":"Outras espécies","champ_biotope":"Biótopo","champ_date":"Data","champ_environnement":"Ambiente","champ_gps":"GPS","champ_notes":"Notas","courant_faible":"Fraca","courant_fort":"Forte","courant_moyen":"Moderada","courant_nul":"Nula","courant_tres_faible":"Muito fraca","courant_tres_fort":"Muito forte","donnees_publiques":"Dados públicos","env_courant":"correnteza %1$s","env_eau":"água %1$s","env_fond":"fundo %1$s","env_turbidite":"turbidez %1$s","fond_argile":"Argila","fond_cailloux":"Seixos","fond_feuilles_mortes":"Folhas mortas","fond_gravier":"Cascalho","fond_limon":"Silte","fond_mixte":"Misto","fond_racines_branches":"Raízes e galhos","fond_roche":"Rocha","fond_sable":"Areia","fond_satellite":"Satélite ArcGIS","fond_vase":"Lodo","killies_observes":"Killis observados","nb_points_court":"%1$d ponto(s)","par_espece":"Por espécie","par_expedition":"Por expedição","par_pays":"Por país","parametres_langue":"Idioma","pas_de_killies":"Nenhum killi observado","pdf_champ":"%1$s: %2$s","rechercher_espece":"Pesquisar uma espécie","resume_expedition_publiee":"%1$s · %2$d ponto(s) de coleta","resume_expeditions_publiees":"%1$d expedição(ões), %2$d ponto(s)","resume_pays_expeditions":"%1$d expedição(ões) · %2$d ponto(s)","retour":"Voltar","tout_deselectionner":"Desmarcar tudo","tout_selectionner":"Selecionar tudo","turbidite_faible":"Baixa","turbidite_forte":"Alta","turbidite_moyenne":"Moderada","turbidite_nulle":"Nula","turbidite_tres_faible":"Muito baixa","turbidite_tres_forte":"Muito alta","web_aucun_resultat":"Nenhum resultado.","web_chargement":"Carregando a base…","web_choisir":"Selecione itens da lista para vê-los no mapa.","web_erreur_chargement":"Não foi possível carregar a base. Tente novamente mais tarde.","web_version_base":"Base Killi Maps · versão %1$d"},"de":{"accueil_killies":"Killifische","aucun_point_selection":"Keine Fangstelle mit Koordinaten für diese Auswahl.","champ_altitude":"Höhe","champ_autres_especes":"Andere Arten","champ_biotope":"Biotop","champ_date":"Datum","champ_environnement":"Umgebung","champ_gps":"GPS","champ_notes":"Notizen","courant_faible":"Schwach","courant_fort":"Stark","courant_moyen":"Mittel","courant_nul":"Keine","courant_tres_faible":"Sehr schwach","courant_tres_fort":"Sehr stark","donnees_publiques":"Öffentliche Daten","env_courant":"Strömung %1$s","env_eau":"Wasser %1$s","env_fond":"Grund %1$s","env_turbidite":"Trübung %1$s","fond_argile":"Ton","fond_cailloux":"Steine","fond_feuilles_mortes":"Falllaub","fond_gravier":"Kies","fond_limon":"Schluff","fond_mixte":"Gemischt","fond_racines_branches":"Wurzeln und Äste","fond_roche":"Fels","fond_sable":"Sand","fond_satellite":"ArcGIS-Satellit","fond_vase":"Schlamm","killies_observes":"Beobachtete Killifische","nb_points_court":"%1$d Fangstelle(n)","par_espece":"Nach Art","par_expedition":"Nach Expedition","par_pays":"Nach Land","parametres_langue":"Sprache","pas_de_killies":"Keine Killifische beobachtet","pdf_champ":"%1$s: %2$s","rechercher_espece":"Art suchen","resume_expedition_publiee":"%1$s · %2$d Fangstelle(n)","resume_expeditions_publiees":"%1$d Expedition(en), %2$d Fangstelle(n)","resume_pays_expeditions":"%1$d Expedition(en) · %2$d Fangstelle(n)","retour":"Zurück","tout_deselectionner":"Auswahl aufheben","tout_selectionner":"Alle auswählen","turbidite_faible":"Gering","turbidite_forte":"Hoch","turbidite_moyenne":"Mittel","turbidite_nulle":"Keine","turbidite_tres_faible":"Sehr gering","turbidite_tres_forte":"Sehr hoch","web_aucun_resultat":"Keine Ergebnisse.","web_chargement":"Datenbank wird geladen…","web_choisir":"Wähle Einträge in der Liste aus, um sie auf der Karte zu sehen.","web_erreur_chargement":"Die Datenbank konnte nicht geladen werden. Versuche es später erneut.","web_version_base":"Killi-Maps-Datenbank · Version %1$d"},"nl":{"accueil_killies":"Killivissen","aucun_point_selection":"Geen vangplaats met coördinaten voor deze selectie.","champ_altitude":"Hoogte","champ_autres_especes":"Andere soorten","champ_biotope":"Biotoop","champ_date":"Datum","champ_environnement":"Omgeving","champ_gps":"GPS","champ_notes":"Notities","courant_faible":"Zwak","courant_fort":"Sterk","courant_moyen":"Matig","courant_nul":"Geen","courant_tres_faible":"Zeer zwak","courant_tres_fort":"Zeer sterk","donnees_publiques":"Openbare gegevens","env_courant":"stroming %1$s","env_eau":"water %1$s","env_fond":"bodem %1$s","env_turbidite":"troebelheid %1$s","fond_argile":"Klei","fond_cailloux":"Kiezels","fond_feuilles_mortes":"Dode bladeren","fond_gravier":"Grind","fond_limon":"Silt","fond_mixte":"Gemengd","fond_racines_branches":"Wortels en takken","fond_roche":"Rots","fond_sable":"Zand","fond_satellite":"ArcGIS-satelliet","fond_vase":"Slib","killies_observes":"Waargenomen killivissen","nb_points_court":"%1$d vangplaats(en)","par_espece":"Per soort","par_expedition":"Per expeditie","par_pays":"Per land","parametres_langue":"Taal","pas_de_killies":"Geen killivissen waargenomen","pdf_champ":"%1$s: %2$s","rechercher_espece":"Soort zoeken","resume_expedition_publiee":"%1$s · %2$d vangplaats(en)","resume_expeditions_publiees":"%1$d expeditie(s), %2$d vangplaats(en)","resume_pays_expeditions":"%1$d expeditie(s) · %2$d vangplaats(en)","retour":"Terug","tout_deselectionner":"Alles deselecteren","tout_selectionner":"Alles selecteren","turbidite_faible":"Laag","turbidite_forte":"Hoog","turbidite_moyenne":"Matig","turbidite_nulle":"Geen","turbidite_tres_faible":"Zeer laag","turbidite_tres_forte":"Zeer hoog","web_aucun_resultat":"Geen resultaten.","web_chargement":"Database wordt geladen…","web_choisir":"Selecteer items in de lijst om ze op de kaart te zien.","web_erreur_chargement":"De database kon niet worden geladen. Probeer het later opnieuw.","web_version_base":"Killi Maps-database · versie %1$d"},"cs":{"accueil_killies":"Halančíci","aucun_point_selection":"Pro tento výběr není žádná lokalita se souřadnicemi.","champ_altitude":"Nadmořská výška","champ_autres_especes":"Další druhy","champ_biotope":"Biotop","champ_date":"Datum","champ_environnement":"Prostředí","champ_gps":"GPS","champ_notes":"Poznámky","courant_faible":"Slabý","courant_fort":"Silný","courant_moyen":"Střední","courant_nul":"Žádný","courant_tres_faible":"Velmi slabý","courant_tres_fort":"Velmi silný","donnees_publiques":"Veřejná data","env_courant":"proud %1$s","env_eau":"voda %1$s","env_fond":"dno %1$s","env_turbidite":"zákal %1$s","fond_argile":"Jíl","fond_cailloux":"Oblázky","fond_feuilles_mortes":"Spadané listí","fond_gravier":"Štěrk","fond_limon":"Jemný kal","fond_mixte":"Smíšené","fond_racines_branches":"Kořeny a větve","fond_roche":"Skála","fond_sable":"Písek","fond_satellite":"Satelit ArcGIS","fond_vase":"Bahno","killies_observes":"Pozorovaní halančíci","nb_points_court":"Lokality: %1$d","par_espece":"Podle druhu","par_expedition":"Podle expedice","par_pays":"Podle země","parametres_langue":"Jazyk","pas_de_killies":"Žádní halančíci nepozorováni","pdf_champ":"%1$s: %2$s","rechercher_espece":"Hledat druh","resume_expedition_publiee":"%1$s · lokality: %2$d","resume_expeditions_publiees":"Expedice: %1$d · lokality: %2$d","resume_pays_expeditions":"Expedice: %1$d · lokality: %2$d","retour":"Zpět","tout_deselectionner":"Zrušit výběr","tout_selectionner":"Vybrat vše","turbidite_faible":"Nízký","turbidite_forte":"Vysoký","turbidite_moyenne":"Střední","turbidite_nulle":"Žádný","turbidite_tres_faible":"Velmi nízký","turbidite_tres_forte":"Velmi vysoký","web_aucun_resultat":"Žádné výsledky.","web_chargement":"Načítám databázi…","web_choisir":"Vyber položky v seznamu a zobrazí se na mapě.","web_erreur_chargement":"Databázi se nepodařilo načíst. Zkus to později.","web_version_base":"Databáze Killi Maps · verze %1$d"}};
+const CODES_PAYS = {"Afghanistan":"AF","Afrique du Sud":"ZA","Albanie":"AL","Algérie":"DZ","Allemagne":"DE","Andorre":"AD","Angola":"AO","Antigua-et-Barbuda":"AG","Arabie saoudite":"SA","Argentine":"AR","Arménie":"AM","Australie":"AU","Autriche":"AT","Azerbaïdjan":"AZ","Bahamas":"BS","Bahreïn":"BH","Bangladesh":"BD","Barbade":"BB","Belgique":"BE","Belize":"BZ","Bénin":"BJ","Bhoutan":"BT","Biélorussie":"BY","Birmanie":"MM","Bolivie":"BO","Bosnie-Herzégovine":"BA","Botswana":"BW","Brésil":"BR","Brunei":"BN","Bulgarie":"BG","Burkina Faso":"BF","Burundi":"BI","Cambodge":"KH","Cameroun":"CM","Canada":"CA","Cap-Vert":"CV","Centrafrique":"CF","Chili":"CL","Chine":"CN","Chypre":"CY","Colombie":"CO","Comores":"KM","Corée du Nord":"KP","Corée du Sud":"KR","Costa Rica":"CR","Côte d'Ivoire":"CI","Croatie":"HR","Cuba":"CU","Danemark":"DK","Djibouti":"DJ","Dominique":"DM","Égypte":"EG","Émirats arabes unis":"AE","Équateur":"EC","Érythrée":"ER","Espagne":"ES","Estonie":"EE","Eswatini":"SZ","États-Unis":"US","Éthiopie":"ET","Fidji":"FJ","Finlande":"FI","France":"FR","Gabon":"GA","Gambie":"GM","Géorgie":"GE","Ghana":"GH","Grèce":"GR","Grenade":"GD","Guadeloupe":"GP","Guatemala":"GT","Guinée":"GN","Guinée équatoriale":"GQ","Guinée-Bissau":"GW","Guyana":"GY","Guyane française":"GF","Haïti":"HT","Honduras":"HN","Hongrie":"HU","Îles Marshall":"MH","Îles Salomon":"SB","Inde":"IN","Indonésie":"ID","Irak":"IQ","Iran":"IR","Irlande":"IE","Islande":"IS","Israël":"IL","Italie":"IT","Jamaïque":"JM","Japon":"JP","Jordanie":"JO","Kazakhstan":"KZ","Kenya":"KE","Kirghizistan":"KG","Kiribati":"KI","Kosovo":"XK","Koweït":"KW","La Réunion":"RE","Laos":"LA","Lesotho":"LS","Lettonie":"LV","Liban":"LB","Liberia":"LR","Libye":"LY","Liechtenstein":"LI","Lituanie":"LT","Luxembourg":"LU","Macédoine du Nord":"MK","Madagascar":"MG","Malaisie":"MY","Malawi":"MW","Maldives":"MV","Mali":"ML","Malte":"MT","Maroc":"MA","Martinique":"MQ","Maurice":"MU","Mauritanie":"MR","Mayotte":"YT","Mexique":"MX","Micronésie":"FM","Moldavie":"MD","Monaco":"MC","Mongolie":"MN","Monténégro":"ME","Mozambique":"MZ","Namibie":"NA","Nauru":"NR","Népal":"NP","Nicaragua":"NI","Niger":"NE","Nigeria":"NG","Norvège":"NO","Nouvelle-Calédonie":"NC","Nouvelle-Zélande":"NZ","Oman":"OM","Ouganda":"UG","Ouzbékistan":"UZ","Pakistan":"PK","Palaos":"PW","Palestine":"PS","Panama":"PA","Papouasie-Nouvelle-Guinée":"PG","Paraguay":"PY","Pays-Bas":"NL","Pérou":"PE","Philippines":"PH","Pologne":"PL","Polynésie française":"PF","Porto Rico":"PR","Portugal":"PT","Qatar":"QA","République démocratique du Congo":"CD","République dominicaine":"DO","République du Congo":"CG","République tchèque":"CZ","Roumanie":"RO","Royaume-Uni":"GB","Russie":"RU","Rwanda":"RW","Saint-Christophe-et-Niévès":"KN","Saint-Marin":"SM","Saint-Vincent-et-les-Grenadines":"VC","Sainte-Lucie":"LC","Salvador":"SV","Samoa":"WS","Sao Tomé-et-Principe":"ST","Sénégal":"SN","Serbie":"RS","Seychelles":"SC","Sierra Leone":"SL","Singapour":"SG","Slovaquie":"SK","Slovénie":"SI","Somalie":"SO","Soudan":"SD","Soudan du Sud":"SS","Sri Lanka":"LK","Suède":"SE","Suisse":"CH","Suriname":"SR","Syrie":"SY","Tadjikistan":"TJ","Taïwan":"TW","Tanzanie":"TZ","Tchad":"TD","Thaïlande":"TH","Timor oriental":"TL","Togo":"TG","Tonga":"TO","Trinité-et-Tobago":"TT","Tunisie":"TN","Turkménistan":"TM","Turquie":"TR","Tuvalu":"TV","Ukraine":"UA","Uruguay":"UY","Vanuatu":"VU","Vatican":"VA","Venezuela":"VE","Viêt Nam":"VN","Yémen":"YE","Zambie":"ZM","Zimbabwe":"ZW","Congo (RDC)":"CD","Congo (Brazzaville)":"CG","Vietnam":"VN"};
+const LANGUES = {fr: "Français", en: "English", es: "Español", pt: "Português", de: "Deutsch", nl: "Nederlands", cs: "Čeština"};
+
+const COULEURS = ["#E53935", "#1E88E5", "#FDD835", "#43A047", "#8E24AA", "#FB8C00", "#00ACC1", "#D81B60", "#6D4C41", "#7CB342", "#3949AB", "#00897B"];
+
+const VALEURS = {
+  courant: {"Nul": "courant_nul", "Très faible": "courant_tres_faible", "Faible": "courant_faible", "Moyen": "courant_moyen", "Fort": "courant_fort", "Très fort": "courant_tres_fort"},
+  turbidite: {"Nulle": "turbidite_nulle", "Très faible": "turbidite_tres_faible", "Faible": "turbidite_faible", "Moyenne": "turbidite_moyenne", "Forte": "turbidite_forte", "Très forte": "turbidite_tres_forte"},
+  fond: {"Sable": "fond_sable", "Vase": "fond_vase", "Limon": "fond_limon", "Argile": "fond_argile", "Gravier": "fond_gravier", "Cailloux": "fond_cailloux", "Roche": "fond_roche", "Feuilles mortes": "fond_feuilles_mortes", "Racines et branches": "fond_racines_branches", "Mixte": "fond_mixte"}
+};
+
+function lireLangue() {
+  const demandee = new URLSearchParams(location.search).get("lang");
+  if (demandee in LANGUES) return demandee;
+  try {
+    const gardee = localStorage.getItem("killi_langue");
+    if (gardee in LANGUES) return gardee;
+  } catch (e) { /* stockage indisponible, par exemple dans une iframe */ }
+  const navigateur = (navigator.language || "en").slice(0, 2);
+  return navigateur in LANGUES ? navigateur : "en";
+}
+
+const etat = {
+  langue: lireLangue(),
+  vue: "especes",        // especes | pays | expeditions
+  pays: null,            // pays choisi (nom français de la base)
+  selection: [],         // espèces ou codes d'expédition cochés, dans l'ordre (l'ordre donne la couleur)
+  recherche: "",
+  fond: "osm"
+};
+
+let base = {version: 0, expeditions: []};
+let points = [];
+let carte, calquePoints, fondPlan, fondSatellite;
+let dernierCadrage = "";
+
+function t(cle, ...valeurs) {
+  const modele = (TEXTES[etat.langue] || TEXTES.en)[cle] ?? cle;
+  return modele.replace(/%(\d)\$[sd]/g, (_, n) => valeurs[n - 1]);
+}
+
+// Les données viennent de saisies d'utilisateurs : tout est échappé avant d'entrer dans le HTML
+function esc(texte) {
+  return String(texte ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
+}
+
+function nomPays(francais) {
+  const code = CODES_PAYS[francais.trim()];
+  if (!code) return francais;
+  try {
+    return new Intl.DisplayNames([etat.langue], {type: "region"}).of(code) || francais;
+  } catch (e) {
+    return francais;
+  }
+}
+
+const trier = (a, b) => a.localeCompare(b, etat.langue);
+const paysDe = e => String(e.pays || "").split(",").map(s => s.trim()).filter(Boolean);
+const nomKilli = k => `${k.genre} ${k.espece}`;
+// Les données publiques ne sont pas une expédition : elles restent sur la carte par espèce et par pays,
+// mais n'apparaissent ni dans « Par expédition » ni dans le nombre d'expéditions
+const estDonneesPubliques = e => e.type === "donnees_publiques";
+const vraiesExpeditions = () => base.expeditions.filter(e => !estDonneesPubliques(e));
+
+function preparer() {
+  points = [];
+  base.expeditions.forEach(e => {
+    (e.points || []).forEach(p => {
+      if (typeof p.latitude === "number" && typeof p.longitude === "number") {
+        points.push({e, p, noms: (p.killies || []).map(nomKilli)});
+      }
+    });
+  });
+}
+
+function pointsDuPays(pays) {
+  return pays ? points.filter(x => paysDe(x.e).includes(pays)) : points;
+}
+
+function especesDe(pays) {
+  const compte = new Map();
+  pointsDuPays(pays).forEach(x => new Set(x.noms).forEach(n => compte.set(n, (compte.get(n) || 0) + 1)));
+  return [...compte.entries()].sort((a, b) => trier(a[0], b[0]));
+}
+
+function listePays(sources) {
+  const tous = new Map();
+  sources.forEach(e => paysDe(e).forEach(p => {
+    if (!tous.has(p)) tous.set(p, []);
+    tous.get(p).push(e);
+  }));
+  return [...tous.entries()].sort((a, b) => trier(nomPays(a[0]), nomPays(b[0])));
+}
+
+function couleurDe(cle) {
+  const i = etat.selection.indexOf(cle);
+  return i < 0 ? null : COULEURS[i % COULEURS.length];
+}
+
+function changerVue(vue) {
+  Object.assign(etat, {vue, pays: null, selection: [], recherche: ""});
+  afficher();
+}
+
+function choisirPays(pays) {
+  Object.assign(etat, {pays, selection: [], recherche: ""});
+  afficher();
+}
+
+function basculer(cle) {
+  const i = etat.selection.indexOf(cle);
+  if (i < 0) etat.selection.push(cle); else etat.selection.splice(i, 1);
+  // La liste est redessinée : on reste au même endroit
+  const liste = document.getElementById("liste");
+  const position = liste.scrollTop;
+  afficher();
+  liste.scrollTop = position;
+}
+
+function ligneCoche(cle, titre, sous, italique) {
+  const couleur = couleurDe(cle);
+  const label = document.createElement("label");
+  label.className = "ligne";
+  const coche = document.createElement("input");
+  coche.type = "checkbox";
+  coche.checked = couleur !== null;
+  coche.addEventListener("change", () => basculer(cle));
+  label.append(coche);
+  const texte = document.createElement("span");
+  texte.className = "texte";
+  texte.innerHTML = `<span class="${italique ? "nom-espece" : ""}">${esc(titre)}</span><span class="sous">${esc(sous).replace(/\n/g, "<br>")}</span>`;
+  label.append(texte);
+  if (couleur) {
+    const pastille = document.createElement("span");
+    pastille.className = "point-legende";
+    pastille.style.background = couleur;
+    label.append(pastille);
+  }
+  return label;
+}
+
+function ligneChoix(titre, sous, action) {
+  const bouton = document.createElement("button");
+  bouton.type = "button";
+  bouton.className = "ligne";
+  bouton.innerHTML = `<span class="texte">${esc(titre)}<span class="sous">${esc(sous)}</span></span><span class="fleche" aria-hidden="true">›</span>`;
+  bouton.addEventListener("click", action);
+  return bouton;
+}
+
+function lienOutil(texte, action) {
+  const bouton = document.createElement("button");
+  bouton.type = "button";
+  bouton.className = "lien";
+  bouton.textContent = texte;
+  bouton.addEventListener("click", action);
+  return bouton;
+}
+
+// Barre au-dessus de la liste : pays choisi, recherche, tout cocher / décocher
+function afficherOutils(cles, recherchable) {
+  const outils = document.getElementById("outils");
+  const champActif = document.activeElement && document.activeElement.id === "recherche";
+  outils.replaceChildren();
+  if (etat.pays) {
+    const fil = document.createElement("div");
+    fil.className = "fil";
+    fil.textContent = nomPays(etat.pays);
+    outils.append(fil, lienOutil(t("retour"), () => choisirPays(null)));
+  }
+  if (recherchable) {
+    const champ = document.createElement("input");
+    champ.type = "search";
+    champ.id = "recherche";
+    champ.placeholder = t("rechercher_espece");
+    champ.setAttribute("aria-label", t("rechercher_espece"));
+    champ.value = etat.recherche;
+    champ.addEventListener("input", () => {
+      etat.recherche = champ.value;
+      afficherListe();
+      document.getElementById("recherche").focus();
+    });
+    outils.append(champ);
+    if (champActif) requestAnimationFrame(() => champ.focus());
+  }
+  if (cles) {
+    const liens = document.createElement("div");
+    liens.className = "liens";
+    liens.append(
+      lienOutil(t("tout_selectionner"), () => { etat.selection = cles.slice(); afficher(); }),
+      lienOutil(t("tout_deselectionner"), () => { etat.selection = []; afficher(); })
+    );
+    outils.append(liens);
+  }
+}
+
+function afficherListe() {
+  const liste = document.getElementById("liste");
+  liste.replaceChildren();
+  const especesVisibles = etat.vue === "especes" || (etat.vue === "pays" && etat.pays);
+
+  if (especesVisibles) {
+    const especes = especesDe(etat.pays);
+    const recherche = etat.recherche.trim().toLowerCase();
+    const filtrees = especes.filter(([n]) => n.toLowerCase().includes(recherche));
+    afficherOutils(filtrees.map(([n]) => n), true);
+    filtrees.forEach(([nom, nb]) => liste.append(ligneCoche(nom, nom, t("nb_points_court", nb), true)));
+    if (!filtrees.length) liste.innerHTML = `<div class="vide">${esc(t("web_aucun_resultat"))}</div>`;
+  } else if (!etat.pays) {
+    afficherOutils(null, false);
+    listePays(etat.vue === "expeditions" ? vraiesExpeditions() : base.expeditions).forEach(([pays, exps]) => {
+      const nb = exps.reduce((s, e) => s + (e.points || []).length, 0);
+      const sous = etat.vue === "expeditions" ? t("resume_pays_expeditions", exps.length, nb) : t("nb_points_court", nb);
+      liste.append(ligneChoix(nomPays(pays), sous, () => choisirPays(pays)));
+    });
+  } else {
+    const exps = vraiesExpeditions().filter(e => paysDe(e).includes(etat.pays));
+    afficherOutils(exps.map(e => e.code), false);
+    exps.forEach(e => {
+      const resume = t("resume_expedition_publiee", e.annee || "", (e.points || []).length).replace(/^\s*·\s*/, "");
+      const sous = resume + (e.collecteurs ? `\n${e.collecteurs}` : "");
+      liste.append(ligneCoche(e.code, e.code, sous, false));
+    });
+  }
+}
+
+function coordonnee(valeur) {
+  return DECIMALES_GPS === null ? valeur : Number(valeur.toFixed(DECIMALES_GPS));
+}
+
+function champ(libelle, valeur) {
+  if (valeur === undefined || valeur === null || valeur === "") return "";
+  return `<p>${esc(t("pdf_champ", libelle, valeur))}</p>`;
+}
+
+function traduire(categorie, valeur) {
+  const cle = VALEURS[categorie][valeur];
+  return cle ? t(cle) : valeur;
+}
+
+function fiche(x) {
+  const {e, p} = x;
+  const publiques = estDonneesPubliques(e);
+  const titre = [publiques ? t("donnees_publiques") : p.numero, p.localite].filter(Boolean).join(" · ") || e.code;
+  const env = [
+    p.tEau !== undefined ? t("env_eau", `${p.tEau} °C`) : "",
+    p.conductivite !== undefined ? `${p.conductivite} µS/cm` : "",
+    p.ph !== undefined ? `pH ${p.ph}` : "",
+    p.courant ? t("env_courant", traduire("courant", p.courant)) : "",
+    p.fond ? t("env_fond", traduire("fond", p.fond)) : "",
+    p.turbidite ? t("env_turbidite", traduire("turbidite", p.turbidite)) : ""
+  ].filter(Boolean).join(" · ");
+  // Les espèces passent en premier ; celles cochées dans la liste gardent leur couleur
+  const noms = [...new Set(x.noms)];
+  const ligneKilli = n => {
+    const couleur = couleurDe(n);
+    const point = couleur ? `<span class="point-legende" style="background:${couleur}"></span>` : "";
+    return `<li>${point}${esc(n)}</li>`;
+  };
+  const autres = p.autresEspeces
+    ? `<p class="autres">${esc(t("pdf_champ", t("champ_autres_especes"), p.autresEspeces))}</p>`
+    : "";
+  const especes = `<div class="especes"><div class="especes-titre">${esc(t("killies_observes"))}</div>` +
+    (noms.length ? `<ul>${noms.map(ligneKilli).join("")}</ul>` : `<div class="sans-killi">${esc(t("pas_de_killies"))}</div>`) +
+    autres + `</div>`;
+  return `<div class="fiche"><h2>${esc(titre)}</h2>` +
+    `<div class="exp">${publiques ? "" : `${esc(e.code)}${e.annee ? ` · ${esc(e.annee)}` : ""} · `}${esc(paysDe(e).map(nomPays).join(", "))}</div>` +
+    especes +
+    champ(t("champ_date"), p.date) +
+    champ(t("champ_gps"), `${coordonnee(p.latitude)}, ${coordonnee(p.longitude)}`) +
+    champ(t("champ_altitude"), p.altitude !== undefined ? `${p.altitude} m` : "") +
+    champ(t("champ_biotope"), p.biotope) +
+    champ(t("champ_notes"), p.remarques) +
+    champ(t("champ_environnement"), env) +
+    `</div>`;
+}
+
+function pastille(couleurs) {
+  const part = 100 / couleurs.length;
+  const fond = couleurs.length === 1
+    ? couleurs[0]
+    : `conic-gradient(${couleurs.map((c, i) => `${c} ${i * part}% ${(i + 1) * part}%`).join(",")})`;
+  return L.divIcon({
+    className: "",
+    html: `<span class="pastille" style="background:${fond}"></span>`,
+    iconSize: [16, 16],
+    iconAnchor: [8, 8],
+    popupAnchor: [0, -8]
+  });
+}
+
+function pointsAffiches() {
+  const parExpedition = etat.vue === "expeditions";
+  // Rien de coché : la carte reste vide
+  if (!etat.selection.length) return [];
+  return pointsDuPays(etat.pays).map(x => {
+    const cles = parExpedition ? [x.e.code] : [...new Set(x.noms)];
+    const couleurs = cles.map(couleurDe).filter(Boolean);
+    return {x, couleurs};
+  }).filter(a => a.couleurs.length);
+}
+
+function afficherCarte() {
+  const affiches = pointsAffiches();
+  calquePoints.clearLayers();
+  const coords = [];
+  affiches.forEach(({x, couleurs}) => {
+    const position = [x.p.latitude, x.p.longitude];
+    coords.push(position);
+    L.marker(position, {icon: pastille(couleurs)}).bindPopup(() => fiche(x), {maxWidth: 300}).addTo(calquePoints);
+  });
+
+  const message = document.getElementById("message");
+  message.hidden = coords.length > 0;
+  message.textContent = etat.selection.length ? t("aucun_point_selection") : t("web_choisir");
+
+  // Recadre seulement quand l'ensemble des points affichés change
+  const empreinte = coords.map(c => c.join(",")).join(";");
+  if (empreinte !== dernierCadrage) {
+    dernierCadrage = empreinte;
+    if (coords.length) carte.fitBounds(coords, {padding: [40, 40], maxZoom: 12});
+  }
+}
+
+function afficherFonds() {
+  const zone = document.getElementById("fonds");
+  zone.replaceChildren();
+  [["osm", "OpenStreetMap"], ["satellite", t("fond_satellite")]].forEach(([cle, texte]) => {
+    const bouton = document.createElement("button");
+    bouton.type = "button";
+    bouton.textContent = texte;
+    bouton.setAttribute("aria-pressed", String(etat.fond === cle));
+    bouton.addEventListener("click", () => {
+      etat.fond = cle;
+      carte.removeLayer(cle === "osm" ? fondSatellite : fondPlan);
+      carte.addLayer(cle === "osm" ? fondPlan : fondSatellite);
+      afficherFonds();
+    });
+    zone.append(bouton);
+  });
+}
+
+function afficher() {
+  document.documentElement.lang = etat.langue;
+  document.title = `Killi Maps · ${t("accueil_killies")}`;
+  document.getElementById("resume").textContent =
+    t("resume_expeditions_publiees", vraiesExpeditions().length, base.expeditions.reduce((s, e) => s + (e.points || []).length, 0));
+  document.getElementById("pied").textContent = base.version ? t("web_version_base", base.version) : "";
+
+  const onglets = document.getElementById("onglets");
+  onglets.replaceChildren();
+  [["especes", "par_espece"], ["pays", "par_pays"], ["expeditions", "par_expedition"]].forEach(([vue, cle]) => {
+    const bouton = document.createElement("button");
+    bouton.type = "button";
+    bouton.role = "tab";
+    bouton.textContent = t(cle);
+    bouton.setAttribute("aria-selected", String(etat.vue === vue));
+    bouton.addEventListener("click", () => changerVue(vue));
+    onglets.append(bouton);
+  });
+
+  afficherListe();
+  afficherFonds();
+  afficherCarte();
+}
+
+function preparerLangues() {
+  const choix = document.getElementById("langue");
+  choix.setAttribute("aria-label", t("parametres_langue"));
+  Object.entries(LANGUES).forEach(([code, nom]) => choix.add(new Option(nom, code, false, code === etat.langue)));
+  choix.addEventListener("change", () => {
+    etat.langue = choix.value;
+    try { localStorage.setItem("killi_langue", etat.langue); } catch (e) { /* stockage indisponible */ }
+    afficher();
+  });
+}
+
+function preparerCarte() {
+  carte = L.map("carte", {worldCopyJump: true}).setView([5, 12], 4);
+  fondPlan = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: "&copy; OpenStreetMap"
+  }).addTo(carte);
+  fondSatellite = L.tileLayer("https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
+    maxZoom: 18,
+    attribution: "Powered by Esri · Source : Esri, Maxar, Earthstar Geographics"
+  });
+  calquePoints = L.layerGroup().addTo(carte);
+}
+
+async function demarrer() {
+  preparerLangues();
+  preparerCarte();
+  const message = document.getElementById("message");
+  try {
+    message.hidden = false;
+    message.textContent = t("web_chargement");
+    const reponse = await fetch(URL_BASE, {cache: "no-cache"});
+    if (!reponse.ok) throw new Error(reponse.status);
+    base = await reponse.json();
+    preparer();
+    afficher();
+  } catch (e) {
+    afficher();
+    message.hidden = false;
+    message.textContent = t("web_erreur_chargement");
+  }
+}
+
+demarrer();
+</script>
+</body>
+</html>

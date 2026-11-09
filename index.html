@@ -301,6 +301,14 @@ function preparer() {
   });
 }
 
+// Nom affiché d'une expédition : le code seul, ou « code année » quand plusieurs expéditions
+// portent le même code (PEG 1994 et PEG 1996)
+function libelleExpedition(e) {
+  const code = String(e.code || "").trim();
+  const partage = base.expeditions.filter(x => String(x.code || "").trim().toUpperCase() === code.toUpperCase()).length > 1;
+  return partage && e.annee ? `${code} ${e.annee}` : code;
+}
+
 function pointsDuPays(pays) {
   return pays ? points.filter(x => paysDe(x.e).includes(pays)) : points;
 }
@@ -443,11 +451,11 @@ function afficherListe() {
     });
   } else {
     const exps = vraiesExpeditions().filter(e => paysDe(e).includes(etat.pays));
-    afficherOutils(exps.map(e => e.code), false);
+    afficherOutils(exps.map(libelleExpedition), false);
     exps.forEach(e => {
       const resume = t("resume_expedition_publiee", e.annee || "", (e.points || []).length).replace(/^\s*·\s*/, "");
       const sous = resume + (e.collecteurs ? `\n${e.collecteurs}` : "");
-      liste.append(ligneCoche(e.code, e.code, sous, false));
+      liste.append(ligneCoche(libelleExpedition(e), libelleExpedition(e), sous, false));
     });
   }
 }
@@ -532,7 +540,7 @@ function pointsAffiches() {
   // Rien de coché : la carte reste vide
   if (!etat.selection.length) return [];
   return pointsDuPays(etat.pays).map(x => {
-    const cles = parExpedition ? [x.e.code] : [...new Set(x.noms)];
+    const cles = parExpedition ? [libelleExpedition(x.e)] : [...new Set(x.noms)];
     const couleurs = cles.map(couleurDe).filter(Boolean);
     return {x, couleurs};
   }).filter(a => a.couleurs.length);

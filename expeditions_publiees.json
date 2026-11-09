@@ -1,5 +1,5 @@
 {
- "version": 9,
+ "version": 10,
  "expeditions": [
   {
    "code": "BCP",
@@ -32720,6 +32720,978 @@
       {
        "genre": "Aphyosemion",
        "espece": "lefiniense",
+       "conserve": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "ACCC",
+   "annee": 2023,
+   "pays": "République du Congo",
+   "collecteurs": "Agnese, Chirio, Chirio, Colonnier",
+   "source": "killicarto_mes_expeditions",
+   "points": [
+    {
+     "numero": "600",
+     "localite": "Route de Kabo",
+     "date": "2023-04-30",
+     "heure": "13:42:00",
+     "latitude": 1.84595321,
+     "longitude": 16.25461909,
+     "altitude": 343.0,
+     "tEau": 23.0,
+     "conductivite": 15.0,
+     "biotope": "Ruisseau traversant la piste d'ouest en est. Prof 30cm, largeur 1m",
+     "courant": "Faible",
+     "fond": "Sableux vaseux",
+     "turbidite": "Très faible",
+     "couleurEau": "Ambree",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "chauchei"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp.",
+       "commentaire": "Sangmelinensis?"
+      },
+      {
+       "genre": "Hylopanchax",
+       "espece": "stictopleuron"
+      }
+     ]
+    },
+    {
+     "numero": "601",
+     "localite": "",
+     "date": "2023-04-30",
+     "heure": "16:21:00",
+     "latitude": 2.05702241,
+     "longitude": 16.12198207,
+     "altitude": 346.0,
+     "tEau": 24.0,
+     "conductivite": 10.0,
+     "biotope": "Ruisseau 2m de large, 70cm de prof.\nCourant fort",
+     "courant": "Fort",
+     "fond": "Sableux",
+     "turbidite": "Faible",
+     "couleurEau": "Claire",
+     "killies": [
+      {
+       "genre": "Hylopanchax",
+       "espece": "stictopleuron"
+      }
+     ]
+    },
+    {
+     "numero": "602",
+     "localite": "Petite Ndoki ouest",
+     "date": "2023-05-01",
+     "heure": "11:45:00",
+     "latitude": 1.87155986,
+     "longitude": 16.35381702,
+     "altitude": 339.0,
+     "tEau": 23.5,
+     "conductivite": 18.0,
+     "biotope": "Mares sous couvert forestier connectées à la riviere, peu de soleil",
+     "autresEspeces": "Microctenopoma, hemichromis sp, microsynodontis",
+     "courant": "Très faible",
+     "fond": "Feuilles et branches",
+     "turbidite": "Très faible",
+     "couleurEau": "Très ambrée",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "chauchei",
+       "alcool": true
+      }
+     ]
+    },
+    {
+     "numero": "603",
+     "localite": "Petite Ndoki est",
+     "date": "2023-05-01",
+     "heure": "12:31:00",
+     "latitude": 1.87274492,
+     "longitude": 16.37615387,
+     "altitude": 368.0,
+     "tEau": 24.0,
+     "conductivite": 12.0,
+     "biotope": "Deuxième affluent de la petite Ndoki",
+     "remarques": "Pêche difficile dans les marécages alentours",
+     "autresEspeces": "Hemichromis, tetras",
+     "courant": "Nul",
+     "fond": "Vaseux",
+     "turbidite": "Très faible",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "chauchei",
+       "conserve": true
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp.",
+       "commentaire": "Chevalieri"
+      }
+     ]
+    },
+    {
+     "numero": "604",
+     "localite": "Antenne",
+     "date": "2023-05-01",
+     "heure": "14:02:00",
+     "latitude": 1.9442605,
+     "longitude": 16.24185395,
+     "altitude": 423.0,
+     "biotope": "Source dans la forêt à côté d'un vieux campement de prospection",
+     "autresEspeces": "Tetras, mormyres, barbus",
+     "courant": "Très faible",
+     "fond": "Sable",
+     "turbidite": "Très faible",
+     "couleurEau": "Claire",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "chauchei"
+      },
+      {
+       "genre": "Hylopanchax",
+       "espece": "stictopleuron"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "605",
+     "localite": "",
+     "date": "2023-05-01",
+     "heure": "15:17:00",
+     "latitude": 1.97117328,
+     "longitude": 16.15663841,
+     "altitude": 378.0,
+     "biotope": "Ruisseau 2m de large, prof. 60cm",
+     "autresEspeces": "Barbus, tetras, neolebias, crevettes",
+     "courant": "Moyen",
+     "fond": "Sableux",
+     "turbidite": "Faible",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Hylopanchax",
+       "espece": "stictopleuron"
+      }
+     ]
+    },
+    {
+     "numero": "606",
+     "localite": "Kabo",
+     "date": "2023-05-01",
+     "heure": "15:41:00",
+     "latitude": 2.01780186,
+     "longitude": 16.09777901,
+     "altitude": 341.0,
+     "biotope": "Ruisseau claire de 1,5m de large, léger couvert forestier, prof variable de 10 à 70cm",
+     "autresEspeces": "Alestidés, hemichromis, neolebias",
+     "courant": "Moyen",
+     "fond": "Sableux",
+     "turbidite": "Très faible",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Hylopanchax",
+       "espece": "stictopleuron"
+      }
+     ]
+    },
+    {
+     "numero": "607",
+     "localite": "Wawaï",
+     "date": "2023-05-02",
+     "heure": "14:26:00",
+     "latitude": 1.54210608,
+     "longitude": 16.34420649,
+     "altitude": 396.0,
+     "biotope": "Petite source peu profonde sous couvert forestier 1m de large",
+     "courant": "Nul",
+     "fond": "Vaseux",
+     "turbidite": "Moyenne",
+     "couleurEau": "Claire",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "chauchei"
+      }
+     ]
+    },
+    {
+     "numero": "608",
+     "localite": "Pondzi",
+     "date": "2023-05-02",
+     "heure": "16:54:00",
+     "latitude": 1.4502959,
+     "longitude": 16.23706316,
+     "altitude": 328.0,
+     "biotope": "Ruisseau large et profond avec quelques mares connectées",
+     "autresEspeces": "Trachiglanis, congochromis, kribia, hepsetus odoe, hemichromis",
+     "courant": "Moyen",
+     "fond": "Vaseux",
+     "turbidite": "Moyenne",
+     "couleurEau": "Noire",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "chauchei"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "609",
+     "localite": "Mboua",
+     "date": "2023-05-03",
+     "heure": "14:08:00",
+     "latitude": 1.68220716,
+     "longitude": 17.15322155,
+     "altitude": 313.0,
+     "biotope": "Forêt inondée et très profonde",
+     "remarques": "Peche en pirogue",
+     "autresEspeces": "Congopanchax",
+     "courant": "Faible",
+     "fond": "Vaseux",
+     "turbidite": "Moyenne",
+     "couleurEau": "Noire",
+     "killies": [
+      {
+       "genre": "Fenerbahce",
+       "espece": "formosus"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "chauchei"
+      },
+      {
+       "genre": "Hylopanchax",
+       "espece": "stictopleuron"
+      }
+     ]
+    },
+    {
+     "numero": "610",
+     "localite": "",
+     "date": "2023-05-03",
+     "heure": "15:50:00",
+     "latitude": 1.67966674,
+     "longitude": 17.14725541,
+     "altitude": 320.0,
+     "biotope": "Marécages sous couvert forestier. Peu profond mais vaseux. Beaucoup de femelles aohyo",
+     "courant": "Nul",
+     "fond": "Vaseux, feuilles",
+     "turbidite": "Faible",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Fenerbahce",
+       "espece": "formosus"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "chauchei"
+      }
+     ]
+    },
+    {
+     "numero": "611",
+     "localite": "Petite Ndoki 1 croisement Mboua",
+     "date": "2023-05-04",
+     "heure": "12:07:00",
+     "latitude": 1.59289363,
+     "longitude": 16.48680089,
+     "altitude": 332.0,
+     "biotope": "Route traversant une zone lacustre , très profond",
+     "autresEspeces": "Phractolaemius",
+     "courant": "Moyen",
+     "fond": "Vaseux",
+     "turbidite": "Moyenne",
+     "couleurEau": "Noire",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "612",
+     "localite": "",
+     "date": "2023-05-04",
+     "heure": "16:09:00",
+     "latitude": 2.81335118,
+     "longitude": 17.22089785,
+     "altitude": 350.0,
+     "biotope": "Ruisseau très courant traversant la piste. Forêt inondée",
+     "courant": "Moyen",
+     "fond": "Vaseux",
+     "turbidite": "Moyenne",
+     "couleurEau": "Noire",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "chauchei"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "613",
+     "localite": "Mabongo",
+     "date": "2023-05-05",
+     "heure": "11:43:00",
+     "latitude": 2.93032946,
+     "longitude": 18.04877922,
+     "altitude": 354.0,
+     "tEau": 24.0,
+     "conductivite": 30.0,
+     "biotope": "Source peu profonde étalée parmi la végétation",
+     "remarques": "Peu de poissons, aucun killi",
+     "autresEspeces": "Barbus, ctenopoma, neolebias, crevettes",
+     "courant": "Faible",
+     "fond": "Sable",
+     "turbidite": "Très faible",
+     "couleurEau": "Claire",
+     "killies": []
+    },
+    {
+     "numero": "614",
+     "localite": "Bongoumba",
+     "date": "2023-05-05",
+     "heure": "12:17:00",
+     "latitude": 2.93305734,
+     "longitude": 18.02355704,
+     "altitude": 341.0,
+     "autresEspeces": "Hemichromis",
+     "killies": [
+      {
+       "genre": "Aphyoplatys",
+       "espece": "duboisi",
+       "commentaire": "Sp"
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "sp."
+      },
+      {
+       "genre": "Fenerbahce",
+       "espece": "formosus",
+       "commentaire": "Sp"
+      }
+     ]
+    },
+    {
+     "numero": "615",
+     "localite": "Ilongo",
+     "date": "2023-05-05",
+     "heure": "14:27:00",
+     "latitude": 2.98615101,
+     "longitude": 17.82539688,
+     "altitude": 345.0,
+     "biotope": "Ruisseau de 3m de large, courant moyen, prof. moyenne 60cm",
+     "remarques": "Epiplatys dans les mares attenantes",
+     "autresEspeces": "Pantodon,",
+     "courant": "Moyen",
+     "fond": "Sable",
+     "turbidite": "Faible",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "616",
+     "localite": "Mokolo",
+     "date": "2023-05-05",
+     "heure": "17:15:00",
+     "latitude": 2.71721684,
+     "longitude": 18.11032583,
+     "altitude": 309.0,
+     "biotope": "Chemin de 2km à partir du village. Ruisseau Matoula",
+     "remarques": "En bas du village Mokolo",
+     "autresEspeces": "Ctenopoma sp, pantodon, mormyre",
+     "courant": "Nul",
+     "fond": "Terre vaseuse",
+     "turbidite": "Moyenne",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "617",
+     "localite": "Lokoko",
+     "date": "2023-05-06",
+     "heure": "13:22:00",
+     "latitude": 3.03609469,
+     "longitude": 17.46420307,
+     "altitude": 374.0,
+     "biotope": "Rivière large et profonde dû au retricissement par la piste.",
+     "autresEspeces": "Cichlides",
+     "courant": "Moyen",
+     "fond": "Sable et vase",
+     "turbidite": "Moyenne",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "618",
+     "localite": "",
+     "date": "2023-05-06",
+     "heure": "13:44:00",
+     "latitude": 3.01953167,
+     "longitude": 17.43383055,
+     "altitude": 360.0,
+     "biotope": "Marécages sous la forêt au bord de la piste",
+     "courant": "Nul",
+     "fond": "Très vaseux",
+     "turbidite": "Très faible",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "619",
+     "localite": "Loundoungou",
+     "date": "2023-05-06",
+     "heure": "19:43:00",
+     "latitude": 2.45327054,
+     "longitude": 17.04341086,
+     "altitude": 359.0,
+     "killies": []
+    },
+    {
+     "numero": "620",
+     "localite": "",
+     "date": "2023-05-07",
+     "heure": "11:16:00",
+     "latitude": 2.28480181,
+     "longitude": 17.077462,
+     "altitude": 383.0,
+     "biotope": "Ruisseau peu profond et dégagé. Epiplatys en nombre",
+     "courant": "Faible",
+     "fond": "Sable",
+     "turbidite": "Faible",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      },
+      {
+       "genre": "Hylopanchax",
+       "espece": "stictopleuron"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "chevalieri"
+      }
+     ]
+    },
+    {
+     "numero": "621",
+     "localite": "Mbanza",
+     "date": "2023-05-07",
+     "heure": "13:51:00",
+     "latitude": 1.93079108,
+     "longitude": 17.34679735,
+     "altitude": 312.0,
+     "biotope": "Début de la forêt inondée, aphyo dans les mares à côté",
+     "autresEspeces": "Ctenopoma, synodontis",
+     "courant": "Nul",
+     "fond": "Sable",
+     "turbidite": "Moyenne",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "chauchei",
+       "alcool": true
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "splendidum",
+       "conserve": true
+      }
+     ]
+    },
+    {
+     "numero": "622",
+     "localite": "",
+     "date": "2023-05-08",
+     "heure": "10:52:00",
+     "latitude": 2.32336283,
+     "longitude": 16.97252951,
+     "altitude": 374.0,
+     "biotope": "Ruisseau traversant la piste",
+     "autresEspeces": "Congochromis",
+     "courant": "Faible",
+     "fond": "Sable",
+     "turbidite": "Faible",
+     "couleurEau": "Légèrement ambrée",
+     "killies": [
+      {
+       "genre": "Hylopanchax",
+       "espece": "stictopleuron"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "623",
+     "localite": "Pont Ndoki",
+     "date": "2023-05-09",
+     "heure": "12:19:00",
+     "latitude": 1.58497721,
+     "longitude": 16.60488852,
+     "altitude": 327.0,
+     "biotope": "Cours principal de la Ndoki, Congopanchax au bord de la rivière dans les nénuphars, fenerbahce et epiplatys dans les marigots à proximité",
+     "autresEspeces": "Congopanchax",
+     "courant": "Moyen",
+     "fond": "Sable",
+     "turbidite": "Très faible",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Fenerbahce",
+       "espece": "formosus"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "624",
+     "localite": "Lamba",
+     "date": "2023-05-09",
+     "heure": "13:51:00",
+     "latitude": 1.45052745,
+     "longitude": 16.33832004,
+     "altitude": 345.0,
+     "biotope": "Petit ruisseau peu courant et dégagé sous couvert forestier, prof moyenne 20cm",
+     "autresEspeces": "Kribia, neolebias, ctenopoma ansorgii, congochromis",
+     "courant": "Faible",
+     "fond": "Sable",
+     "turbidite": "Très faible",
+     "couleurEau": "Ambrée",
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "chauchei"
+      },
+      {
+       "genre": "Hylopanchax",
+       "espece": "stictopleuron"
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "GFC",
+   "annee": 2026,
+   "pays": "Gabon",
+   "collecteurs": "Colonnier Fermon",
+   "source": "killicarto_mes_expeditions",
+   "points": [
+    {
+     "numero": "01",
+     "localite": "Beybou OKA03",
+     "date": "2026-09-25",
+     "heure": "17:47:00",
+     "latitude": 1.3006499,
+     "longitude": 13.03776081,
+     "altitude": 541.0,
+     "tEau": 23.0,
+     "conductivite": 50.0,
+     "ph": 8.5,
+     "biotope": "Retenue d'eau très vaseux puis cours d'eau très fin. Oxygène 56%",
+     "remarques": "Pluie torrentielle la veille donc très turbide",
+     "courant": "Très faible",
+     "fond": "Vaseux",
+     "turbidite": "Moyenne",
+     "killies": [
+      {
+       "genre": "Diapteron",
+       "espece": "cyanostictum",
+       "conserve": true
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "02",
+     "localite": "Oka02",
+     "date": "2026-09-28",
+     "heure": "08:21:00",
+     "latitude": 1.276149,
+     "longitude": 13.033416,
+     "altitude": 616.0,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "03",
+     "localite": "Oka05",
+     "date": "2026-09-27",
+     "heure": "12:48:00",
+     "latitude": 1.2673327,
+     "longitude": 13.03274582,
+     "altitude": 517.0,
+     "tEau": 24.6,
+     "conductivite": 15.0,
+     "ph": 6.8,
+     "biotope": "Camp d'orpalieur. Ruisseau courant puis grande mare impechable.",
+     "courant": "Moyen",
+     "fond": "Caillouteux mais vaseux aux alentours",
+     "turbidite": "Moyenne",
+     "couleurEau": "Laiteux",
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "neumanni",
+       "alcool": true
+      }
+     ]
+    },
+    {
+     "numero": "04",
+     "localite": "Mayebout OKA06",
+     "date": "2026-09-28",
+     "heure": "11:20:00",
+     "latitude": 1.14142946,
+     "longitude": 13.15051118,
+     "altitude": 501.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "cameronense",
+       "conserve": true
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp.",
+       "alcool": true
+      }
+     ]
+    },
+    {
+     "numero": "05",
+     "localite": "Tr04_01",
+     "date": "2026-09-28",
+     "heure": "12:21:00",
+     "latitude": 1.11830283,
+     "longitude": 13.14757585,
+     "altitude": 502.0,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp.",
+       "alcool": true
+      }
+     ]
+    },
+    {
+     "numero": "06",
+     "localite": "Belinga Terra typica TR_FC_06",
+     "date": "2026-09-28",
+     "heure": "14:52:00",
+     "latitude": 1.08205351,
+     "longitude": 13.18761412,
+     "altitude": 630.0,
+     "conductivite": 18.0,
+     "ph": 5.9,
+     "killies": [
+      {
+       "genre": "Diapteron",
+       "espece": "georgiae",
+       "conserve": true
+      },
+      {
+       "genre": "Aphyosemion",
+       "espece": "sp.",
+       "conserve": true
+      }
+     ]
+    },
+    {
+     "numero": "07",
+     "localite": "TR04-03",
+     "date": "2026-09-28",
+     "heure": "15:04:00",
+     "latitude": 1.05418677,
+     "longitude": 13.19194127,
+     "altitude": 716.0,
+     "killies": []
+    },
+    {
+     "numero": "08",
+     "localite": "",
+     "date": "2026-09-28",
+     "heure": "16:20:00",
+     "latitude": 0.98250909,
+     "longitude": 13.18307136,
+     "altitude": 631.0,
+     "killies": []
+    },
+    {
+     "numero": "09",
+     "localite": "Bel05",
+     "date": "2026-09-28",
+     "heure": "17:11:00",
+     "latitude": 1.01410516,
+     "longitude": 13.15760673,
+     "altitude": 514.0,
+     "killies": []
+    },
+    {
+     "numero": "10",
+     "localite": "OKA07",
+     "date": "2026-09-29",
+     "heure": "10:27:00",
+     "latitude": 0.97000136,
+     "longitude": 13.12843083,
+     "altitude": 500.0,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "11",
+     "localite": "OKA08",
+     "date": "2026-09-29",
+     "heure": "11:27:00",
+     "latitude": 0.93810425,
+     "longitude": 13.11765288,
+     "altitude": 504.0,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp.",
+       "relache": true
+      }
+     ]
+    },
+    {
+     "numero": "12",
+     "localite": "OKA09",
+     "date": "2026-09-29",
+     "latitude": 0.92127771,
+     "longitude": 13.13030243,
+     "altitude": 515.0,
+     "killies": []
+    },
+    {
+     "numero": "13",
+     "localite": "OKA10",
+     "date": "2026-09-29",
+     "heure": "12:37:00",
+     "latitude": 0.91203596,
+     "longitude": 13.12563829,
+     "altitude": 509.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "sp.",
+       "commentaire": "Vu mais pas pris"
+      }
+     ]
+    },
+    {
+     "numero": "14",
+     "localite": "OKA11 Ambeye",
+     "date": "2026-09-29",
+     "heure": "14:14:00",
+     "latitude": 0.97155743,
+     "longitude": 13.18544703,
+     "altitude": 622.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "punctatum",
+       "conserve": true
+      }
+     ]
+    },
+    {
+     "numero": "15",
+     "localite": "OKA12 Tr06-02",
+     "date": "2026-09-29",
+     "heure": "14:57:00",
+     "latitude": 1.02005868,
+     "longitude": 13.15621005,
+     "altitude": 521.0,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp."
+      }
+     ]
+    },
+    {
+     "numero": "16",
+     "localite": "Oka13",
+     "date": "2026-09-30",
+     "heure": "21:51:00",
+     "latitude": 0.99702193,
+     "longitude": 13.12374369,
+     "altitude": 495.0,
+     "killies": [
+      {
+       "genre": "Hylopanchax",
+       "espece": "stictopleuron",
+       "conserve": true,
+       "commentaire": "Multisquamatus"
+      }
+     ]
+    },
+    {
+     "numero": "17",
+     "localite": "Ehanzo TR12_08",
+     "date": "2026-10-04",
+     "heure": "10:34:00",
+     "latitude": 0.88176247,
+     "longitude": 13.65022508,
+     "altitude": 509.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "punctatum",
+       "conserve": true
+      }
+     ]
+    },
+    {
+     "numero": "18",
+     "localite": "",
+     "date": "2026-10-04",
+     "heure": "12:07:00",
+     "latitude": 0.93721474,
+     "longitude": 13.69869447,
+     "altitude": 543.0,
+     "killies": []
+    },
+    {
+     "numero": "19",
+     "localite": "OKA15",
+     "date": "2026-10-04",
+     "heure": "12:30:00",
+     "latitude": 0.97776127,
+     "longitude": 13.68773062,
+     "altitude": 530.0,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "punctatum",
+       "alcool": true
+      }
+     ]
+    },
+    {
+     "numero": "20",
+     "localite": "OKA16",
+     "date": "2026-10-04",
+     "heure": "14:35:00",
+     "latitude": 0.99018746,
+     "longitude": 13.67992306,
+     "altitude": 508.0,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sangmelinensis"
+      }
+     ]
+    },
+    {
+     "numero": "21",
+     "localite": "OKA17",
+     "date": "2026-10-04",
+     "heure": "16:07:00",
+     "latitude": 0.87284468,
+     "longitude": 13.61900481,
+     "altitude": 505.0,
+     "killies": []
+    },
+    {
+     "numero": "22",
+     "localite": "BatoualaTR09-06",
+     "date": "2026-10-04",
+     "heure": "19:02:00",
+     "latitude": 0.80332431,
+     "longitude": 13.44013324,
+     "altitude": 521.0,
+     "killies": []
+    },
+    {
+     "numero": "23",
+     "localite": "Cap Esterias",
+     "date": "2026-10-07",
+     "heure": "19:04:00",
+     "latitude": 0.5693266,
+     "longitude": 9.3386231,
+     "altitude": 47.0,
+     "killies": [
+      {
+       "genre": "Chromaphyosemion",
+       "espece": "alpha",
        "conserve": true
       }
      ]

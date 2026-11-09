@@ -1,14 +1,14 @@
 {
- "version": 8,
+ "version": 9,
  "expeditions": [
   {
-   "code": "BCP 2018",
+   "code": "BCP",
    "annee": 2018,
    "pays": "Bénin",
    "collecteurs": "COLONNIER Yoann, PENMOUDE M'Bomma",
    "points": [
     {
-     "numero": "BCP 18-01",
+     "numero": "01",
      "localite": "Pahou",
      "date": "2018-01-23",
      "heure": "10:03:00",
@@ -21,7 +21,7 @@
      "killies": []
     },
     {
-     "numero": "BCP 18-02",
+     "numero": "02",
      "localite": "Tori bossito",
      "date": "2018-01-23",
      "heure": "10:40:00",
@@ -40,7 +40,7 @@
      "killies": []
     },
     {
-     "numero": "BCP 18-03",
+     "numero": "03",
      "localite": "Tori bossito 2",
      "date": "2018-01-23",
      "heure": "10:53:00",
@@ -59,7 +59,7 @@
      "killies": []
     },
     {
-     "numero": "BCP 18-04",
+     "numero": "04",
      "localite": "Domè",
      "date": "2018-01-23",
      "heure": "13:01:00",
@@ -72,7 +72,7 @@
      "killies": []
     },
     {
-     "numero": "BCP 18-05",
+     "numero": "05",
      "localite": "Grand popo",
      "date": "2018-01-23",
      "heure": "14:27:00",
@@ -85,7 +85,7 @@
      "killies": []
     },
     {
-     "numero": "BCP 18-06",
+     "numero": "06",
      "localite": "Kpovidji",
      "date": "2018-01-24",
      "heure": "09:59:00",
@@ -110,7 +110,7 @@
      ]
     },
     {
-     "numero": "BCP 18-07",
+     "numero": "07",
      "localite": "Gbehouedji",
      "date": "2018-01-24",
      "heure": "10:42:00",
@@ -136,7 +136,7 @@
      "autresEspeces": "Hemichromis"
     },
     {
-     "numero": "BCP 18-08",
+     "numero": "08",
      "localite": "Athiémé",
      "date": "2018-01-24",
      "heure": "13:17:00",
@@ -157,7 +157,7 @@
      "autresEspeces": "poisson chat"
     },
     {
-     "numero": "BCP 18-09",
+     "numero": "09",
      "localite": "Goho",
      "date": "2018-01-25",
      "heure": "13:49:00",
@@ -187,7 +187,7 @@
      "autresEspeces": "Hemichromis"
     },
     {
-     "numero": "BCP 18-10",
+     "numero": "10",
      "localite": "Lokoli",
      "date": "2018-01-26",
      "heure": "11:03:00",
@@ -225,7 +225,7 @@
      "autresEspeces": "pantodon buchholzi, desmocaris trispinosa"
     },
     {
-     "numero": "BCP 18-11",
+     "numero": "11",
      "localite": "Ikpenlé",
      "date": "2018-01-27",
      "heure": "11:01:00",
@@ -259,7 +259,7 @@
      "autresEspeces": "Gnathonemus petersii, barboides gracilis, desmocaris trispinosa"
     },
     {
-     "numero": "BCP 18-12",
+     "numero": "12",
      "localite": "Igboassan",
      "date": "2018-01-27",
      "heure": "12:33:00",
@@ -289,7 +289,7 @@
      "autresEspeces": "desmocaris trispinosa"
     },
     {
-     "numero": "BCP 18-13",
+     "numero": "13",
      "localite": "Afanji",
      "date": "2018-01-27",
      "heure": "14:16:00",
@@ -323,7 +323,7 @@
      "autresEspeces": "Gobies, Tetras, hemichromis, desmocaris trispinosa, pareutropius buffei"
     },
     {
-     "numero": "BCP 18-14",
+     "numero": "14",
      "localite": "Ganvié",
      "date": "2018-01-29",
      "heure": "11:06:00",
@@ -350,13 +350,13 @@
    ]
   },
   {
-   "code": "EP 85",
+   "code": "EP",
    "annee": 1985,
    "pays": "Bénin",
    "collecteurs": "Etzel, Pütz & Etzel",
    "points": [
     {
-     "numero": "EP 85-01",
+     "numero": "01",
      "localite": "Dévé",
      "date": "1985-01-07",
      "biotope": "500 m de Dévé",
@@ -373,7 +373,7 @@
      ]
     },
     {
-     "numero": "EP 85-02",
+     "numero": "02",
      "localite": "Lakossa",
      "date": "1985-01-07",
      "latitude": 6.601386,
@@ -386,7 +386,7 @@
      ]
     },
     {
-     "numero": "EP 85-03",
+     "numero": "03",
      "localite": "Ahozon",
      "date": "1985-01-07",
      "biotope": "500 m d'Ahozon. Petite mare en prairie fréquentée par le bétail",
@@ -402,7 +402,7 @@
      ]
     },
     {
-     "numero": "EP 85-04",
+     "numero": "04",
      "localite": "4 km à l'est d'Ikpenlé",
      "date": "1985-01-09",
      "biotope": "Petite mare envahie de végétation terrestre",
@@ -431,7 +431,7 @@
      ]
     },
     {
-     "numero": "EP 85-05",
+     "numero": "05",
      "localite": "Sakoté",
      "date": "1985-01-09",
      "biotope": "500 m de Sakoté",
@@ -456,12 +456,12 @@
      ]
     },
     {
-     "numero": "EP 85-06",
+     "numero": "06",
      "localite": "Près de Takon",
      "killies": []
     },
     {
-     "numero": "EP 85-07",
+     "numero": "07",
      "localite": "Près de Porto-Novo",
      "date": "1985-01-10",
      "biotope": "Grande zone saumâtre",
@@ -475,7 +475,7 @@
      ]
     },
     {
-     "numero": "EP 85-08",
+     "numero": "08",
      "localite": "3 km au sud d'Allada",
      "date": "1985-01-10",
      "biotope": "Ruisseau de forêt tropicale",
@@ -496,7 +496,7 @@
      ]
     },
     {
-     "numero": "EP 85-09",
+     "numero": "09",
      "localite": "Près de Tannougou",
      "date": "1985-01-16",
      "biotope": "Petite mare avec troncs d'arbres en décomposition",
@@ -515,13 +515,13 @@
    ]
   },
   {
-   "code": "LIBCOF 21",
+   "code": "LIBCOF",
    "annee": 2021,
    "pays": "Liberia",
    "collecteurs": "Fermon, Colonnier, Bruy",
    "points": [
     {
-     "numero": "LIBCOF 21-01",
+     "numero": "01",
      "date": "2021-12-02",
      "heure": "12:57:00",
      "latitude": 7.01141338,
@@ -532,7 +532,7 @@
      "killies": []
     },
     {
-     "numero": "LIBCOF 21-02",
+     "numero": "02",
      "localite": "Gweyah",
      "date": "2021-12-02",
      "heure": "13:23:00",
@@ -554,7 +554,7 @@
      "autresEspeces": "Enteromius, kribia"
     },
     {
-     "numero": "LIBCOF 21-03",
+     "numero": "03",
      "date": "2021-12-02",
      "heure": "13:51:00",
      "latitude": 7.01337458,
@@ -576,7 +576,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-04",
+     "numero": "04",
      "localite": "Saint Paul Ferry",
      "date": "2021-12-02",
      "heure": "22:25:00",
@@ -603,7 +603,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-05",
+     "numero": "05",
      "localite": "Gelekpelleya",
      "date": "2021-12-03",
      "heure": "13:28:00",
@@ -627,7 +627,7 @@
      "autresEspeces": "Kribia"
     },
     {
-     "numero": "LIBCOF 21-06",
+     "numero": "06",
      "localite": "Leleya creek",
      "date": "2021-12-04",
      "heure": "09:21:00",
@@ -655,7 +655,7 @@
      "autresEspeces": "Enteromius macrops"
     },
     {
-     "numero": "LIBCOF 21-07",
+     "numero": "07",
      "localite": "Karmoh town",
      "date": "2021-12-04",
      "heure": "13:48:00",
@@ -686,7 +686,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-08",
+     "numero": "08",
      "localite": "Kelebi",
      "date": "2021-12-05",
      "heure": "16:49:00",
@@ -709,7 +709,7 @@
      "autresEspeces": "Hemichromis fasciatus"
     },
     {
-     "numero": "LIBCOF 21-09",
+     "numero": "09",
      "localite": "Dampaya",
      "date": "2021-12-06",
      "heure": "10:02:00",
@@ -732,7 +732,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-10",
+     "numero": "10",
      "date": "2021-12-06",
      "heure": "10:38:00",
      "latitude": 7.01665431,
@@ -755,7 +755,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-11",
+     "numero": "11",
      "localite": "Walter Wilson",
      "date": "2021-12-06",
      "heure": "11:05:00",
@@ -774,7 +774,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-12",
+     "numero": "12",
      "localite": "Wayla",
      "date": "2021-12-06",
      "heure": "12:16:00",
@@ -804,7 +804,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-13",
+     "numero": "13",
      "localite": "Kountema",
      "date": "2021-12-06",
      "heure": "12:26:00",
@@ -827,7 +827,7 @@
      "autresEspeces": "Enteromius"
     },
     {
-     "numero": "LIBCOF 21-14",
+     "numero": "14",
      "localite": "Totota",
      "date": "2021-12-07",
      "heure": "13:12:00",
@@ -850,7 +850,7 @@
      "autresEspeces": "Hemichromis paynei"
     },
     {
-     "numero": "LIBCOF 21-15",
+     "numero": "15",
      "localite": "Yaneh",
      "date": "2021-12-07",
      "heure": "13:22:00",
@@ -878,7 +878,7 @@
      "autresEspeces": "Hemichromis paynei"
     },
     {
-     "numero": "LIBCOF 21-16",
+     "numero": "16",
      "localite": "Goneyala",
      "date": "2021-12-07",
      "heure": "13:50:00",
@@ -903,7 +903,7 @@
      "autresEspeces": "Hemichromis ebumeensis, enteromius"
     },
     {
-     "numero": "LIBCOF 21-17",
+     "numero": "17",
      "date": "2021-12-07",
      "heure": "14:24:00",
      "latitude": 6.93546807,
@@ -921,7 +921,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-18",
+     "numero": "18",
      "localite": "Molonkpagai",
      "date": "2021-12-07",
      "heure": "14:54:00",
@@ -940,7 +940,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-19",
+     "numero": "19",
      "date": "2021-12-07",
      "heure": "15:15:00",
      "latitude": 6.97467967,
@@ -965,7 +965,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-20",
+     "numero": "20",
      "localite": "Q1",
      "date": "2021-12-08",
      "heure": "12:07:00",
@@ -988,7 +988,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-21",
+     "numero": "21",
      "localite": "Gbanbiyah",
      "date": "2021-12-08",
      "heure": "12:59:00",
@@ -1014,7 +1014,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-22",
+     "numero": "22",
      "date": "2021-12-08",
      "heure": "13:11:00",
      "latitude": 7.06978799,
@@ -1027,7 +1027,7 @@
      "killies": []
     },
     {
-     "numero": "LIBCOF 21-23",
+     "numero": "23",
      "localite": "Ngwee",
      "date": "2021-12-08",
      "heure": "13:22:00",
@@ -1053,7 +1053,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-24",
+     "numero": "24",
      "date": "2021-12-08",
      "heure": "13:36:00",
      "latitude": 7.08952289,
@@ -1074,7 +1074,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-25",
+     "numero": "25",
      "localite": "Degei",
      "date": "2021-12-08",
      "heure": "13:44:00",
@@ -1100,7 +1100,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-26",
+     "numero": "26",
      "date": "2021-12-08",
      "heure": "14:17:00",
      "latitude": 7.03541748,
@@ -1121,7 +1121,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-27",
+     "numero": "27",
      "date": "2021-12-08",
      "heure": "15:20:00",
      "latitude": 7.04178963,
@@ -1150,7 +1150,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-28",
+     "numero": "28",
      "localite": "P01",
      "date": "2021-12-08",
      "heure": "20:06:00",
@@ -1170,7 +1170,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-29",
+     "numero": "29",
      "localite": "Fortibli",
      "date": "2021-12-11",
      "heure": "13:53:00",
@@ -1196,7 +1196,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-30",
+     "numero": "30",
      "localite": "Junk river",
      "date": "2021-12-11",
      "heure": "16:33:00",
@@ -1218,7 +1218,7 @@
      ]
     },
     {
-     "numero": "LIBCOF 21-31",
+     "numero": "31",
      "localite": "Military hospital",
      "date": "2021-12-11",
      "heure": "16:56:00",
@@ -1246,13 +1246,13 @@
    ]
   },
   {
-   "code": "GACOCC 2019",
+   "code": "GACOCC",
    "annee": 2019,
    "pays": "Gabon",
    "collecteurs": "Colonnier Yoann, Chirio Laurent, Chirio Allan",
    "points": [
     {
-     "numero": "GACOCC 19-01",
+     "numero": "01",
      "localite": "Menguegne",
      "date": "2019-07-07",
      "heure": "13:39:00",
@@ -1279,7 +1279,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-02",
+     "numero": "02",
      "date": "2019-07-07",
      "heure": "16:36:00",
      "latitude": -0.07485642,
@@ -1295,7 +1295,7 @@
      "autresEspeces": "Tétras, phractura"
     },
     {
-     "numero": "GACOCC 19-03",
+     "numero": "03",
      "localite": "Junkville",
      "date": "2019-07-07",
      "heure": "17:08:00",
@@ -1321,7 +1321,7 @@
      "autresEspeces": "Barbus jaune avec tâches noires sur caudale et flanc"
     },
     {
-     "numero": "GACOCC 19-04",
+     "numero": "04",
      "localite": "Lopé",
      "date": "2019-07-07",
      "heure": "23:16:00",
@@ -1344,7 +1344,7 @@
      "autresEspeces": "Barbus, grenouilles"
     },
     {
-     "numero": "GACOCC 19-05",
+     "numero": "05",
      "localite": "Kandjama",
      "date": "2019-07-08",
      "heure": "12:04:00",
@@ -1360,7 +1360,7 @@
      "autresEspeces": "Barbus"
     },
     {
-     "numero": "GACOCC 19-06",
+     "numero": "06",
      "localite": "Wouboue",
      "date": "2019-07-08",
      "heure": "16:54:00",
@@ -1384,7 +1384,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-07",
+     "numero": "07",
      "localite": "Pointe claire",
      "date": "2019-07-08",
      "heure": "18:49:00",
@@ -1399,7 +1399,7 @@
      "autresEspeces": "Barbus, tetras"
     },
     {
-     "numero": "GACOCC 19-08",
+     "numero": "08",
      "localite": "Tsati",
      "date": "2019-07-09",
      "heure": "11:24:00",
@@ -1425,7 +1425,7 @@
      "autresEspeces": "Mormyre, phractura, barbus"
     },
     {
-     "numero": "GACOCC 19-09",
+     "numero": "09",
      "localite": "Moukombi",
      "date": "2019-07-09",
      "heure": "12:14:00",
@@ -1451,7 +1451,7 @@
      "autresEspeces": "Mormyre, barbus, crevettes, phractura"
     },
     {
-     "numero": "GACOCC 19-10",
+     "numero": "10",
      "date": "2019-07-09",
      "heure": "13:12:00",
      "latitude": -1.13061653,
@@ -1472,7 +1472,7 @@
      "autresEspeces": "Barbus, phractura"
     },
     {
-     "numero": "GACOCC 19-11",
+     "numero": "11",
      "localite": "Miloba",
      "date": "2019-07-09",
      "heure": "13:30:00",
@@ -1503,7 +1503,7 @@
      "autresEspeces": "Paraucheno glanis, petits barbus"
     },
     {
-     "numero": "GACOCC 19-12",
+     "numero": "12",
      "localite": "Konda",
      "date": "2019-07-10",
      "heure": "11:34:00",
@@ -1525,7 +1525,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-13",
+     "numero": "13",
      "date": "2019-07-10",
      "heure": "12:23:00",
      "latitude": -1.72887705,
@@ -1535,7 +1535,7 @@
      "autresEspeces": "Mormyre"
     },
     {
-     "numero": "GACOCC 19-14",
+     "numero": "14",
      "localite": "Nord bakoumba",
      "date": "2019-07-10",
      "heure": "12:56:00",
@@ -1549,7 +1549,7 @@
      "autresEspeces": "Mormyre"
     },
     {
-     "numero": "GACOCC 19-15",
+     "numero": "15",
      "localite": "Sud Bakoumba",
      "date": "2019-07-10",
      "heure": "13:41:00",
@@ -1564,7 +1564,7 @@
      "autresEspeces": "Mormyre, barbus"
     },
     {
-     "numero": "GACOCC 19-16",
+     "numero": "16",
      "localite": "Parc de la lékédi",
      "date": "2019-07-10",
      "heure": "15:32:00",
@@ -1579,7 +1579,7 @@
      "autresEspeces": "Barbus"
     },
     {
-     "numero": "GACOCC 19-17",
+     "numero": "17",
      "localite": "Moyabi",
      "date": "2019-07-10",
      "heure": "17:41:00",
@@ -1595,7 +1595,7 @@
      "autresEspeces": "Hemichromis elongatus, phractura"
     },
     {
-     "numero": "GACOCC 19-18",
+     "numero": "18",
      "localite": "Monguango",
      "date": "2019-07-11",
      "heure": "13:01:00",
@@ -1627,7 +1627,7 @@
      "autresEspeces": "Microctenopoma nanum"
     },
     {
-     "numero": "GACOCC 19-19",
+     "numero": "19",
      "localite": "Maloundou",
      "date": "2019-07-11",
      "heure": "14:17:00",
@@ -1644,7 +1644,7 @@
      "autresEspeces": "Mormyre"
     },
     {
-     "numero": "GACOCC 19-20",
+     "numero": "20",
      "localite": "Boumango",
      "date": "2019-07-11",
      "heure": "15:51:00",
@@ -1675,7 +1675,7 @@
      "autresEspeces": "Mormyre, trachyglanis, micro synodontis, microctenopoma"
     },
     {
-     "numero": "GACOCC 19-21",
+     "numero": "21",
      "localite": "Zamaika",
      "date": "2019-07-12",
      "heure": "12:16:00",
@@ -1699,7 +1699,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-22",
+     "numero": "22",
      "localite": "Youlou",
      "date": "2019-07-12",
      "heure": "12:56:00",
@@ -1724,7 +1724,7 @@
      "autresEspeces": "Barbus, phractura"
     },
     {
-     "numero": "GACOCC 19-23",
+     "numero": "23",
      "localite": "Nord Onkoua",
      "date": "2019-07-12",
      "heure": "13:44:00",
@@ -1736,7 +1736,7 @@
      "killies": []
     },
     {
-     "numero": "GACOCC 19-24",
+     "numero": "24",
      "localite": "Onkoua",
      "date": "2019-07-12",
      "heure": "14:43:00",
@@ -1760,7 +1760,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-25",
+     "numero": "25",
      "localite": "Edjangoulou",
      "date": "2019-07-13",
      "heure": "11:46:00",
@@ -1791,7 +1791,7 @@
      "autresEspeces": "Mormyre, xenomystus, cichlides, amphilius"
     },
     {
-     "numero": "GACOCC 19-26",
+     "numero": "26",
      "localite": "Eau claire",
      "date": "2019-07-13",
      "heure": "15:33:00",
@@ -1815,7 +1815,7 @@
      "autresEspeces": "Cichlides"
     },
     {
-     "numero": "GACOCC 19-27",
+     "numero": "27",
      "localite": "Ekalla",
      "date": "2019-07-13",
      "heure": "17:03:00",
@@ -1831,7 +1831,7 @@
      "autresEspeces": "Amphilius, trachyglanis, Hemichromis elongatus, barbus"
     },
     {
-     "numero": "GACOCC 19-28",
+     "numero": "28",
      "localite": "Kiri",
      "date": "2019-07-13",
      "heure": "17:41:00",
@@ -1856,7 +1856,7 @@
      "autresEspeces": "Chromidotilapia"
     },
     {
-     "numero": "GACOCC 19-29",
+     "numero": "29",
      "localite": "Otou",
      "date": "2019-07-14",
      "heure": "12:35:00",
@@ -1871,7 +1871,7 @@
      "killies": []
     },
     {
-     "numero": "GACOCC 19-30",
+     "numero": "30",
      "localite": "Akieni",
      "date": "2019-07-14",
      "heure": "13:56:00",
@@ -1891,7 +1891,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-31",
+     "numero": "31",
      "localite": "Akieni airport",
      "date": "2019-07-14",
      "heure": "15:13:00",
@@ -1905,7 +1905,7 @@
      "killies": []
     },
     {
-     "numero": "GACOCC 19-32",
+     "numero": "32",
      "date": "2019-07-14",
      "heure": "16:32:00",
      "latitude": -0.91790493,
@@ -1914,7 +1914,7 @@
      "killies": []
     },
     {
-     "numero": "GACOCC 19-33",
+     "numero": "33",
      "localite": "Lebaladouba",
      "date": "2019-07-14",
      "heure": "17:15:00",
@@ -1929,7 +1929,7 @@
      "autresEspeces": "Hemichromis, barbus"
     },
     {
-     "numero": "GACOCC 19-34",
+     "numero": "34",
      "localite": "Pont Bailey",
      "date": "2019-07-15",
      "heure": "13:31:00",
@@ -1955,7 +1955,7 @@
      "autresEspeces": "Synodontis, barbus, neolebias, tetras sp, amphilius"
     },
     {
-     "numero": "GACOCC 19-35",
+     "numero": "35",
      "localite": "Okila",
      "date": "2019-07-15",
      "heure": "14:16:00",
@@ -1968,7 +1968,7 @@
      "autresEspeces": "Hemichromis"
     },
     {
-     "numero": "GACOCC 19-36",
+     "numero": "36",
      "localite": "Lewogo",
      "date": "2019-07-15",
      "heure": "15:36:00",
@@ -1992,7 +1992,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-37",
+     "numero": "37",
      "localite": "Ayanobo",
      "date": "2019-07-16",
      "heure": "09:30:00",
@@ -2008,7 +2008,7 @@
      "autresEspeces": "Synodontis, nanocharax, tetras sp"
     },
     {
-     "numero": "GACOCC 19-38",
+     "numero": "38",
      "localite": "Bouma",
      "date": "2019-07-16",
      "heure": "10:39:00",
@@ -2038,7 +2038,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-39",
+     "numero": "39",
      "date": "2019-07-16",
      "heure": "12:54:00",
      "latitude": -0.73314323,
@@ -2051,7 +2051,7 @@
      "killies": []
     },
     {
-     "numero": "GACOCC 19-40",
+     "numero": "40",
      "date": "2019-07-16",
      "heure": "13:19:00",
      "latitude": -0.72216806,
@@ -2064,7 +2064,7 @@
      "killies": []
     },
     {
-     "numero": "GACOCC 19-41",
+     "numero": "41",
      "localite": "Obori",
      "date": "2019-07-16",
      "heure": "13:41:00",
@@ -2078,7 +2078,7 @@
      "killies": []
     },
     {
-     "numero": "GACOCC 19-42",
+     "numero": "42",
      "localite": "Aboumi",
      "date": "2019-07-16",
      "heure": "14:19:00",
@@ -2104,7 +2104,7 @@
      "autresEspeces": "Hypsopanchax sp, Hemichromis, phractura,"
     },
     {
-     "numero": "GACOCC 19-43",
+     "numero": "43",
      "localite": "Aboumi 2",
      "date": "2019-07-16",
      "heure": "16:02:00",
@@ -2119,7 +2119,7 @@
      "killies": []
     },
     {
-     "numero": "GACOCC 19-44",
+     "numero": "44",
      "date": "2019-07-17",
      "heure": "11:22:00",
      "latitude": -0.72721509,
@@ -2133,7 +2133,7 @@
      "killies": []
     },
     {
-     "numero": "GACOCC 19-45",
+     "numero": "45",
      "localite": "Miyanza",
      "date": "2019-07-17",
      "heure": "11:52:00",
@@ -2164,7 +2164,7 @@
      "autresEspeces": "Phractura, tetras, hepsetus, hemichromis"
     },
     {
-     "numero": "GACOCC 19-46",
+     "numero": "46",
      "localite": "Baposso",
      "date": "2019-07-17",
      "heure": "12:57:00",
@@ -2181,7 +2181,7 @@
      "autresEspeces": "Grasseichtys"
     },
     {
-     "numero": "GACOCC 19-47",
+     "numero": "47",
      "localite": "Ndzondé",
      "date": "2019-07-17",
      "heure": "14:03:00",
@@ -2203,7 +2203,7 @@
      "autresEspeces": "Tetra prycinus longipinnis, barbus, Hemichromis"
     },
     {
-     "numero": "GACOCC 19-48",
+     "numero": "48",
      "localite": "Ndangi",
      "date": "2019-07-17",
      "heure": "15:45:00",
@@ -2223,7 +2223,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-49",
+     "numero": "49",
      "localite": "Massambi",
      "date": "2019-07-18",
      "heure": "11:11:00",
@@ -2238,7 +2238,7 @@
      "autresEspeces": "Barbus"
     },
     {
-     "numero": "GACOCC 19-50",
+     "numero": "50",
      "date": "2019-07-18",
      "heure": "11:49:00",
      "latitude": -1.29697888,
@@ -2254,7 +2254,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-51",
+     "numero": "51",
      "localite": "Kouagna",
      "date": "2019-07-18",
      "heure": "12:31:00",
@@ -2278,7 +2278,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-52",
+     "numero": "52",
      "localite": "Mouila Pouvi",
      "date": "2019-07-18",
      "heure": "12:58:00",
@@ -2292,7 +2292,7 @@
      "killies": []
     },
     {
-     "numero": "GACOCC 19-53",
+     "numero": "53",
      "date": "2019-07-18",
      "heure": "16:44:00",
      "latitude": -1.4700775,
@@ -2301,7 +2301,7 @@
      "killies": []
     },
     {
-     "numero": "GACOCC 19-54",
+     "numero": "54",
      "localite": "Sika sika",
      "date": "2019-07-19",
      "heure": "10:47:00",
@@ -2325,7 +2325,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-55",
+     "numero": "55",
      "date": "2019-07-19",
      "heure": "11:17:00",
      "latitude": -1.63973986,
@@ -2339,7 +2339,7 @@
      "autresEspeces": "Barbus"
     },
     {
-     "numero": "GACOCC 19-56",
+     "numero": "56",
      "localite": "Nord Yeno",
      "date": "2019-07-19",
      "heure": "12:03:00",
@@ -2354,7 +2354,7 @@
      "autresEspeces": "Barbus"
     },
     {
-     "numero": "GACOCC 19-57",
+     "numero": "57",
      "localite": "Yeno",
      "date": "2019-07-19",
      "heure": "12:27:00",
@@ -2375,7 +2375,7 @@
      "autresEspeces": "Barbus"
     },
     {
-     "numero": "GACOCC 19-58",
+     "numero": "58",
      "localite": "Egoumbi",
      "date": "2019-07-19",
      "heure": "14:15:00",
@@ -2403,7 +2403,7 @@
      "autresEspeces": "Barbus"
     },
     {
-     "numero": "GACOCC 19-59",
+     "numero": "59",
      "date": "2019-07-19",
      "latitude": -2.02192279,
      "longitude": 11.44558469,
@@ -2427,7 +2427,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-60",
+     "numero": "60",
      "localite": "Iroungou",
      "date": "2019-07-20",
      "heure": "10:56:00",
@@ -2445,7 +2445,7 @@
      "autresEspeces": "Cichlides, barbus, nanocharax"
     },
     {
-     "numero": "GACOCC 19-61",
+     "numero": "61",
      "localite": "Rembo 1",
      "date": "2019-07-20",
      "heure": "12:48:00",
@@ -2462,7 +2462,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-62",
+     "numero": "62",
      "date": "2019-07-20",
      "heure": "14:52:00",
      "latitude": -1.0791352,
@@ -2475,7 +2475,7 @@
      "killies": []
     },
     {
-     "numero": "GACOCC 19-63",
+     "numero": "63",
      "localite": "Grand odavo",
      "date": "2019-07-20",
      "heure": "15:18:00",
@@ -2489,7 +2489,7 @@
      "killies": []
     },
     {
-     "numero": "GACOCC 19-64",
+     "numero": "64",
      "localite": "Mamienge",
      "date": "2019-07-20",
      "heure": "15:44:00",
@@ -2510,7 +2510,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-65",
+     "numero": "65",
      "localite": "Petit diala",
      "date": "2019-07-20",
      "heure": "16:16:00",
@@ -2521,7 +2521,7 @@
      "autresEspeces": "Clarias"
     },
     {
-     "numero": "GACOCC 19-66",
+     "numero": "66",
      "localite": "Biweni",
      "date": "2019-07-20",
      "heure": "16:52:00",
@@ -2546,7 +2546,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-67",
+     "numero": "67",
      "date": "2019-07-20",
      "heure": "17:10:00",
      "latitude": -0.782182,
@@ -2565,7 +2565,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-68",
+     "numero": "68",
      "localite": "Mitoné",
      "date": "2019-07-21",
      "heure": "11:17:00",
@@ -2587,7 +2587,7 @@
      "autresEspeces": "Tetras, Cichlides"
     },
     {
-     "numero": "GACOCC 19-69",
+     "numero": "69",
      "localite": "Nzogue Bang",
      "date": "2019-07-21",
      "heure": "11:37:00",
@@ -2614,7 +2614,7 @@
      "autresEspeces": "Tetras"
     },
     {
-     "numero": "GACOCC 19-70",
+     "numero": "70",
      "localite": "Bangando",
      "date": "2019-07-21",
      "heure": "14:43:00",
@@ -2655,7 +2655,7 @@
      "autresEspeces": "Microctenopoma nanum, phractura, tetras, Cichlides"
     },
     {
-     "numero": "GACOCC 19-71",
+     "numero": "71",
      "localite": "Cap esterias",
      "date": "2019-07-22",
      "heure": "14:05:00",
@@ -2689,7 +2689,7 @@
      ]
     },
     {
-     "numero": "GACOCC 19-72",
+     "numero": "72",
      "localite": "Cap esterias 2",
      "date": "2019-07-22",
      "heure": "14:42:00",
@@ -2699,7 +2699,7 @@
      "killies": []
     },
     {
-     "numero": "GACOCC 19-73",
+     "numero": "73",
      "localite": "Cap esterias 3",
      "date": "2019-07-22",
      "heure": "14:52:00",
@@ -2722,13 +2722,13 @@
    ]
   },
   {
-   "code": "GEMLH 16",
+   "code": "GEMLH",
    "annee": 2016,
    "pays": "Guinée équatoriale",
    "collecteurs": "Francisco Malumbres Viscarret, Francisco García Lora et Joaquín Hernández Corral",
    "points": [
     {
-     "numero": "GEMLH 16-01",
+     "numero": "01",
      "localite": "Niezan",
      "date": "2015-12-29",
      "heure": "15:34:00",
@@ -2747,7 +2747,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-02",
+     "numero": "02",
      "localite": "Bidhavidjan",
      "date": "2015-12-29",
      "heure": "17:20:00",
@@ -2764,7 +2764,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-03",
+     "numero": "03",
      "localite": "Bife-Econg",
      "date": "2015-12-30",
      "heure": "09:35:00",
@@ -2782,7 +2782,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-04",
+     "numero": "04",
      "localite": "Alen Raíz Ceiba",
      "date": "2015-12-30",
      "heure": "13:10:00",
@@ -2800,7 +2800,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-05",
+     "numero": "05",
      "localite": "Alen Hoyos extracción",
      "date": "2015-12-30",
      "heure": "13:50:00",
@@ -2818,7 +2818,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-06",
+     "numero": "06",
      "localite": "Mobue",
      "date": "2015-12-31",
      "heure": "10:08:00",
@@ -2837,7 +2837,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-07",
+     "numero": "07",
      "localite": "Oya Eseng",
      "date": "2016-01-01",
      "heure": "12:30:00",
@@ -2860,7 +2860,7 @@
      "autresEspeces": "Nombreux barbus, crabes et crevettes"
     },
     {
-     "numero": "GEMLH 16-08",
+     "numero": "08",
      "localite": "Bife Efa",
      "date": "2016-01-01",
      "heure": "13:27:00",
@@ -2879,7 +2879,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-09",
+     "numero": "09",
      "localite": "Abebañ",
      "date": "2016-01-02",
      "heure": "10:30:00",
@@ -2900,7 +2900,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-10",
+     "numero": "10",
      "localite": "Modjom",
      "date": "2016-01-02",
      "heure": "14:30:00",
@@ -2916,7 +2916,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-11",
+     "numero": "11",
      "localite": "Nsork",
      "date": "2016-01-03",
      "heure": "08:31:00",
@@ -2935,7 +2935,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-12",
+     "numero": "12",
      "localite": "Akohasakira",
      "date": "2016-01-03",
      "heure": "09:57:00",
@@ -2956,7 +2956,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-13",
+     "numero": "13",
      "localite": "Nnomnam",
      "date": "2016-01-03",
      "heure": "12:15:00",
@@ -2974,7 +2974,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-14",
+     "numero": "14",
      "localite": "Nvom",
      "date": "2016-01-03",
      "heure": "14:50:00",
@@ -3001,7 +3001,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-15",
+     "numero": "15",
      "localite": "Eboafam",
      "date": "2016-01-04",
      "heure": "10:30:00",
@@ -3017,7 +3017,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-16",
+     "numero": "16",
      "localite": "Mbam",
      "date": "2016-01-04",
      "heure": "11:30:00",
@@ -3039,7 +3039,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-17",
+     "numero": "17",
      "localite": "Ngong",
      "date": "2016-01-05",
      "heure": "08:30:00",
@@ -3060,7 +3060,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-18",
+     "numero": "18",
      "localite": "Obeng",
      "date": "2016-01-05",
      "heure": "10:00:00",
@@ -3081,7 +3081,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-19",
+     "numero": "19",
      "localite": "Soha",
      "date": "2016-01-05",
      "heure": "13:00:00",
@@ -3102,7 +3102,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-20",
+     "numero": "20",
      "localite": "Akurenam casas sociales",
      "date": "2016-01-05",
      "heure": "14:30:00",
@@ -3123,7 +3123,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-21",
+     "numero": "21",
      "localite": "Alensai",
      "date": "2016-01-06",
      "heure": "09:00:00",
@@ -3140,7 +3140,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-22",
+     "numero": "22",
      "localite": "Nviayong",
      "date": "2016-01-06",
      "heure": "10:15:00",
@@ -3161,7 +3161,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-23",
+     "numero": "23",
      "localite": "Torrente",
      "date": "2016-01-06",
      "heure": "12:00:00",
@@ -3182,7 +3182,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-24",
+     "numero": "24",
      "date": "2016-01-06",
      "heure": "14:49:00",
      "latitude": 1.114972,
@@ -3202,7 +3202,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-25",
+     "numero": "25",
      "date": "2016-01-06",
      "heure": "13:30:00",
      "latitude": 1.122806,
@@ -3219,7 +3219,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-26",
+     "numero": "26",
      "date": "2016-01-06",
      "heure": "14:01:00",
      "latitude": 1.124528,
@@ -3235,7 +3235,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-27",
+     "numero": "27",
      "localite": "Akurenam río avispas",
      "date": "2016-01-07",
      "heure": "07:00:00",
@@ -3256,7 +3256,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-28",
+     "numero": "28",
      "localite": "Bisum-Ayeguenin",
      "date": "2016-01-07",
      "heure": "11:15:00",
@@ -3273,7 +3273,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-29",
+     "numero": "29",
      "localite": "Nguba",
      "date": "2016-01-08",
      "heure": "13:07:00",
@@ -3300,7 +3300,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-30",
+     "numero": "30",
      "localite": "Movó",
      "date": "2016-01-09",
      "heure": "09:00:00",
@@ -3322,7 +3322,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-31",
+     "numero": "31",
      "localite": "Nzagnam",
      "date": "2016-01-09",
      "heure": "11:00:00",
@@ -3343,7 +3343,7 @@
      ]
     },
     {
-     "numero": "GEMLH 16-32",
+     "numero": "32",
      "localite": "Mboete",
      "date": "2016-01-09",
      "heure": "13:00:00",
@@ -3363,13 +3363,13 @@
    ]
   },
   {
-   "code": "ABC 05",
+   "code": "ABC",
    "annee": 2005,
    "pays": "Cameroun",
    "collecteurs": "Jean-François Agnèse, Randall Brummett et Pierre Caminade",
    "points": [
     {
-     "numero": "ABC 05-01",
+     "numero": "01",
      "date": "2005-01-19",
      "heure": "12:30:00",
      "latitude": 3.894917,
@@ -3388,7 +3388,7 @@
      ]
     },
     {
-     "numero": "ABC 05-02",
+     "numero": "02",
      "date": "2005-01-19",
      "heure": "14:00:00",
      "latitude": 3.822944,
@@ -3415,7 +3415,7 @@
      "autresEspeces": "Barbus sp."
     },
     {
-     "numero": "ABC 05-03",
+     "numero": "03",
      "date": "2005-01-19",
      "heure": "15:00:00",
      "latitude": 3.673333,
@@ -3443,7 +3443,7 @@
      "autresEspeces": "Barbus sp., Cichlidae"
     },
     {
-     "numero": "ABC 05-04",
+     "numero": "04",
      "date": "2005-01-19",
      "heure": "16:00:00",
      "latitude": 3.840667,
@@ -3466,7 +3466,7 @@
      "autresEspeces": "APLO"
     },
     {
-     "numero": "ABC 05-05",
+     "numero": "05",
      "date": "2005-01-20",
      "heure": "10:00:00",
      "latitude": 4.124139,
@@ -3489,7 +3489,7 @@
      "autresEspeces": "Crevettes"
     },
     {
-     "numero": "ABC 05-06",
+     "numero": "06",
      "date": "2005-01-20",
      "latitude": 4.061,
      "longitude": 9.245278,
@@ -3512,7 +3512,7 @@
      "autresEspeces": "Cichlidae"
     },
     {
-     "numero": "ABC 05-07",
+     "numero": "07",
      "date": "2005-01-20",
      "latitude": 4.181611,
      "longitude": 9.308639,
@@ -3530,7 +3530,7 @@
      ]
     },
     {
-     "numero": "ABC 05-08",
+     "numero": "08",
      "date": "2005-01-20",
      "latitude": 4.253889,
      "longitude": 9.373639,
@@ -3548,7 +3548,7 @@
      ]
     },
     {
-     "numero": "ABC 05-09",
+     "numero": "09",
      "date": "2005-01-20",
      "heure": "17:30:00",
      "latitude": 4.145556,
@@ -3571,7 +3571,7 @@
      ]
     },
     {
-     "numero": "ABC 05-10",
+     "numero": "10",
      "date": "2005-01-21",
      "heure": "12:00:00",
      "latitude": 4.278028,
@@ -3597,7 +3597,7 @@
      ]
     },
     {
-     "numero": "ABC 05-11",
+     "numero": "11",
      "date": "2005-01-21",
      "heure": "15:00:00",
      "latitude": 4.763611,
@@ -3620,7 +3620,7 @@
      ]
     },
     {
-     "numero": "ABC 05-12",
+     "numero": "12",
      "date": "2005-01-21",
      "heure": "15:30:00",
      "latitude": 4.764111,
@@ -3650,7 +3650,7 @@
      ]
     },
     {
-     "numero": "ABC 05-13",
+     "numero": "13",
      "date": "2005-01-21",
      "heure": "17:00:00",
      "latitude": 4.689917,
@@ -3677,7 +3677,7 @@
      "autresEspeces": "Ctenopoma sp., Cichlidae"
     },
     {
-     "numero": "ABC 05-14",
+     "numero": "14",
      "date": "2005-01-22",
      "heure": "08:30:00",
      "latitude": 4.6545,
@@ -3696,7 +3696,7 @@
      ]
     },
     {
-     "numero": "ABC 05-15",
+     "numero": "15",
      "date": "2005-01-22",
      "latitude": 4.694611,
      "longitude": 9.792111,
@@ -3719,7 +3719,7 @@
      "autresEspeces": "Mormyridae, Ctenopoma sp., Cichlidae"
     },
     {
-     "numero": "ABC 05-16",
+     "numero": "16",
      "date": "2005-01-22",
      "latitude": 4.602833,
      "longitude": 9.814778,
@@ -3741,7 +3741,7 @@
      ]
     },
     {
-     "numero": "ABC 05-17",
+     "numero": "17",
      "date": "2005-01-22",
      "heure": "12:30:00",
      "latitude": 4.516833,
@@ -3760,7 +3760,7 @@
      ]
     },
     {
-     "numero": "ABC 05-18",
+     "numero": "18",
      "date": "2005-01-22",
      "heure": "17:00:00",
      "latitude": 4.373222,
@@ -3790,7 +3790,7 @@
      ]
     },
     {
-     "numero": "ABC 05-19",
+     "numero": "19",
      "date": "2005-01-22",
      "heure": "18:00:00",
      "latitude": 4.183083,
@@ -3813,7 +3813,7 @@
      ]
     },
     {
-     "numero": "ABC 05-20",
+     "numero": "20",
      "date": "2005-01-23",
      "heure": "09:20:00",
      "latitude": 3.786167,
@@ -3845,7 +3845,7 @@
      "autresEspeces": "Barbus sp., Polycentropsis abbreviata (poisson-feuille), Cichlidae"
     },
     {
-     "numero": "ABC 05-21",
+     "numero": "21",
      "date": "2005-01-23",
      "heure": "11:10:00",
      "latitude": 3.789528,
@@ -3869,7 +3869,7 @@
      "autresEspeces": "Barbus sp."
     },
     {
-     "numero": "ABC 05-22",
+     "numero": "22",
      "date": "2005-01-24",
      "heure": "07:45:00",
      "latitude": 2.900278,
@@ -3893,7 +3893,7 @@
      "autresEspeces": "Cichlidae, Siluriformes"
     },
     {
-     "numero": "ABC 05-23",
+     "numero": "23",
      "date": "2005-01-24",
      "heure": "08:30:00",
      "latitude": 2.885889,
@@ -3924,7 +3924,7 @@
      "autresEspeces": "Ctenopoma sp."
     },
     {
-     "numero": "ABC 05-24",
+     "numero": "24",
      "date": "2005-01-24",
      "heure": "09:30:00",
      "latitude": 2.853444,
@@ -3947,7 +3947,7 @@
      ]
     },
     {
-     "numero": "ABC 05-25",
+     "numero": "25",
      "date": "2005-01-24",
      "heure": "10:15:00",
      "latitude": 2.833167,
@@ -3974,7 +3974,7 @@
      ]
     },
     {
-     "numero": "ABC 05-26",
+     "numero": "26",
      "date": "2005-01-24",
      "latitude": 2.816444,
      "longitude": 10.163611,
@@ -3996,7 +3996,7 @@
      ]
     },
     {
-     "numero": "ABC 05-27",
+     "numero": "27",
      "date": "2005-01-24",
      "heure": "11:30:00",
      "latitude": 2.807333,
@@ -4014,7 +4014,7 @@
      ]
     },
     {
-     "numero": "ABC 05-28",
+     "numero": "28",
      "date": "2005-01-24",
      "heure": "13:10:00",
      "latitude": 2.818972,
@@ -4031,7 +4031,7 @@
      ]
     },
     {
-     "numero": "ABC 05-29",
+     "numero": "29",
      "date": "2005-01-24",
      "heure": "14:30:00",
      "latitude": 2.789139,
@@ -4054,7 +4054,7 @@
      ]
     },
     {
-     "numero": "ABC 05-30",
+     "numero": "30",
      "date": "2005-01-24",
      "heure": "15:00:00",
      "latitude": 2.7875,
@@ -4073,7 +4073,7 @@
      ]
     },
     {
-     "numero": "ABC 05-31",
+     "numero": "31",
      "date": "2005-01-24",
      "heure": "16:30:00",
      "latitude": 2.813778,
@@ -4088,7 +4088,7 @@
      ]
     },
     {
-     "numero": "ABC 05-32",
+     "numero": "32",
      "date": "2005-01-25",
      "latitude": 2.988333,
      "longitude": 10.000278,
@@ -4115,7 +4115,7 @@
      "autresEspeces": "Mormyridae, Siluriformes"
     },
     {
-     "numero": "ABC 05-33",
+     "numero": "33",
      "date": "2005-01-25",
      "latitude": 2.986528,
      "longitude": 9.995806,
@@ -4133,7 +4133,7 @@
      ]
     },
     {
-     "numero": "ABC 05-34",
+     "numero": "34",
      "date": "2005-01-25",
      "heure": "10:30:00",
      "latitude": 2.994056,
@@ -4152,7 +4152,7 @@
      ]
     },
     {
-     "numero": "ABC 05-35",
+     "numero": "35",
      "date": "2005-01-25",
      "latitude": 3.044861,
      "longitude": 10.113028,
@@ -4177,7 +4177,7 @@
      ]
     },
     {
-     "numero": "ABC 05-36",
+     "numero": "36",
      "date": "2005-01-25",
      "heure": "13:30:00",
      "latitude": 3.073889,
@@ -4196,7 +4196,7 @@
      ]
     },
     {
-     "numero": "ABC 05-37",
+     "numero": "37",
      "date": "2005-01-25",
      "heure": "15:30:00",
      "latitude": 3.044167,
@@ -4211,7 +4211,7 @@
      ]
     },
     {
-     "numero": "ABC 05-38",
+     "numero": "38",
      "date": "2005-01-25",
      "heure": "16:30:00",
      "latitude": 3.049056,
@@ -4230,7 +4230,7 @@
      ]
     },
     {
-     "numero": "ABC 05-39",
+     "numero": "39",
      "date": "2005-01-26",
      "heure": "08:30:00",
      "latitude": 2.899333,
@@ -4245,7 +4245,7 @@
      ]
     },
     {
-     "numero": "ABC 05-40",
+     "numero": "40",
      "date": "2005-01-26",
      "latitude": 2.814639,
      "longitude": 9.89425,
@@ -4268,7 +4268,7 @@
      "autresEspeces": "Mastacembelus sp., Cichlidae"
     },
     {
-     "numero": "ABC 05-41",
+     "numero": "41",
      "date": "2005-01-26",
      "heure": "10:00:00",
      "latitude": 2.784,
@@ -4282,7 +4282,7 @@
      ]
     },
     {
-     "numero": "ABC 05-42",
+     "numero": "42",
      "date": "2005-01-26",
      "latitude": 2.749389,
      "longitude": 9.877972,
@@ -4304,7 +4304,7 @@
      ]
     },
     {
-     "numero": "ABC 05-43",
+     "numero": "43",
      "date": "2005-01-26",
      "heure": "11:10:00",
      "latitude": 2.733889,
@@ -4323,7 +4323,7 @@
      ]
     },
     {
-     "numero": "ABC 05-44",
+     "numero": "44",
      "date": "2005-01-26",
      "heure": "11:30:00",
      "latitude": 2.719889,
@@ -4341,7 +4341,7 @@
      ]
     },
     {
-     "numero": "ABC 05-45",
+     "numero": "45",
      "date": "2005-01-26",
      "heure": "13:30:00",
      "latitude": 2.592278,
@@ -4360,7 +4360,7 @@
      ]
     },
     {
-     "numero": "ABC 05-46",
+     "numero": "46",
      "date": "2005-01-26",
      "heure": "15:00:00",
      "latitude": 2.582833,
@@ -4383,7 +4383,7 @@
      ]
     },
     {
-     "numero": "ABC 05-47",
+     "numero": "47",
      "date": "2005-01-27",
      "heure": "10:10:00",
      "latitude": 2.497528,
@@ -4406,7 +4406,7 @@
      ]
     },
     {
-     "numero": "ABC 05-48",
+     "numero": "48",
      "date": "2005-01-27",
      "heure": "11:00:00",
      "latitude": 2.464528,
@@ -4432,7 +4432,7 @@
      ]
     },
     {
-     "numero": "ABC 05-49",
+     "numero": "49",
      "date": "2005-01-27",
      "heure": "11:30:00",
      "latitude": 2.427694,
@@ -4455,7 +4455,7 @@
      ]
     },
     {
-     "numero": "ABC 05-50",
+     "numero": "50",
      "date": "2005-01-27",
      "heure": "13:30:00",
      "latitude": 2.371528,
@@ -4482,7 +4482,7 @@
      ]
     },
     {
-     "numero": "ABC 05-51",
+     "numero": "51",
      "date": "2005-01-27",
      "heure": "14:30:00",
      "latitude": 2.362889,
@@ -4504,7 +4504,7 @@
      ]
     },
     {
-     "numero": "ABC 05-52",
+     "numero": "52",
      "date": "2005-01-27",
      "heure": "16:00:00",
      "latitude": 2.381333,
@@ -4527,7 +4527,7 @@
      ]
     },
     {
-     "numero": "ABC 05-53",
+     "numero": "53",
      "date": "2005-01-27",
      "heure": "16:30:00",
      "latitude": 2.382889,
@@ -4554,7 +4554,7 @@
      ]
     },
     {
-     "numero": "ABC 05-54",
+     "numero": "54",
      "date": "2005-01-28",
      "heure": "09:00:00",
      "latitude": 2.396667,
@@ -4585,7 +4585,7 @@
      ]
     },
     {
-     "numero": "ABC 05-55",
+     "numero": "55",
      "date": "2005-01-28",
      "heure": "10:30:00",
      "latitude": 2.372917,
@@ -4608,7 +4608,7 @@
      ]
     },
     {
-     "numero": "ABC 05-56",
+     "numero": "56",
      "date": "2005-01-28",
      "heure": "12:30:00",
      "latitude": 2.375944,
@@ -4632,7 +4632,7 @@
      "autresEspeces": "Cichlidae, Mormyridae"
     },
     {
-     "numero": "ABC 05-57",
+     "numero": "57",
      "date": "2005-01-28",
      "heure": "14:30:00",
      "latitude": 2.492972,
@@ -4660,7 +4660,7 @@
      "autresEspeces": "Ctenopoma sp."
     },
     {
-     "numero": "ABC 05-58",
+     "numero": "58",
      "date": "2005-01-28",
      "heure": "16:30:00",
      "latitude": 2.68725,
@@ -4682,7 +4682,7 @@
      ]
     },
     {
-     "numero": "ABC 05-59",
+     "numero": "59",
      "date": "2005-01-29",
      "heure": "10:00:00",
      "latitude": 3.108222,
@@ -4702,7 +4702,7 @@
      "autresEspeces": "Barbus sp."
     },
     {
-     "numero": "ABC 05-60",
+     "numero": "60",
      "date": "2005-01-29",
      "heure": "10:30:00",
      "latitude": 3.182556,
@@ -4724,7 +4724,7 @@
      ]
     },
     {
-     "numero": "ABC 05-61",
+     "numero": "61",
      "date": "2005-01-29",
      "heure": "12:00:00",
      "latitude": 3.349861,
@@ -4744,7 +4744,7 @@
      ]
     },
     {
-     "numero": "ABC 05-62",
+     "numero": "62",
      "date": "2005-01-29",
      "heure": "13:00:00",
      "latitude": 3.525806,
@@ -4767,7 +4767,7 @@
      ]
     },
     {
-     "numero": "ABC 05-63",
+     "numero": "63",
      "date": "2005-01-29",
      "heure": "14:00:00",
      "latitude": 3.6925,
@@ -4786,7 +4786,7 @@
      ]
     },
     {
-     "numero": "ABC 05-64",
+     "numero": "64",
      "date": "2005-01-30",
      "heure": "08:30:00",
      "latitude": 3.773056,
@@ -4801,7 +4801,7 @@
      ]
     },
     {
-     "numero": "ABC 05-65",
+     "numero": "65",
      "date": "2005-01-30",
      "heure": "09:30:00",
      "latitude": 3.826528,
@@ -4828,7 +4828,7 @@
      ]
     },
     {
-     "numero": "ABC 05-66",
+     "numero": "66",
      "date": "2005-01-30",
      "heure": "10:30:00",
      "latitude": 3.809333,
@@ -4848,7 +4848,7 @@
      ]
     },
     {
-     "numero": "ABC 05-67",
+     "numero": "67",
      "date": "2005-01-30",
      "heure": "11:00:00",
      "latitude": 3.8,
@@ -4867,7 +4867,7 @@
      ]
     },
     {
-     "numero": "ABC 05-68",
+     "numero": "68",
      "date": "2005-01-30",
      "heure": "12:30:00",
      "latitude": 3.823722,
@@ -4890,7 +4890,7 @@
      ]
     },
     {
-     "numero": "ABC 05-69",
+     "numero": "69",
      "date": "2005-01-30",
      "heure": "13:30:00",
      "latitude": 3.86075,
@@ -4917,7 +4917,7 @@
      ]
     },
     {
-     "numero": "ABC 05-70",
+     "numero": "70",
      "date": "2005-01-29",
      "latitude": 3.024733,
      "longitude": 9.9703,
@@ -20942,7 +20942,7 @@
    ]
   },
   {
-   "code": "ABDK 2010-1",
+   "code": "ABDK",
    "annee": 2010,
    "pays": "Cameroun",
    "collecteurs": "J.F. Agnèse, M. Bogaerts, C. Dening & G. Kayoum",
@@ -21780,16 +21780,7 @@
        "espece": "infrafasciatus"
       }
      ]
-    }
-   ]
-  },
-  {
-   "code": "ABDK 2010-2",
-   "annee": 2010,
-   "pays": "Cameroun",
-   "collecteurs": "J.F. Agnèse, M. Bogaerts, C. Dening & G. Kayoum",
-   "source": "killicarto",
-   "points": [
+    },
     {
      "numero": "382",
      "localite": "",
@@ -31416,8 +31407,8 @@
       {
        "genre": "Aphyosemion",
        "espece": "schioetzi",
-       "collecte": true,
-       "commentaire": "Peu"
+       "commentaire": "Peu",
+       "conserve": true
       }
      ]
     },
@@ -31440,8 +31431,8 @@
       {
        "genre": "Aphyosemion",
        "espece": "cognatum",
-       "collecte": true,
-       "commentaire": "Deux mâles différents (bleu ou jaune)"
+       "commentaire": "Deux mâles différents (bleu ou jaune)",
+       "conserve": true
       }
      ]
     },
@@ -31464,14 +31455,14 @@
       {
        "genre": "Aphyosemion",
        "espece": "escherichi",
-       "collecte": true,
-       "commentaire": "Un couple"
+       "commentaire": "Un couple",
+       "conserve": true
       },
       {
        "genre": "Epiplatys",
        "espece": "sp.",
-       "collecte": true,
-       "commentaire": "Sur les bords, assez rares, groupe ansorgi ?"
+       "commentaire": "Sur les bords, assez rares, groupe ansorgi ?",
+       "conserve": true
       }
      ]
     },
@@ -31493,8 +31484,8 @@
       {
        "genre": "Plataplochilus",
        "espece": "sp.",
-       "collecte": true,
-       "commentaire": "Très petits, pas à beaucoup d'endroits. Arrivent par banc. Groupe 4 ?"
+       "commentaire": "Très petits, pas à beaucoup d'endroits. Arrivent par banc. Groupe 4 ?",
+       "conserve": true
       }
      ]
     },
@@ -31517,14 +31508,14 @@
       {
        "genre": "Aphyosemion",
        "espece": "escherichi",
-       "collecte": true,
-       "commentaire": "Peu nombreux"
+       "commentaire": "Peu nombreux",
+       "conserve": true
       },
       {
        "genre": "Epiplatys",
        "espece": "sp.",
-       "collecte": true,
-       "commentaire": "1 trio seulement"
+       "commentaire": "1 trio seulement",
+       "conserve": true
       }
      ]
     },
@@ -31546,7 +31537,7 @@
       {
        "genre": "Aphyosemion",
        "espece": "escherichi",
-       "collecte": true
+       "conserve": true
       }
      ]
     },
@@ -31612,20 +31603,20 @@
       {
        "genre": "Aphyosemion",
        "espece": "escherichi",
-       "collecte": true
+       "conserve": true
       },
       {
        "genre": "Epiplatys",
        "espece": "sp.",
-       "collecte": true,
        "alcool": true,
-       "commentaire": "Très joli. Groupe ansorgi ?"
+       "commentaire": "Très joli. Groupe ansorgi ?",
+       "conserve": true
       },
       {
        "genre": "Plataplochilus",
        "espece": "sp.",
-       "collecte": true,
-       "alcool": true
+       "alcool": true,
+       "conserve": true
       }
      ]
     },
@@ -31690,8 +31681,8 @@
       {
        "genre": "Epiplatys",
        "espece": "sp.",
-       "collecte": true,
-       "commentaire": "Même que points précédents"
+       "commentaire": "Même que points précédents",
+       "conserve": true
       }
      ]
     },
@@ -31732,8 +31723,8 @@
       {
        "genre": "Epiplatys",
        "espece": "sp.",
-       "collecte": true,
-       "commentaire": "même espèce que les précédents, moins de bleu à l'avant mais plus rouge sur les nageoires"
+       "commentaire": "même espèce que les précédents, moins de bleu à l'avant mais plus rouge sur les nageoires",
+       "conserve": true
       }
      ]
     },
@@ -31754,7 +31745,7 @@
       {
        "genre": "Aphyosemion",
        "espece": "escherichi",
-       "collecte": true
+       "conserve": true
       }
      ]
     },
@@ -31776,8 +31767,8 @@
       {
        "genre": "Plataplochilus",
        "espece": "sp.",
-       "collecte": true,
-       "commentaire": "Peu nombreux"
+       "commentaire": "Peu nombreux",
+       "conserve": true
       }
      ]
     },
@@ -31841,22 +31832,22 @@
       {
        "genre": "Aphyosemion",
        "espece": "australe",
-       "collecte": true,
-       "commentaire": "Un seul jeune mâle, attrapé à la main sur le bord"
+       "commentaire": "Un seul jeune mâle, attrapé à la main sur le bord",
+       "conserve": true
       },
       {
        "genre": "Epiplatys",
        "espece": "sp.",
-       "collecte": true,
        "alcool": true,
-       "commentaire": "2 espèces ! Groupe singa et groupe ansorgi"
+       "commentaire": "2 espèces ! Groupe singa et groupe ansorgi",
+       "conserve": true
       },
       {
        "genre": "Plataplochilus",
        "espece": "sp.",
-       "collecte": true,
        "alcool": true,
-       "commentaire": "Petite espèce aux yeux rouges"
+       "commentaire": "Petite espèce aux yeux rouges",
+       "conserve": true
       }
      ]
     },
@@ -31879,13 +31870,13 @@
       {
        "genre": "Aphyosemion",
        "espece": "australe",
-       "collecte": true,
-       "commentaire": "1 seul mâle"
+       "commentaire": "1 seul mâle",
+       "conserve": true
       },
       {
        "genre": "Epiplatys",
        "espece": "singa",
-       "collecte": true
+       "conserve": true
       }
      ]
     },
@@ -31968,8 +31959,8 @@
       {
        "genre": "Aphyosemion",
        "espece": "thysi",
-       "collecte": true,
-       "commentaire": "Très peu"
+       "commentaire": "Très peu",
+       "conserve": true
       }
      ]
     },
@@ -31990,7 +31981,7 @@
       {
        "genre": "Aphyosemion",
        "espece": "thysi",
-       "collecte": true
+       "conserve": true
       }
      ]
     },
@@ -32013,8 +32004,8 @@
       {
        "genre": "Hypsopanchax",
        "espece": "zebra",
-       "collecte": true,
-       "alcool": true
+       "alcool": true,
+       "conserve": true
       }
      ]
     },
@@ -32033,7 +32024,7 @@
       {
        "genre": "Epiplatys",
        "espece": "multifasciatus",
-       "collecte": true
+       "conserve": true
       }
      ]
     },
@@ -32060,7 +32051,7 @@
       {
        "genre": "Epiplatys",
        "espece": "multifasciatus",
-       "collecte": true
+       "conserve": true
       }
      ]
     },
@@ -32130,8 +32121,8 @@
       {
        "genre": "Aphyosemion",
        "espece": "louessense",
-       "collecte": true,
-       "commentaire": "Affinis"
+       "commentaire": "Affinis",
+       "conserve": true
       }
      ]
     },
@@ -32154,8 +32145,8 @@
       {
        "genre": "Aphyosemion",
        "espece": "louessense",
-       "collecte": true,
-       "commentaire": "Affinis"
+       "commentaire": "Affinis",
+       "conserve": true
       },
       {
        "genre": "Hypsopanchax",
@@ -32183,7 +32174,7 @@
       {
        "genre": "Aphyosemion",
        "espece": "schluppi",
-       "collecte": true
+       "conserve": true
       },
       {
        "genre": "Hypsopanchax",
@@ -32224,12 +32215,12 @@
       {
        "genre": "Aphyosemion",
        "espece": "schluppi",
-       "collecte": true
+       "conserve": true
       },
       {
        "genre": "Hypsopanchax",
        "espece": "zebra",
-       "collecte": true
+       "conserve": true
       }
      ]
     },
@@ -32251,7 +32242,7 @@
       {
        "genre": "Aphyosemion",
        "espece": "escherichi",
-       "collecte": true
+       "conserve": true
       }
      ]
     },
@@ -32335,8 +32326,8 @@
       {
        "genre": "Aphyosemion",
        "espece": "zygaima",
-       "collecte": true,
-       "commentaire": "Beaucoup de femelles et de juveniles"
+       "commentaire": "Beaucoup de femelles et de juveniles",
+       "conserve": true
       }
      ]
     },
@@ -32374,8 +32365,8 @@
       {
        "genre": "Aphyosemion",
        "espece": "ottogartneri",
-       "collecte": true,
-       "commentaire": "1 couple juvenile"
+       "commentaire": "1 couple juvenile",
+       "conserve": true
       }
      ]
     },
@@ -32398,7 +32389,7 @@
       {
        "genre": "Aphyosemion",
        "espece": "ottogartneri",
-       "collecte": true
+       "conserve": true
       }
      ]
     },
@@ -32426,7 +32417,7 @@
       {
        "genre": "Aphyosemion",
        "espece": "ottogartneri",
-       "collecte": true
+       "conserve": true
       }
      ]
     },
@@ -32461,7 +32452,7 @@
       {
        "genre": "Aphyosemion",
        "espece": "ottogartneri",
-       "collecte": true
+       "conserve": true
       }
      ]
     },
@@ -32484,8 +32475,8 @@
       {
        "genre": "Hypsopanchax",
        "espece": "zebra",
-       "collecte": true,
-       "commentaire": "Sp"
+       "commentaire": "Sp",
+       "conserve": true
       },
       {
        "genre": "Aphyosemion",
@@ -32596,8 +32587,8 @@
       {
        "genre": "Aphyosemion",
        "espece": "sp.",
-       "collecte": true,
-       "commentaire": "aff. louessense ?"
+       "commentaire": "aff. louessense ?",
+       "conserve": true
       }
      ]
     },
@@ -32648,8 +32639,8 @@
       {
        "genre": "Aphyosemion",
        "espece": "sp.",
-       "collecte": true,
-       "commentaire": "A déterminer"
+       "commentaire": "A déterminer",
+       "conserve": true
       }
      ]
     },
@@ -32676,13 +32667,13 @@
       {
        "genre": "Aphyosemion",
        "espece": "chauchei",
-       "collecte": true
+       "conserve": true
       },
       {
        "genre": "Hylopanchax",
        "espece": "stictopleuron",
-       "collecte": true,
-       "commentaire": "Sp"
+       "commentaire": "Sp",
+       "conserve": true
       }
      ]
     },
@@ -32704,7 +32695,7 @@
       {
        "genre": "Aphyosemion",
        "espece": "chauchei",
-       "collecte": true
+       "conserve": true
       },
       {
        "genre": "Epiplatys",
@@ -32729,7 +32720,7 @@
       {
        "genre": "Aphyosemion",
        "espece": "lefiniense",
-       "collecte": true
+       "conserve": true
       }
      ]
     }

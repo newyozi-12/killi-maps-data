@@ -301,12 +301,18 @@ function preparer() {
   });
 }
 
-// Nom affiché d'une expédition : le code seul, ou « code année » quand plusieurs expéditions
-// portent le même code (PEG 1994 et PEG 1996)
+// Nom affiché d'une expédition : le code toujours suivi de l'année sur deux chiffres
+// (« CCMB 89 », « COCCA 19 »). Même règle que l'application (codeAvecAnnee) :
+// « BCP 2018 » → « BCP 18 », « ABDK 2010-1 » → « ABDK 10-1 », « ABC 05 » reste tel quel.
 function libelleExpedition(e) {
   const code = String(e.code || "").trim();
-  const partage = base.expeditions.filter(x => String(x.code || "").trim().toUpperCase() === code.toUpperCase()).length > 1;
-  return partage && e.annee ? `${code} ${e.annee}` : code;
+  const annee = Number(e.annee);
+  if (!(annee >= 1000 && annee <= 9999)) return code;
+  const aa = String(annee % 100).padStart(2, "0");
+  const complete = new RegExp(`(?<!\\d)${annee}(?!\\d)`, "g");
+  if (complete.test(code)) return code.replace(complete, aa);
+  if (new RegExp(`(?<!\\d)${aa}(?!\\d)`).test(code)) return code;
+  return `${code} ${aa}`;
 }
 
 function pointsDuPays(pays) {
@@ -487,7 +493,7 @@ function fiche(x) {
   const heure = (p.heure || "").slice(0, 5);
   const jour = dateAffichee(p.date);
   const quand = jour && heure ? t("date_heure", jour, heure) : (jour || heure);
-  const titre = [publiques ? t("donnees_publiques") : p.numero, p.localite].filter(Boolean).join(" · ") || e.code;
+  const titre = [publiques ? t("donnees_publiques") : p.numero, p.localite].filter(Boolean).join(" · ") || libelleExpedition(e);
   const env = [
     p.tEau !== undefined ? t("env_eau", `${p.tEau} °C`) : "",
     p.conductivite !== undefined ? `${p.conductivite} µS/cm` : "",
@@ -510,7 +516,7 @@ function fiche(x) {
     (noms.length ? `<ul>${noms.map(ligneKilli).join("")}</ul>` : `<div class="sans-killi">${esc(t("pas_de_killies"))}</div>`) +
     autres + `</div>`;
   return `<div class="fiche"><h2>${esc(titre)}</h2>` +
-    `<div class="exp">${publiques ? "" : `${esc(e.code)}${e.annee ? ` · ${esc(e.annee)}` : ""} · `}${esc(paysDe(e).map(nomPays).join(", "))}</div>` +
+    `<div class="exp">${publiques ? "" : `${esc(libelleExpedition(e))} · `}${esc(paysDe(e).map(nomPays).join(", "))}</div>` +
     especes +
     champ(t("champ_date"), quand) +
     champ(t("champ_gps"), `${coordonnee(p.latitude)}, ${coordonnee(p.longitude)}`) +

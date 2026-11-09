@@ -315,6 +315,13 @@ function libelleExpedition(e) {
   return `${code} ${aa}`;
 }
 
+// Numéro seul : les anciens points écrivaient « GACOCC 19-60 » ou « GFC-03 », on garde « 60 », « 03 »
+function numeroCourt(numero) {
+  const n = String(numero || "").trim();
+  const m = /^[A-Za-z][A-Za-z ]*\s\d{2,4}-(.+)$/.exec(n) || /^[A-Za-z]+-(.+)$/.exec(n);
+  return m ? m[1] : n;
+}
+
 function pointsDuPays(pays) {
   return pays ? points.filter(x => paysDe(x.e).includes(pays)) : points;
 }
@@ -493,7 +500,10 @@ function fiche(x) {
   const heure = (p.heure || "").slice(0, 5);
   const jour = dateAffichee(p.date);
   const quand = jour && heure ? t("date_heure", jour, heure) : (jour || heure);
-  const titre = [publiques ? t("donnees_publiques") : p.numero, p.localite].filter(Boolean).join(" · ") || libelleExpedition(e);
+  // Titre : « GACOCC 19-60 · Iroungou » (code, année sur deux chiffres, numéro, localité) ; en gris : le pays
+  const numero = numeroCourt(p.numero);
+  const debut = publiques ? t("donnees_publiques") : (numero ? `${libelleExpedition(e)}-${numero}` : libelleExpedition(e));
+  const titre = [debut, p.localite].filter(Boolean).join(" · ");
   const env = [
     p.tEau !== undefined ? t("env_eau", `${p.tEau} °C`) : "",
     p.conductivite !== undefined ? `${p.conductivite} µS/cm` : "",
@@ -516,7 +526,7 @@ function fiche(x) {
     (noms.length ? `<ul>${noms.map(ligneKilli).join("")}</ul>` : `<div class="sans-killi">${esc(t("pas_de_killies"))}</div>`) +
     autres + `</div>`;
   return `<div class="fiche"><h2>${esc(titre)}</h2>` +
-    `<div class="exp">${publiques ? "" : `${esc(libelleExpedition(e))} · `}${esc(paysDe(e).map(nomPays).join(", "))}</div>` +
+    `<div class="exp">${esc(paysDe(e).map(nomPays).join(", "))}</div>` +
     especes +
     champ(t("champ_date"), quand) +
     champ(t("champ_gps"), `${coordonnee(p.latitude)}, ${coordonnee(p.longitude)}`) +

@@ -1,5 +1,5 @@
 {
- "version": 10,
+ "version": 11,
  "expeditions": [
   {
    "code": "BCP",
@@ -33693,6 +33693,4110 @@
        "genre": "Chromaphyosemion",
        "espece": "alpha",
        "conserve": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "Données publiques · Guinée",
+   "type": "donnees_publiques",
+   "annee": 0,
+   "pays": "Guinée",
+   "collecteurs": "",
+   "points": [
+    {
+     "numero": "",
+     "localite": "Forêt Classée de Dieke, southeastern Guinée",
+     "latitude": 7.478,
+     "longitude": -8.841,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "maeseni",
+       "releves": [
+        {
+         "annee": "2006",
+         "collecteur": "ZFMK",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Cassielidayi Riv., Mt Nimba, E. Guinée",
+     "latitude": 7.583,
+     "longitude": -8.467,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "nimbaensis",
+       "releves": [
+        {
+         "annee": "1957",
+         "collecteur": "Lamotte",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Wolanda river",
+     "latitude": 7.632,
+     "longitude": -8.351,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "melanopterygius",
+       "releves": [
+        {
+         "annee": "2012",
+         "collecteur": "SAIAB",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Gueke / Gueke River",
+     "latitude": 7.633,
+     "longitude": -8.306,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "maeseni",
+       "releves": [
+        {
+         "annee": "2012",
+         "collecteur": "SAIAB",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Nimbapanchax",
+       "espece": "melanopterygius",
+       "releves": [
+        {
+         "annee": "2012",
+         "collecteur": "SAIAB",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Guéré River, at Laren village / Guéré River at Laren Village",
+     "latitude": 7.644,
+     "longitude": -8.884,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "maeseni",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM/CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "schioetzi",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Mt Nimba, Gâ, alt. 1100-1250m, E. Guinée",
+     "latitude": 7.65,
+     "longitude": -8.417,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "maeseni",
+       "releves": [
+        {
+         "annee": "1948",
+         "collecteur": "Lamotte",
+         "source": "Killi-Data"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "nimbaensis",
+       "localite_type": true,
+       "releves": [
+        {
+         "annee": "1948",
+         "collecteur": "Lamotte",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Mia River, at Bourata village",
+     "latitude": 7.65,
+     "longitude": -8.301,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Nimbapanchax",
+       "espece": "maeseni",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Guekelo River",
+     "latitude": 7.651,
+     "longitude": -8.332,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "melanopterygius",
+       "releves": [
+        {
+         "annee": "2012",
+         "collecteur": "SAIAB",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Cavally River, southeastern Guinée",
+     "latitude": 7.691,
+     "longitude": -8.454,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "melanopterygius",
+       "releves": [
+        {
+         "annee": "2006",
+         "collecteur": "ZFMK",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Ye River",
+     "latitude": 7.693,
+     "longitude": -8.432,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "melanopterygius",
+       "releves": [
+        {
+         "annee": "2012",
+         "collecteur": "SAIAB",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "nimbaensis",
+       "releves": [
+        {
+         "annee": "2012",
+         "collecteur": "SAIAB",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Veblo river",
+     "latitude": 7.694,
+     "longitude": -8.317,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "melanopterygius",
+       "releves": [
+        {
+         "annee": "2012",
+         "collecteur": "SAIAB",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Cavally River, S.E. Guinée",
+     "latitude": 7.697,
+     "longitude": -8.441,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "melanopterygius",
+       "localite_type": true,
+       "releves": [
+        {
+         "annee": "2006",
+         "collecteur": "Busch & Wiese",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kerema, bassin du Gbin, forêt",
+     "latitude": 7.7,
+     "longitude": -8.917,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "nimbaensis",
+       "releves": [
+        {
+         "annee": "1955",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "liberiense",
+       "releves": [
+        {
+         "annee": "1955",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Tributary of Gba River",
+     "latitude": 7.704,
+     "longitude": -8.418,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "melanopterygius",
+       "releves": [
+        {
+         "annee": "2012",
+         "collecteur": "SAIAB",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Nimbapanchax",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2012",
+         "collecteur": "SAIAB",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "nimbaensis",
+       "releves": [
+        {
+         "annee": "2012",
+         "collecteur": "SAIAB",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Nzérékoré, Guinée",
+     "latitude": 7.706,
+     "longitude": -8.254,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "melanopterygius",
+       "releves": [
+        {
+         "annee": "2024",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Veblo River",
+     "latitude": 7.708,
+     "longitude": -8.337,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "melanopterygius",
+       "releves": [
+        {
+         "annee": "2012",
+         "collecteur": "SAIAB",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Gouan River",
+     "latitude": 7.714,
+     "longitude": -8.395,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "maeseni",
+       "releves": [
+        {
+         "annee": "2012",
+         "collecteur": "SAIAB",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "nimbaensis",
+       "releves": [
+        {
+         "annee": "2012",
+         "collecteur": "SAIAB",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "riv. Gbin",
+     "latitude": 7.717,
+     "longitude": -8.917,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "nimbaensis",
+       "releves": [
+        {
+         "annee": "1955",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Diougou Riv., Mt Nimba, E. Guinée",
+     "latitude": 7.717,
+     "longitude": -8.45,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "nimbaensis",
+       "releves": [
+        {
+         "annee": "1957",
+         "collecteur": "Lamotte",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Zie River, W of Zera village",
+     "latitude": 7.717,
+     "longitude": -8.362,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "maeseni",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM/CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "schioetzi",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM/CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Nzérékoré S.W. surroundings, S.E. Guinée",
+     "latitude": 7.73,
+     "longitude": -8.85,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "hildegardae",
+       "releves": [
+        {
+         "annee": "1990",
+         "collecteur": "Cauvet & Romand",
+         "source": "Killi-Data"
+        }
+       ]
+      },
+      {
+       "genre": "Nimbapanchax",
+       "espece": "viridis",
+       "releves": [
+        {
+         "annee": "1990",
+         "collecteur": "Cauvet & Romand",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "near Kementa in Konkere river, S.E. Guinée",
+     "latitude": 7.731,
+     "longitude": -8.442,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "melanopterygius",
+       "releves": [
+        {
+         "annee": "2006",
+         "collecteur": "Busch & Wiese",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "near Kementa in the Konkere river, southeastern Guinée",
+     "latitude": 7.731,
+     "longitude": -8.441,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "melanopterygius",
+       "releves": [
+        {
+         "annee": "2006",
+         "collecteur": "ZFMK/RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Zié Riv., Mt Nimba, E. Guinée",
+     "latitude": 7.733,
+     "longitude": -8.367,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "nimbaensis",
+       "releves": [
+        {
+         "annee": "1957",
+         "collecteur": "Lamotte",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Nzérékoré / N'Zérékoré",
+     "latitude": 7.75,
+     "longitude": -8.817,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "hildegardae",
+       "releves": [
+        {
+         "collecteur": "FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "lamottei",
+       "releves": [
+        {
+         "collecteur": "FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Nimbapanchax",
+       "espece": "maeseni",
+       "releves": [
+        {
+         "annee": "1964",
+         "collecteur": "RMCA",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Nimbapanchax",
+       "espece": "viridis",
+       "releves": [
+        {
+         "collecteur": "FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "nimbaensis",
+       "releves": [
+        {
+         "annee": "1955-1964",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Nzérékoré, Guinée",
+     "latitude": 7.755,
+     "longitude": -8.593,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2024",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Nzérékoré",
+     "latitude": 7.789,
+     "longitude": -8.76,
+     "killies": [
+      {
+       "genre": "Pseudepiplatys",
+       "espece": "annulatus",
+       "releves": [
+        {
+         "collecteur": "ROM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Lola, S.E. Guinée",
+     "latitude": 7.8,
+     "longitude": -8.53,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "maeseni",
+       "releves": [
+        {
+         "annee": "1990",
+         "collecteur": "Cauvet & Romand",
+         "source": "Killi-Data"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "hildegardae",
+       "releves": [
+        {
+         "annee": "1990",
+         "collecteur": "Cauvet & Romand",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Koniya",
+     "latitude": 7.817,
+     "longitude": -8.708,
+     "killies": [
+      {
+       "genre": "Nimbapanchax",
+       "espece": "viridis",
+       "releves": [
+        {
+         "annee": "2006",
+         "collecteur": "ZFMK",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "N'Zérékoré, S.E. Guinée / Tonota, about 2 km N. Koaliye, S.E. Guinée",
+     "latitude": 7.82,
+     "longitude": -8.8,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "hildegardae",
+       "localite_type": true,
+       "releves": [
+        {
+         "annee": "1964",
+         "collecteur": "Olsen",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Léh River, at Nampara [Guampara] on N2",
+     "latitude": 7.913,
+     "longitude": -8.924,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "hildegardae",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Gouin Riv., Mt Nimba, Sassandra bas., E. Guinée",
+     "latitude": 7.95,
+     "longitude": -8.2,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "nimbaensis",
+       "releves": [
+        {
+         "annee": "1957",
+         "collecteur": "Lamotte",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kpokho River, at Laéné village",
+     "latitude": 8.063,
+     "longitude": -8.487,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "kabae",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Nzebela, S.E. Guinée",
+     "latitude": 8.109,
+     "longitude": -9.104,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "lamottei",
+       "releves": [
+        {
+         "annee": "2006",
+         "collecteur": "Busch & Wiese",
+         "source": "Killi-Data"
+        }
+       ]
+      },
+      {
+       "genre": "Nimbapanchax",
+       "espece": "viridis",
+       "releves": [
+        {
+         "annee": "2006",
+         "collecteur": "Busch & Wiese",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Seredou, Diani Riv., Saint Paul bas., E. Guinée",
+     "latitude": 8.383,
+     "longitude": -9.283,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "nimbaensis",
+       "releves": [
+        {
+         "annee": "1959",
+         "collecteur": "Pujol",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Noulava River, near Zoboroma, on N2 to Sérédou",
+     "latitude": 8.393,
+     "longitude": -9.341,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "guineensis",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "lamottei",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM/CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM/CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Daro, Guinée",
+     "latitude": 8.517,
+     "longitude": -9.576,
+     "killies": [
+      {
+       "genre": "Archiaphyosemion",
+       "espece": "jeanpoli",
+       "releves": [
+        {
+         "annee": "2006",
+         "collecteur": "Busch & Wiese",
+         "source": "Killi-Data"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "guineensis",
+       "releves": [
+        {
+         "annee": "2006",
+         "collecteur": "Busch & Wiese",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "rizière près de Macenta",
+     "latitude": 8.55,
+     "longitude": -9.467,
+     "killies": [
+      {
+       "genre": "Archiaphyosemion",
+       "espece": "guineense",
+       "releves": [
+        {
+         "annee": "1956",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Macenta, Guinée",
+     "latitude": 8.57,
+     "longitude": -9.52,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "roloffi",
+       "releves": [
+        {
+         "annee": "1990",
+         "collecteur": "Cauvet & Romand",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Guirila, Préfecture de Beyla, Guinée",
+     "latitude": 8.715,
+     "longitude": -8.485,
+     "killies": [
+      {
+       "genre": "Archiaphyosemion",
+       "espece": "guineense",
+       "releves": [
+        {
+         "annee": "2026",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Milo, Préfecture de Kérouane, Guinée",
+     "latitude": 8.801,
+     "longitude": -9.195,
+     "killies": [
+      {
+       "genre": "Archiaphyosemion",
+       "espece": "guineense",
+       "releves": [
+        {
+         "annee": "2026",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Simandou, upper Niger basin, S.E. Guinée",
+     "latitude": 9.017,
+     "longitude": -9.017,
+     "killies": [
+      {
+       "genre": "Archiaphyosemion",
+       "espece": "guineense",
+       "releves": [
+        {
+         "annee": "1951",
+         "collecteur": "Lamotte",
+         "source": "Killi-Data"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "lamottei",
+       "localite_type": true,
+       "releves": [
+        {
+         "annee": "1951",
+         "collecteur": "Lamotte",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Banamana, S.E. Guinée",
+     "latitude": 9.067,
+     "longitude": -9.75,
+     "killies": [
+      {
+       "genre": "Archiaphyosemion",
+       "espece": "guineense",
+       "releves": [
+        {
+         "annee": "1934",
+         "collecteur": "Waterlot",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Nianden River, W of Kissidougou",
+     "latitude": 9.186,
+     "longitude": -10.176,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kissidougou surroundings, S.E. Guinée",
+     "latitude": 9.25,
+     "longitude": -10.13,
+     "killies": [
+      {
+       "genre": "Archiaphyosemion",
+       "espece": "guineense",
+       "releves": [
+        {
+         "annee": "1934",
+         "collecteur": "Waterlot",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Mola (GM 08/4), Guinée / Mola",
+     "latitude": 9.333,
+     "longitude": -12.917,
+     "killies": [
+      {
+       "genre": "Callopanchax",
+       "espece": "toddi",
+       "releves": [
+        {
+         "collecteur": "ZFMK",
+         "source": "GBIF musée"
+        },
+        {
+         "annee": "2008",
+         "collecteur": "Busch et al.",
+         "source": "Killi-Data"
+        }
+       ]
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "geryi",
+       "releves": [
+        {
+         "annee": "2008",
+         "collecteur": "Busch et al.",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kabak",
+     "latitude": 9.35,
+     "longitude": -13.383,
+     "killies": [
+      {
+       "genre": "Callopanchax",
+       "espece": "toddi",
+       "releves": [
+        {
+         "collecteur": "ZFMK",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kabak (GM 08/12), Guinée",
+     "latitude": 9.351,
+     "longitude": -13.383,
+     "killies": [
+      {
+       "genre": "Callopanchax",
+       "espece": "toddi",
+       "releves": [
+        {
+         "annee": "2008",
+         "collecteur": "Busch et al.",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kindia, Guinée",
+     "latitude": 9.434,
+     "longitude": -12.822,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "fasciolatus",
+       "releves": [
+        {
+         "annee": "2026",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Forecariah river, Conakry, W. Guinée",
+     "latitude": 9.436,
+     "longitude": -13.094,
+     "killies": [
+      {
+       "genre": "Aplocheilichthys",
+       "espece": "spilauchen",
+       "releves": [
+        {
+         "collecteur": "(inconnu)",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "(non précisée)",
+     "latitude": 9.447,
+     "longitude": -13.259,
+     "killies": [
+      {
+       "genre": "Aplocheilichthys",
+       "espece": "spilauchen",
+       "releves": [
+        {
+         "annee": "2023",
+         "collecteur": "MNHN",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Banian, S.E. Guinée",
+     "latitude": 9.45,
+     "longitude": -10.53,
+     "killies": [
+      {
+       "genre": "Archiaphyosemion",
+       "espece": "guineense",
+       "releves": [
+        {
+         "annee": "1952",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "(non précisée)",
+     "latitude": 9.464,
+     "longitude": -13.046,
+     "killies": [
+      {
+       "genre": "Aplocheilichthys",
+       "espece": "spilauchen",
+       "releves": [
+        {
+         "annee": "2023",
+         "collecteur": "MNHN",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kariba, 20 km Coyah-Freetown, W. Guinée",
+     "latitude": 9.467,
+     "longitude": -13.333,
+     "killies": [
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "1995",
+         "collecteur": "Jochim",
+         "source": "Killi-Data"
+        }
+       ]
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "geryi",
+       "releves": [
+        {
+         "annee": "1995",
+         "collecteur": "Jochim",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "near Conakry, lower Guinée / 12 km E. Conakry, lower Guinée",
+     "latitude": 9.5,
+     "longitude": -13.72,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "fasciolatus",
+       "releves": [
+        {
+         "annee": "1908",
+         "collecteur": "Grote",
+         "source": "Killi-Data"
+        }
+       ]
+      },
+      {
+       "genre": "Pseudepiplatys",
+       "espece": "annulatus",
+       "releves": [
+        {
+         "annee": "1965",
+         "collecteur": "Benl",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Conakry / région de Conakry-Dubréka, Basse Guinée",
+     "latitude": 9.517,
+     "longitude": -13.717,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "fasciolatus",
+       "releves": [
+        {
+         "annee": "1964",
+         "collecteur": "SMNS",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "geryi",
+       "releves": [
+        {
+         "annee": "1956",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Serguey Creek, near Bassia",
+     "latitude": 9.532,
+     "longitude": -13.022,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "guineensis",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM/CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kambo riv., affl. Bofon (bassin Forécariah), au Gué de Franc",
+     "latitude": 9.533,
+     "longitude": -13.017,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "fasciolatus",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "near Bombokoré, about 3 km Fandi, Guinée / vill. Bombokori, small river and adjacent pools & ditches",
+     "latitude": 9.545,
+     "longitude": -13.242,
+     "killies": [
+      {
+       "genre": "Callopanchax",
+       "espece": "sidibeorum",
+       "localite_type": true,
+       "releves": [
+        {
+         "annee": "2008",
+         "collecteur": "Busch et al.",
+         "source": "Killi-Data"
+        },
+        {
+         "annee": "2008",
+         "collecteur": "RMCA",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Bei Conakry, no exact location available",
+     "latitude": 9.55,
+     "longitude": -13.667,
+     "killies": [
+      {
+       "genre": "Pseudepiplatys",
+       "espece": "annulatus",
+       "releves": [
+        {
+         "annee": "1965",
+         "collecteur": "SNSB-ZSM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kindia, Guinée",
+     "latitude": 9.586,
+     "longitude": -12.967,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "fasciolatus",
+       "releves": [
+        {
+         "annee": "2026",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Gbeteyah Moribayah",
+     "latitude": 9.6,
+     "longitude": -13.333,
+     "killies": [
+      {
+       "genre": "Callopanchax",
+       "espece": "toddi",
+       "releves": [
+        {
+         "collecteur": "ZFMK",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Yirah",
+     "latitude": 9.617,
+     "longitude": -13.317,
+     "killies": [
+      {
+       "genre": "Callopanchax",
+       "espece": "toddi",
+       "releves": [
+        {
+         "collecteur": "ZFMK",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kindia, Guinée",
+     "latitude": 9.628,
+     "longitude": -13.527,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "fasciolatus",
+       "releves": [
+        {
+         "annee": "2025",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Mangata Badjana, GM 08/3, Guinée / Mangata Badjana",
+     "latitude": 9.633,
+     "longitude": -13.317,
+     "killies": [
+      {
+       "genre": "Callopanchax",
+       "espece": "toddi",
+       "releves": [
+        {
+         "collecteur": "ZFMK",
+         "source": "GBIF musée"
+        },
+        {
+         "annee": "2008",
+         "collecteur": "Busch et al.",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "(non précisée)",
+     "latitude": 9.674,
+     "longitude": -12.604,
+     "killies": [
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "2023",
+         "collecteur": "MNHN",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Conakry-Dubréka area, lower Guinée",
+     "latitude": 9.683,
+     "longitude": -13.567,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "geryi",
+       "localite_type": true,
+       "releves": [
+        {
+         "annee": "1955",
+         "collecteur": "Lambert",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kitoumi, Dalonia, Préfecture de Forécariah, Guinée",
+     "latitude": 9.684,
+     "longitude": -12.843,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "geryi",
+       "releves": [
+        {
+         "annee": "2026",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Yaloré River, at Layé village, after Fossikore",
+     "latitude": 9.704,
+     "longitude": -13.107,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "guineensis",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kassagna, near Dubréka, W. Guinée",
+     "latitude": 9.717,
+     "longitude": -13.517,
+     "killies": [
+      {
+       "genre": "Aplocheilichthys",
+       "espece": "spilauchen",
+       "releves": [
+        {
+         "annee": "1959",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Coyah surroundings, W. Guinée",
+     "latitude": 9.717,
+     "longitude": -13.383,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "geryi",
+       "releves": [
+        {
+         "annee": "1995",
+         "collecteur": "Jochim",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Préfecture de Coyah, Guinée",
+     "latitude": 9.724,
+     "longitude": -13.419,
+     "killies": [
+      {
+       "genre": "Aplocheilichthys",
+       "espece": "spilauchen",
+       "releves": [
+        {
+         "annee": "2025",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Basse Guinée, marigots tributaires des fleuves côtiers / Kobaya, Basse Guinée",
+     "latitude": 9.75,
+     "longitude": -13.533,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "1955",
+         "collecteur": "RMCA",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "fasciolatus",
+       "releves": [
+        {
+         "collecteur": "RMCA",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "spilargyreius",
+       "releves": [
+        {
+         "annee": "1955",
+         "collecteur": "RMCA",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Pseudepiplatys",
+       "espece": "annulatus",
+       "releves": [
+        {
+         "collecteur": "RMCA",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kobaya, Lower Guinée",
+     "latitude": 9.751,
+     "longitude": -13.533,
+     "killies": [
+      {
+       "genre": "Pseudepiplatys",
+       "espece": "annulatus",
+       "releves": [
+        {
+         "annee": "1955",
+         "collecteur": "Lambert",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Baritodé, Préfecture de Dubréka, Guinée",
+     "latitude": 9.783,
+     "longitude": -13.412,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "geryi",
+       "releves": [
+        {
+         "annee": "2026",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Bar Kouriah",
+     "latitude": 9.784,
+     "longitude": -13.413,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "geryi",
+       "releves": [
+        {
+         "annee": "2025",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Dubréka surroundings, W. Guinée",
+     "latitude": 9.8,
+     "longitude": -13.517,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "fasciolatus",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "(non précisée)",
+     "latitude": 9.808,
+     "longitude": -10.374,
+     "killies": [
+      {
+       "genre": "Micropanchax",
+       "espece": "pfaffi",
+       "releves": [
+        {
+         "annee": "2023",
+         "collecteur": "MNHN",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "(non précisée)",
+     "latitude": 9.847,
+     "longitude": -12.501,
+     "killies": [
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "2023",
+         "collecteur": "MNHN",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Tsé River, on N2, S of Faranah",
+     "latitude": 9.848,
+     "longitude": -10.637,
+     "killies": [
+      {
+       "genre": "Poropanchax",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kindia, Guinée",
+     "latitude": 9.9,
+     "longitude": -13.022,
+     "killies": [
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "2003",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Safa-Khoure River, at Camara-Bouyhe",
+     "latitude": 9.902,
+     "longitude": -13.022,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "guineensis",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "(non précisée)",
+     "latitude": 9.914,
+     "longitude": -10.715,
+     "killies": [
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "2023",
+         "collecteur": "MNHN",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Samou falls, Konkouré bas., E. Guinée",
+     "latitude": 9.933,
+     "longitude": -13.233,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "guignardi",
+       "releves": [
+        {
+         "annee": "1959",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "(non précisée)",
+     "latitude": 9.945,
+     "longitude": -12.141,
+     "killies": [
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "2023",
+         "collecteur": "MNHN",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "plantation Chevel à Friguiagbé près de Kindia",
+     "latitude": 9.95,
+     "longitude": -12.933,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "geryi",
+       "releves": [
+        {
+         "annee": "1966",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "(non précisée)",
+     "latitude": 9.959,
+     "longitude": -10.955,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "2023",
+         "collecteur": "MNHN",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Santa River, near Morigbea, on Kindia to Mamou road",
+     "latitude": 10.003,
+     "longitude": -12.78,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kindia, Kindia, Guinée",
+     "latitude": 10.013,
+     "longitude": -12.816,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "cauveti",
+       "releves": [
+        {
+         "annee": "2023",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "near Ouassou, W. Guinée",
+     "latitude": 10.033,
+     "longitude": -13.65,
+     "killies": [
+      {
+       "genre": "Aplocheilichthys",
+       "espece": "spilauchen",
+       "releves": [
+        {
+         "annee": "1959",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Faranah, Guinée",
+     "latitude": 10.033,
+     "longitude": -10.733,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "1990",
+         "collecteur": "Cauvet & Romand",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Trib. to Mamou river, S. Guinée",
+     "latitude": 10.088,
+     "longitude": -11.867,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "kabae",
+       "localite_type": true,
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kolenté River, at Kolenté, on Kindia to Mamou road",
+     "latitude": 10.095,
+     "longitude": -12.627,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM/CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM/CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "cauveti",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "8 km Kindia to Télimélé, Loire Atlantique dam, Guinée",
+     "latitude": 10.1,
+     "longitude": -12.82,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "cauveti",
+       "localite_type": true,
+       "releves": [
+        {
+         "annee": "1993",
+         "collecteur": "Cauvet et al.",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "near Kolenté, W. Guinée / riv. Kolenté",
+     "latitude": 10.1,
+     "longitude": -12.617,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "fasciolatus",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "1955",
+         "collecteur": "RMCA",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Lamayah (GM 08/11), Guinée",
+     "latitude": 10.149,
+     "longitude": -13.733,
+     "killies": [
+      {
+       "genre": "Callopanchax",
+       "espece": "toddi",
+       "releves": [
+        {
+         "annee": "2008",
+         "collecteur": "Busch et al.",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Takhori",
+     "latitude": 10.15,
+     "longitude": -14.017,
+     "killies": [
+      {
+       "genre": "Callopanchax",
+       "espece": "toddi",
+       "releves": [
+        {
+         "collecteur": "ZFMK",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kindia, Kindia, Guinée",
+     "latitude": 10.15,
+     "longitude": -12.995,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "cauveti",
+       "releves": [
+        {
+         "annee": "2025",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Takhori (GM 08/9), Guinée",
+     "latitude": 10.151,
+     "longitude": -14.017,
+     "killies": [
+      {
+       "genre": "Callopanchax",
+       "espece": "toddi",
+       "releves": [
+        {
+         "annee": "2008",
+         "collecteur": "Busch et al.",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Lamayah",
+     "latitude": 10.153,
+     "longitude": -13.726,
+     "killies": [
+      {
+       "genre": "Callopanchax",
+       "espece": "toddi",
+       "releves": [
+        {
+         "collecteur": "ZFMK",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Koba, near Boffa, W. Guinée",
+     "latitude": 10.167,
+     "longitude": -14.033,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "Laborey",
+         "source": "Killi-Data"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "fasciolatus",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "Laborey",
+         "source": "Killi-Data"
+        }
+       ]
+      },
+      {
+       "genre": "Pseudepiplatys",
+       "espece": "annulatus",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "Laborey",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Malyaéa, Riv. Mayonkouré, W. Guinée",
+     "latitude": 10.167,
+     "longitude": -13.1,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "fasciolatus",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Boffa",
+     "latitude": 10.169,
+     "longitude": -14.037,
+     "killies": [
+      {
+       "genre": "Aplocheilichthys",
+       "espece": "spilauchen",
+       "releves": [
+        {
+         "annee": "2018",
+         "collecteur": "RMCA",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Katamara",
+     "latitude": 10.188,
+     "longitude": -14.047,
+     "killies": [
+      {
+       "genre": "Callopanchax",
+       "espece": "toddi",
+       "releves": [
+        {
+         "collecteur": "ZFMK",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "near Sobané, W. Guinée",
+     "latitude": 10.233,
+     "longitude": -14.4,
+     "killies": [
+      {
+       "genre": "Aplocheilichthys",
+       "espece": "spilauchen",
+       "releves": [
+        {
+         "annee": "1947",
+         "collecteur": "Cadenat",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "36 km S. Mamou, near Linsan, N.W. Guinée / Toukoudi R., trib. of Konkouré R., 36 km S of Mamou",
+     "latitude": 10.283,
+     "longitude": -12.45,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "guineensis",
+       "localite_type": true,
+       "releves": [
+        {
+         "collecteur": "Romand",
+         "source": "Killi-Data"
+        },
+        {
+         "collecteur": "FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Ouroundja, marigot Kalekhouré, riv. Mayonkouré",
+     "latitude": 10.317,
+     "longitude": -12.967,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "fasciolatus",
+       "releves": [
+        {
+         "annee": "1981",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Boussoulé",
+     "latitude": 10.317,
+     "longitude": -9.35,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "1985",
+         "collecteur": "MNHN",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kalikouré River, on N24 near Bangouya",
+     "latitude": 10.35,
+     "longitude": -12.955,
+     "killies": [
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kombira River, at Loguin, N of Linsan",
+     "latitude": 10.35,
+     "longitude": -12.441,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "guineensis",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM/CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Tolo, Bafing Riv., E. Guinée",
+     "latitude": 10.383,
+     "longitude": -11.75,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "guignardi",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Baraya, riv. Salelé, affl. riv. Konkouré / Baraya, near Konkouré, Riv. Salalé, Guinée",
+     "latitude": 10.45,
+     "longitude": -13.0,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "fasciolatus",
+       "releves": [
+        {
+         "annee": "1987",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "1989",
+         "collecteur": "RMCA",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "releves": [
+        {
+         "annee": "1986",
+         "collecteur": "Teugels",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kiraya, Konkouré Riv., E. Guinée",
+     "latitude": 10.45,
+     "longitude": -12.8,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "guignardi",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "near Bagoro, W. Guinée",
+     "latitude": 10.517,
+     "longitude": -13.55,
+     "killies": [
+      {
+       "genre": "Aplocheilichthys",
+       "espece": "spilauchen",
+       "releves": [
+        {
+         "annee": "1947",
+         "collecteur": "Cadenat",
+         "source": "Killi-Data"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "1947",
+         "collecteur": "Cadenat",
+         "source": "Killi-Data"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "fasciolatus",
+       "releves": [
+        {
+         "annee": "1947",
+         "collecteur": "Cadenat",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Ballay, bassin du Sénégal / Ballay",
+     "latitude": 10.517,
+     "longitude": -11.917,
+     "killies": [
+      {
+       "genre": "Aplocheilichthys",
+       "espece": "spilauchen",
+       "releves": [
+        {
+         "annee": "1956",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "releves": [
+        {
+         "collecteur": "FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "bac route Korela-Kondoya, riv. Konkouré",
+     "latitude": 10.533,
+     "longitude": -12.867,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "fasciolatus",
+       "releves": [
+        {
+         "annee": "1981",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kouroussa, Kankan, Guinée",
+     "latitude": 10.566,
+     "longitude": -9.813,
+     "killies": [
+      {
+       "genre": "Micropanchax",
+       "espece": "pfaffi",
+       "releves": [
+        {
+         "annee": "2022",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Gbetaya sud, Guinée",
+     "latitude": 10.57,
+     "longitude": -10.851,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "2025",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kouroussa, Kankan, Guinée",
+     "latitude": 10.596,
+     "longitude": -9.86,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "2022",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Siraya, riv. Taire, affl. Kakrima, bassin Konkouré",
+     "latitude": 10.6,
+     "longitude": -13.0,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "guineensis",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Galekoulou riv., affl. Kakrima (bassin Konkouré), pont route",
+     "latitude": 10.617,
+     "longitude": -13.0,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "guineensis",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Préfecture de Kouroussa, Guinée",
+     "latitude": 10.619,
+     "longitude": -9.974,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "spilargyreius",
+       "releves": [
+        {
+         "annee": "2022",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Djata, riv. Tondon, affl. Kakrima (bassin Konkouré)",
+     "latitude": 10.633,
+     "longitude": -13.0,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "guineensis",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Timbo, Bafing Riv., Guinée",
+     "latitude": 10.633,
+     "longitude": -11.833,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Bafing River, at Sokotoro, E of Timbo",
+     "latitude": 10.662,
+     "longitude": -11.752,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM/CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "kabae",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Préfecture de Kouroussa, Guinée",
+     "latitude": 10.664,
+     "longitude": -9.897,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "2024",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Tinkisso falls, S.E. Guinée",
+     "latitude": 10.67,
+     "longitude": -11.23,
+     "killies": [
+      {
+       "genre": "Archiaphyosemion",
+       "espece": "guineense",
+       "releves": [
+        {
+         "annee": "1952",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Préfecture de Kouroussa, Guinée",
+     "latitude": 10.673,
+     "longitude": -9.906,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "spilargyreius",
+       "releves": [
+        {
+         "annee": "2024",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Tinkisso River, below Tinkisso dam",
+     "latitude": 10.728,
+     "longitude": -11.169,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Djendjou River, at Diogoma",
+     "latitude": 10.73,
+     "longitude": -11.463,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Bridge between Dabola & Timbo, Bafing R., Guinée",
+     "latitude": 10.733,
+     "longitude": -11.75,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "localite_type": true,
+       "releves": [
+        {
+         "annee": "1952",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Mandiana, Kankan, Guinée",
+     "latitude": 10.755,
+     "longitude": -8.908,
+     "killies": [
+      {
+       "genre": "Micropanchax",
+       "espece": "pfaffi",
+       "releves": [
+        {
+         "annee": "2022",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Mandiana, Kankan, Guinée",
+     "latitude": 10.771,
+     "longitude": -8.923,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "2017",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "2 km Kaba, riv. Kola, Guinée / Kola riv., affl. Kakrima (bassin Konkouré) à ± 2 km de Kaba",
+     "latitude": 10.783,
+     "longitude": -12.983,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "guignardi",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "Teugels et al.",
+         "source": "Killi-Data"
+        },
+        {
+         "annee": "1992",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Dabola, S.E. Guinée",
+     "latitude": 10.81,
+     "longitude": -11.03,
+     "killies": [
+      {
+       "genre": "Archiaphyosemion",
+       "espece": "guineense",
+       "localite_type": true,
+       "releves": [
+        {
+         "annee": "1952",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "25 km Pita to Télimélé, central Guinée",
+     "latitude": 10.817,
+     "longitude": -12.867,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "guignardi",
+       "releves": [
+        {
+         "annee": "1979",
+         "collecteur": "Guignard",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "riv. Lambessira, Haute Guinée / riv. Lambessira",
+     "latitude": 10.817,
+     "longitude": -10.5,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "1955-1956",
+         "collecteur": "RMCA",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Micropanchax",
+       "espece": "pfaffi",
+       "releves": [
+        {
+         "annee": "1956",
+         "collecteur": "RMCA",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Télimélé, road to Kindia, Konkouré R., Guinée",
+     "latitude": 10.833,
+     "longitude": -13.033,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Ditinn, Téné Riv., E. Guinée",
+     "latitude": 10.883,
+     "longitude": -12.183,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "guignardi",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Ditinn",
+     "latitude": 10.9,
+     "longitude": -12.083,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "MNHN",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "guignardi",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "MNHN",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Téné River, at bridge S of Kebali",
+     "latitude": 10.936,
+     "longitude": -12.177,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "kabae",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Télimélé, Guinée",
+     "latitude": 10.947,
+     "longitude": -13.873,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "geryi",
+       "releves": [
+        {
+         "annee": "2023",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Boké, Boké, Guinée",
+     "latitude": 11.011,
+     "longitude": -13.999,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "2018",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Télimélé, Guinée",
+     "latitude": 11.023,
+     "longitude": -13.83,
+     "killies": [
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "2025",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Télimélé, Guinée",
+     "latitude": 11.023,
+     "longitude": -13.829,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "2025",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Pita-Labé, Kokoulo Riv., Konkouré bas., E. Guinée",
+     "latitude": 11.067,
+     "longitude": -12.483,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "guignardi",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Boké, Guinée",
+     "latitude": 11.076,
+     "longitude": -13.949,
+     "killies": [
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "2023",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kokoulo River, at Kokoulo bridge, Pita to Labé road",
+     "latitude": 11.112,
+     "longitude": -12.387,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Archiaphyosemion",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Boké, Guinée",
+     "latitude": 11.119,
+     "longitude": -13.778,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "2025",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Siguiri Prefecture, Guinée",
+     "latitude": 11.131,
+     "longitude": -9.369,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "spilargyreius",
+       "releves": [
+        {
+         "annee": "2026",
+         "source": "iNaturalist"
+        }
+       ]
+      },
+      {
+       "genre": "Micropanchax",
+       "espece": "pfaffi",
+       "releves": [
+        {
+         "annee": "2026",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Boké, Guinée",
+     "latitude": 11.136,
+     "longitude": -13.957,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "2022-2023",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "(non précisée)",
+     "latitude": 11.159,
+     "longitude": -11.777,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "releves": [
+        {
+         "annee": "2003",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kankalabé, Téné Riv., Sénégal bas., E. Guinée",
+     "latitude": 11.183,
+     "longitude": -11.983,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "guignardi",
+       "releves": [
+        {
+         "annee": "1958",
+         "collecteur": "Daget",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Diari, Labé, Guinée",
+     "latitude": 11.304,
+     "longitude": -12.441,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "guignardi",
+       "releves": [
+        {
+         "annee": "2003",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "near Labé, central Guinée",
+     "latitude": 11.317,
+     "longitude": -12.283,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "guineensis",
+       "releves": [
+        {
+         "collecteur": "Romand",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Ndyarendi, Riv. Kogon, Guinée",
+     "latitude": 11.35,
+     "longitude": -14.517,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "geryi",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "Teugels et al.",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Ndyarendi, riv. Kogon / Ndyarendi, Riv. Kogon, Guinée",
+     "latitude": 11.35,
+     "longitude": -14.5,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "spilargyreius",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Micropanchax",
+       "espece": "pfaffi",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "Teugels et al.",
+         "source": "Killi-Data"
+        },
+        {
+         "annee": "1992",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "Teugels et al.",
+         "source": "Killi-Data"
+        },
+        {
+         "annee": "1992",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "geryi",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Pabole, affl. du Kogon",
+     "latitude": 11.35,
+     "longitude": -14.133,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Kogon, riv. Nguelodi, affl. Kogon / Kogon, riv. Nguelodi, Guinée",
+     "latitude": 11.367,
+     "longitude": -13.917,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "bifasciatus",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "geryi",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "Teugels et al.",
+         "source": "Killi-Data"
+        },
+        {
+         "annee": "1992",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Sala River, at N5, WNW of Labé",
+     "latitude": 11.376,
+     "longitude": -12.378,
+     "killies": [
+      {
+       "genre": "Aphyosemion",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Archiaphyosemion",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Epiplatys",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Labé, Guinée",
+     "latitude": 11.376,
+     "longitude": -12.249,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "releves": [
+        {
+         "annee": "2003",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "ruisseau, piste Labé-Gaoual, 23 km après Labé",
+     "latitude": 11.383,
+     "longitude": -12.383,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "guignardi",
+       "releves": [
+        {
+         "collecteur": "FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "ruisseau traversant la piste après Labé",
+     "latitude": 11.433,
+     "longitude": -12.417,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "guignardi",
+       "releves": [
+        {
+         "collecteur": "FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Goubhi River, just past Sannou on the road to Diwet River",
+     "latitude": 11.441,
+     "longitude": -12.084,
+     "killies": [
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Dimmah River, between Sannou and Diogoma",
+     "latitude": 11.452,
+     "longitude": -12.167,
+     "killies": [
+      {
+       "genre": "Archiaphyosemion",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM/CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "kabae",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM/CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Diwet River, at Diwet, ~10 km past Sannou",
+     "latitude": 11.458,
+     "longitude": -12.064,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "kabae",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM/CUMV",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Samba Sobé, Riv. Kogon, Guinée / Samba Sobé, riv. Kogon",
+     "latitude": 11.5,
+     "longitude": -13.983,
+     "killies": [
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "1992",
+         "collecteur": "Teugels",
+         "source": "Killi-Data"
+        },
+        {
+         "annee": "1992",
+         "collecteur": "RMCA/FishBase",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "31 km W. Labé to Gaoual, central Guinée",
+     "latitude": 11.52,
+     "longitude": -12.54,
+     "killies": [
+      {
+       "genre": "Scriptaphyosemion",
+       "espece": "guignardi",
+       "localite_type": true,
+       "releves": [
+        {
+         "annee": "1979",
+         "collecteur": "Guignard",
+         "source": "Killi-Data"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Koulountou River, 2.5 km W of Bassara, 40 km S of Koundara",
+     "latitude": 11.636,
+     "longitude": -11.81,
+     "killies": [
+      {
+       "genre": "Epiplatys",
+       "espece": "sp.",
+       "releves": [
+        {
+         "annee": "1983",
+         "collecteur": "UMMZ",
+         "source": "GBIF musée"
+        }
+       ]
+      },
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "releves": [
+        {
+         "annee": "1983",
+         "collecteur": "UMMZ",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Gambie River, 22 km NW of Koubia",
+     "latitude": 11.639,
+     "longitude": -11.964,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "releves": [
+        {
+         "annee": "1983",
+         "collecteur": "UMMZ",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Koumba River, at crossing on Labé to Mali road",
+     "latitude": 11.663,
+     "longitude": -12.283,
+     "killies": [
+      {
+       "genre": "Poropanchax",
+       "espece": "normani",
+       "releves": [
+        {
+         "annee": "2013",
+         "collecteur": "AUM",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Labé, Guinée",
+     "latitude": 11.694,
+     "longitude": -12.002,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "releves": [
+        {
+         "annee": "2003",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Silame River at bridge on road from Labé to Salambandé",
+     "latitude": 11.704,
+     "longitude": -11.954,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "releves": [
+        {
+         "annee": "1983",
+         "collecteur": "UMMZ",
+         "source": "GBIF musée"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Mali Prefecture, Guinée",
+     "latitude": 12.384,
+     "longitude": -11.459,
+     "killies": [
+      {
+       "genre": "Micropanchax",
+       "espece": "pfaffi",
+       "releves": [
+        {
+         "annee": "2026",
+         "source": "iNaturalist"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "numero": "",
+     "localite": "Koulountou River, 7.5 km E of Koundara, at bridge",
+     "latitude": 12.483,
+     "longitude": -13.197,
+     "killies": [
+      {
+       "genre": "Rhexipanchax",
+       "espece": "lamberti",
+       "releves": [
+        {
+         "annee": "1983",
+         "collecteur": "UMMZ",
+         "source": "GBIF musée"
+        }
+       ]
       }
      ]
     }
